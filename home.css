@@ -37,14 +37,14 @@ body::before {
 /* =========================
    RESPONSIVE (MOBILE)
 ========================= */
+/* Mobile */
 @media (max-width: 768px) {
-  .hero-content {
-    flex-direction: column;
-    text-align: center;
-  }
 
-  .hero-text {
-    max-width: 100%;
+  html, body {
+    min-height: 100dvh;
+
+    /* Mobile-friendly background */
+    background: url("bg.jpg") center center / cover no-repeat;
+    background-attachment: scroll;
   }
-}
           
