@@ -7,6 +7,13 @@
     "text": "A dataset can be imagined as a mountain range filled with peaks and valleys.\nEach value rises and falls across the landscape. From a close view, it appears irregular and scattered, but from a higher perspective, its true structure becomes clear. Statistics helps us step back and reveal the hidden patterns within variation."
   },
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Amali Rajapaksha",
@@ -19,12 +26,5 @@
     "title": "Amali Rajapaksha",
     "section": "",
     "text": "BSc (Hons) Statistics - Undergraduate\nDepartment of Statistics\nFaculty of Applied Sciences\nUniversity of Sri Jayewardenepura\nData Analyst | R Programmer\nView My Work\nRead Cover Story"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
   }
 ]
