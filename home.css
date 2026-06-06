@@ -64,7 +64,7 @@ body::before {
 @media (max-width: 768px) {
   .profile-pic {
     width: 140px;
-    height: 190px;
+    height: 140px;
   }
 }
           
