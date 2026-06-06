@@ -1,23 +1,6 @@
 /* =========================
    GLOBAL DEFAULT BACKGROUND
 ========================= */
-html, body.home {
-  width: 100%;
-  height: 100%;
-  background: url("bg.jpg") center/cover no-repeat fixed;
-  font-family: "Segoe UI", sans-serif;
-  color: #1f2937;
-}
-
-body.home::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  background: rgba(255, 255, 255, 0.55);
-  z-index: 0;
-  pointer-events: none;
-}
-
 
 /* Default background for all non-home pages */
 html, body {
@@ -27,7 +10,6 @@ html, body {
   font-family: "Segoe UI", sans-serif;
   color: #1f2937;
 }
-
 
 
 /* Smooth scrolling */
@@ -202,28 +184,14 @@ h4 {
    PROJECTS
 ========================= */
 
-.projects {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 20px;
-  margin-top: 20px;
-}
-
-.project-card {
-  background: #ffffff;
+.grid > div {
+  background: white;
   padding: 20px;
   border-radius: 12px;
-
-  border: 1px solid #e5e7eb;
-  border-left: 4px solid #3b82f6;
-
-  transition: 0.3s;
+  margin-bottom: 20px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
 }
 
-.project-card:hover {
-  transform: translateY(-5px);
-  border-color: #3b82f6;
-}
 
 /* =========================
    CONTACT

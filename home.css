@@ -15,10 +15,17 @@ body::before {
   pointer-events: none;
 }
 
+.hero-name {
+  font-size: 3rem;      
+  font-weight: 700;
+  color: #111827;         
+  margin-bottom: 10px;
+}
+
 .story-link {
   display: inline-block;
   margin-top: 10px;
-  color: #60a5fa;
+  color: #234460;
   text-decoration: none;
   font-size: 0.95rem;
 }

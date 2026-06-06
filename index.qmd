@@ -4,10 +4,12 @@ page-layout: full
 css: home.css
 ---
 
-:::::: hero
-::::: hero-content
-::: hero-text
-## **Y.M. Amali P. Rajapaksha**
+::::::: hero
+:::::: hero-content
+:::: hero-text
+::: hero-name
+Y.M. Amali P. Rajapaksha
+:::
 
 **BSc (Hons) Statistics - Undergraduate\
 Department of Statistics\
@@ -19,12 +21,12 @@ University of Sri Jayewardenepura**
 <a href="Projects.qmd" class="btn">View My Work</a>
 
 <a href="story.qmd" class="story-link">Read Cover Story</a>
-:::
+::::
 
 ::: hero-image
 ![](profile.jpg){.profile-pic}
 :::
-:::::
 ::::::
+:::::::
 
 ------------------------------------------------------------------------
