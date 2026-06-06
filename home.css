@@ -37,7 +37,7 @@ body::before {
 /* =========================
    RESPONSIVE (MOBILE)
 ========================= */
-@media (max-width: 768px) {
+@media (max-width: 480px) {
 
   html, body {
     height: auto;
@@ -57,6 +57,14 @@ body::before {
 
   .hero-text {
     font-size: 0.5rem;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .profile-pic {
+    width: 140px;
+    height: 190px;
   }
 }
           
