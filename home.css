@@ -33,3 +33,18 @@ body::before {
 .story-link:hover {
   text-decoration: underline;
 }
+
+/* =========================
+   RESPONSIVE (MOBILE)
+========================= */
+@media (max-width: 768px) {
+  .hero-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-text {
+    max-width: 100%;
+  }
+}
+          
