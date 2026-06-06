@@ -54,4 +54,9 @@ body::before {
     font-size: 1rem;
   }
 }
+
+  .hero-text {
+    font-size: 0.5rem;
+  }
+}
           
