@@ -16,8 +16,7 @@ University of Sri Jayewardenepura**
 
 ***Data Analyst \| R Programmer***
 
-<a href="projects.qmd" class="btn">View My Work</a>
-
+<a href="Projects.qmd" class="btn">View My Work</a>
 
 <a href="story.qmd" class="story-link">Read Cover Story</a>
 :::
@@ -28,6 +27,4 @@ University of Sri Jayewardenepura**
 :::::
 ::::::
 
----
-
-
+------------------------------------------------------------------------

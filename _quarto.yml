@@ -10,6 +10,16 @@ website:
     left:
       - text: About
         href: about.qmd
+      - text: Software
+        href: Software.qmd
+      - text: Projects
+        href: Projects.qmd
+      - text: Certifications
+        href: Certifications.qmd
+      - text: Experience
+        href: Experience.qmd
+      - text: Blog
+        href: Blog.qmd  
       
 format:
   html:
