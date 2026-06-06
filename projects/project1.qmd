@@ -1,0 +1,27 @@
+---
+title: "Sales Forecasting Dashboard"
+---
+
+# Sales Forecasting Dashboard
+
+## Overview
+
+This project demonstrates how machine learning can be used to forecast future sales.
+
+## Objectives
+
+-   Forecast monthly sales
+-   Identify seasonal patterns
+-   Build interactive dashboards
+
+## Methods
+
+-   Data cleaning
+-   Feature engineering
+-   Model training
+
+## Results
+
+The model successfully captured seasonal trends and improved forecast accuracy.
+
+![Sample Figure](../images/project1.png)

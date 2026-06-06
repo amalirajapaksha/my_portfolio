@@ -1,0 +1,27 @@
+---
+title: "Disease Outbreak Detection"
+---
+
+# Disease Outbreak Detection
+
+## Overview
+
+This project focuses on detecting unusual disease patterns from surveillance data.
+
+## Objectives
+
+-   Detect outbreaks early
+-   Reduce false alarms
+-   Improve public health response
+
+## Methods
+
+-   Time-series analysis
+-   Anomaly detection
+-   Forecasting
+
+## Results
+
+The system identified abnormal spikes several weeks before official reports.
+
+![Sample Figure](../images/project2.png)
