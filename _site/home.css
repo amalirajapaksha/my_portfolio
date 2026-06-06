@@ -49,11 +49,6 @@ body::before {
     background: url("bg.jpg") center center / cover no-repeat;
     background-attachment: scroll;
   }
-  
-  
-.hero-name {
-    font-size: 1.5rem;
-  }
 }
 
 
@@ -64,12 +59,18 @@ body::before {
     flex-direction: column;
     text-align: center;
   }
-  
 
-@media (max-width: 768px) {
+  .hero-image {
+    order: -1;   
+    margin-bottom: 15px;
+  }
+
   .profile-pic {
-    width: 200px;
-    height: 250px;
+    width: 190px;
+    height: 230px;
+  }
+
+  .hero-name {
+    font-size: 1.5rem;
   }
 }
-          
