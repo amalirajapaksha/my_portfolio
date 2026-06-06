@@ -4,7 +4,7 @@
     "href": "Projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Ditwah Data Hub Project\nDescription: Converted unstructured PDF reports related to Cyclone Ditwah into analysis-ready datasets and developed an interactive disaster analytics platform to visualize and monitor the cyclone’s impacts in Sri Lanka.\n\nTech Stack: R, Quarto, ggplot2, Data Visualization, Geospatial Analytics\nView Project\n\n\n\n\n\nForecasting Commodity Net Export Price Index (CNEPI) Using ARIMA Models\nDescription: Developed an ARIMA model to forecast the Commodity Net Export Price Index (CNEPI)\nTech Stack: R, ARIMA, Forecast Package, Time Series Analysis\nView Project"
+    "text": "Ditwah Data Hub Project\nDescription: Converted unstructured PDF reports related to Cyclone Ditwah into analysis-ready datasets and developed an interactive disaster analytics platform to visualize and monitor the cyclone’s impacts in Sri Lanka.\n\nTech Stack: R, Quarto, ggplot2, Data Visualization, Geospatial Analytics\nView Project\n\n\n\n\n\nForecasting Commodity Net Export Price Index (CNEPI)\nDescription: Developed an ARIMA model to forecast the Commodity Net Export Price Index (CNEPI)\nTech Stack: R, ARIMA, Forecast Package, Time Series Analysis\nView Project"
   },
   {
     "objectID": "index.html",
