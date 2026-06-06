@@ -2,18 +2,18 @@ project:
   type: website
 
 website:
-  title: "my_web"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+  title: "Amali Rajapaksha"
 
+  navbar:
+    background: "#0f172a"
+    foreground: "#f8fafc"
+    left:
+      - text: About
+        href: about.qmd
+      
 format:
   html:
-    theme:
-      - cosmo
-      - brand
+    theme: cosmo
     css: styles.css
     toc: true
 
