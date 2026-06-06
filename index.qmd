@@ -1,11 +1,33 @@
 ---
-title: "my_web"
+title: ""
+page-layout: full
+css: home.css
 ---
 
-This is a Quarto website.
+:::::: hero
+::::: hero-content
+::: hero-text
+## **Y.M. Amali P. Rajapaksha**
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+**BSc (Hons) Statistics - Undergraduate\
+Department of Statistics\
+Faculty of Applied Sciences\
+University of Sri Jayewardenepura**
 
-```{r}
-1 + 1
-```
+***Data Analyst \| R Programmer***
+
+<a href="projects.qmd" class="btn">View My Work</a>
+
+
+<a href="story.qmd" class="story-link">Read Cover Story</a>
+:::
+
+::: hero-image
+![](profile.jpg){.profile-pic}
+:::
+:::::
+::::::
+
+---
+
+

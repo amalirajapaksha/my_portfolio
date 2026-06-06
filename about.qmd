@@ -1,5 +1,6 @@
 ---
 title: "About"
+body-class: other
 ---
 
 About this site
