@@ -33,3 +33,25 @@ body::before {
 .story-link:hover {
   text-decoration: underline;
 }
+
+/* =========================
+   RESPONSIVE (MOBILE)
+========================= */
+@media (max-width: 768px) {
+
+  html, body {
+    height: auto;
+    min-height: 100dvh;
+
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    background: url("bg.jpg") center center / cover no-repeat;
+    background-attachment: scroll;
+  }
+
+  .hero-name {
+    font-size: 2rem;
+  }
+}
+          

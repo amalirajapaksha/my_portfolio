@@ -37,14 +37,21 @@ body::before {
 /* =========================
    RESPONSIVE (MOBILE)
 ========================= */
-/* Mobile */
 @media (max-width: 768px) {
 
   html, body {
+    height: auto;
     min-height: 100dvh;
 
-    /* Mobile-friendly background */
+    overflow-x: hidden;
+    overflow-y: auto;
+
     background: url("bg.jpg") center center / cover no-repeat;
     background-attachment: scroll;
   }
+
+  .hero-name {
+    font-size: 2rem;
+  }
+}
           
