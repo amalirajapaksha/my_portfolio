@@ -6,7 +6,7 @@
 html, body {
   width: 100%;
   height: 100%;
-  background: #E6F4FF;
+  background: #F5FAFF;
   font-family: "Segoe UI", sans-serif;
   color: #1f2937;
 }
@@ -34,9 +34,6 @@ body {
   justify-content: center;
 }
 
-
-
-/* CENTER CONTENT PERFECTLY */
 .hero-content {
   position: relative;
   z-index: 2;
@@ -148,9 +145,29 @@ h1, h2, h3 {
   color: #111827;
 }
 
+h2 {
+  border-bottom: none !important;
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
 h4 {
   color: #1b344a;
   margin-top: 50px;
+}
+
+
+/* =========================
+   About
+========================= */
+
+.my-img {
+  width: 250px;          
+  height: 300px;         
+  object-fit: cover;
+  border-radius: 50%;    
+  display: block;
+  margin: auto;
 }
 
 /* =========================
@@ -190,6 +207,30 @@ h4 {
   border-radius: 12px;
   margin-bottom: 20px;
   box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+
+/* =========================
+   Experience
+========================= */
+
+.round-img {
+  width: 95%;
+  border-radius: 15px;
+  display: block;
+  margin: 0 auto;
+}
+
+.vspace {
+  height: 40px;
+}
+
+.section-line {
+  height: 1.5px;          
+  color: #000;
+  background-color: #000;
+  width: 100%;
+  transform: translateZ(0);;           
 }
 
 
