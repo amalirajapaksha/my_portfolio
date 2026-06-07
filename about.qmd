@@ -1,10 +1,46 @@
 ---
 title: "About"
-body-class: other
 ---
 
-About this site
+::::: columns
+::: {.column width="60%"}
+I am a final year Statistics undergraduate in the [Department of Statistics, University of Sri Jayewardenepura](https://science.sjp.ac.lk/sta/). I completed my primary and secondary education at [Maliyadeva Balika Vidyalaya](http://maliyadevabalika.lk/). Currently, I am conducting my final-year undergraduate research under the supervision of [Prof. Sarath Banneheka](https://www.linkedin.com/in/sarath-banneheka-6403a660/).
 
-```{r}
-1 + 1
-```
+I am passionate about **data analysis, statistical modeling, and programming in R**.\
+My interests include Advanced statistical Inference, Probability and Distribution Theory, Statistical Quality Control, Time Series Analysis, Data Visualization, and real-world problem solving using data.
+
+I enjoy transforming raw data into meaningful insights that support decision-making.
+:::
+
+::: {.column width="40%"}
+![](profile.jpg){.my-img}
+:::
+:::::
+
+::: vspace
+:::
+
+## Education
+<hr class="section-line">
+
+
+::: vspace
+:::
+
+## Skills
+<hr class="section-line">
+
+
+::: vspace
+:::
+
+## Core Coursework
+<hr class="section-line">
+
+
+::: vspace
+:::
+
+## Contact Information
+<hr class="section-line">
+

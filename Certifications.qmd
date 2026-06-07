@@ -1,3 +1,17 @@
 ---
 title: "Certifications"
 ---
+
+### Analysing Data with Power BI
+
+*Feb 2026*\
+**Issuer:** Analytics Vidhya\
+[View Credential](https://courses.analyticsvidhya.com/certificates/460qcjgqhe)
+
+------------------------------------------------------------------------
+
+### Intro to AI
+
+*Nov 2025*\
+**Issuer:** 365 Data Science\
+[View Credential](https://learn.365datascience.com/certificates/CC-458936358D/)
