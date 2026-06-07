@@ -1,24 +1,45 @@
 [
   {
-    "objectID": "Projects.html",
-    "href": "Projects.html",
-    "title": "Projects",
+    "objectID": "story.html",
+    "href": "story.html",
+    "title": "Statistics: Seeing Beyond the Peaks and Valleys",
     "section": "",
-    "text": "Ditwah Data Hub Project\nDescription: Converted unstructured PDF reports related to Cyclone Ditwah into analysis-ready datasets and developed an interactive disaster analytics platform to visualize and monitor the cyclone’s impacts in Sri Lanka.\n\nTech Stack: R, Quarto, ggplot2, Data Visualization, Geospatial Analytics\nView Project\n\n\n\n\n\nForecasting Commodity Net Export Price Index (CNEPI)\nDescription: Developed an ARIMA model to forecast the Commodity Net Export Price Index (CNEPI)\nTech Stack: R, ARIMA, Forecast Package, Time Series Analysis\nView Project"
+    "text": "A dataset can be imagined as a mountain range filled with peaks and valleys.\nEach value rises and falls across the landscape. From a close view, it appears irregular and scattered, but from a higher perspective, its true structure becomes clear. Statistics helps us step back and reveal the hidden patterns within variation."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Amali Rajapaksha",
+    "objectID": "projects/project1.html",
+    "href": "projects/project1.html",
+    "title": "Sales Forecasting Dashboard",
     "section": "",
-    "text": "Y.M. Amali P. Rajapaksha\n\nBSc (Hons) Statistics - Undergraduate\nDepartment of Statistics\nFaculty of Applied Sciences\nUniversity of Sri Jayewardenepura\nData Analyst | R Programmer\nView My Work\nRead Cover Story"
+    "text": "This project demonstrates how machine learning can be used to forecast future sales.\n\n\n\n\nForecast monthly sales\nIdentify seasonal patterns\nBuild interactive dashboards\n\n\n\n\n\nData cleaning\nFeature engineering\nModel training\n\n\n\n\nThe model successfully captured seasonal trends and improved forecast accuracy.\n\n\n\nSample Figure"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "projects/project1.html#overview",
+    "href": "projects/project1.html#overview",
+    "title": "Sales Forecasting Dashboard",
     "section": "",
-    "text": "I am a final year Statistics undergraduate in the Department of Statistics, University of Sri Jayewardenepura. I completed my primary and secondary education at Maliyadeva Balika Vidyalaya. Currently, I am conducting my final-year undergraduate research under the supervision of Prof. Sarath Banneheka.\nI am passionate about data analysis, statistical modeling, and programming in R.\nMy interests include Advanced statistical Inference, Probability and Distribution Theory, Statistical Quality Control, Time Series Analysis, Data Visualization, and real-world problem solving using data.\nI enjoy transforming raw data into meaningful insights that support decision-making."
+    "text": "This project demonstrates how machine learning can be used to forecast future sales."
+  },
+  {
+    "objectID": "projects/project1.html#objectives",
+    "href": "projects/project1.html#objectives",
+    "title": "Sales Forecasting Dashboard",
+    "section": "",
+    "text": "Forecast monthly sales\nIdentify seasonal patterns\nBuild interactive dashboards"
+  },
+  {
+    "objectID": "projects/project1.html#methods",
+    "href": "projects/project1.html#methods",
+    "title": "Sales Forecasting Dashboard",
+    "section": "",
+    "text": "Data cleaning\nFeature engineering\nModel training"
+  },
+  {
+    "objectID": "projects/project1.html#results",
+    "href": "projects/project1.html#results",
+    "title": "Sales Forecasting Dashboard",
+    "section": "",
+    "text": "The model successfully captured seasonal trends and improved forecast accuracy.\n\n\n\nSample Figure"
   },
   {
     "objectID": "Experience.html",
@@ -28,6 +49,41 @@
     "text": "💼 Work Experience\n\n\nIntern\nBank of Ceylon, Hettipola Branch\nApr 2022- Oct 2022\n\nFacilitated opening, maintenance, and closure of savings accounts and fixed deposits\nManaged customer account services, including passbook updates and issuance of banking documents\nAssisted in delivering digital banking solutions and customer support for online services\nDelivered efficient front-line customer service in a high-volume banking environment\n\n\n\n\n\n\n\n\n\n\n🤝 Volunteering\n\n\nQuora 3.0 - Statistic Society\nDepartment of Statistics, University of Sri Jayewardenepura\nJun 2025\n\nHelped organize Quora 3.0, an annual quiz competition for first-year students.\nWorked with team members to manage event activities and support participant engagement."
   },
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I am a fourth-year Statistics undergraduate in the Department of Statistics, University of Sri Jayewardenepura, with a strong background in Mathematics and Economics. I completed my primary and secondary education at Maliyadeva Balika Vidyalaya. Currently, I am conducting my final-year undergraduate research under the supervision of Prof. Sarath Banneheka.\nI am passionate about data analysis, statistical modeling, and programming in R.\nMy interests include Advanced statistical Inference, Probability and Distribution Theory, Statistical Quality Control, Time Series Analysis, Data Visualization, and real-world problem solving using data.\nI enjoy transforming raw data into meaningful insights that support decision-making. By combining knowledge from Statistics, Mathematics, and Economics, I aim to develop data-driven solutions to complex problems and contribute to informed decision-making across various domains.\n\n\n\n  Download CV"
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About",
+    "section": "Education",
+    "text": "Education\n\nUniversity of Sri Jayewardenepura, Sri Lanka\nB.Sc. (Honours) in Statistics - (Undergraduate)\nDepartment of Statistics\nFaculty of Applied Sciences\nMay 2023- Present\nDuring the first two years of my studies, I followed Statistics, Mathematics, and Economics as my main subjects. By the end of the second academic year, I was successfully selected for the Special Degree Program in Statistics, achieving the highest GPA in Statistics (4.00/4.00) among approximately 130 students.\n\n\nMaliyadeva Balika Vidyalaya, Kurunegala, Sri Lanka\nG.C.E. Ordinary Level\nG.C.E. Advanced Level (in Physical Science Stream)\nJan 2007- Nov 2022"
+  },
+  {
+    "objectID": "about.html#skills",
+    "href": "about.html#skills",
+    "title": "About",
+    "section": "Skills",
+    "text": "Skills\n\n\n\nProgramming\nR · Python · MATLAB\n\n\nData Science & Machine Learning\nNumPy · Pandas · Scikit-learn\n\n\nData Visualization\nPlotly · Matplotlib · Seaborn · Power BI (Basic)\n\n\nStatistical Software\nSPSS · Minitab · Maple\n\n\nReporting & Documentation\nLaTeX · R Flexdashboard\n\n\nTools & Platforms\nJupyter Notebook"
+  },
+  {
+    "objectID": "about.html#core-coursework",
+    "href": "about.html#core-coursework",
+    "title": "About",
+    "section": "Core Coursework",
+    "text": "Core Coursework\n\n\n\n\nData Mining\n\nStochastic Processes\n\nBayesian Statistics\n\nAdvanced Time Series Analysis\n\nGeneralized Linear Models and Nonlinear Models\n\nAdvanced Regression Analysis\n\nSurvival Analysis\n\nResearch Methodology\n\nMedical Statistics\n\nMultivariate Statistics\n\nAdvanced Statistical Inference\n\n\n\n\nAdvanced Design of Experiments\n\nProgramming and Data Analysis with R\n\nAdvanced Probability and Distribution Theory\n\nLinear Algebra\n\nDifferential Equations\n\nCalculus\n\nVector Calculus\n\nNumerical Methods\nIntermediate Microeconomics\n\nIntermediate Macroeconomics\n\nManagerial Economics"
+  },
+  {
+    "objectID": "about.html#contact-information",
+    "href": "about.html#contact-information",
+    "title": "About",
+    "section": "Contact Information",
+    "text": "Contact Information\n\n Email: amali2022ugc@gmail.com\n\n Phone: 0779056129\n\n WhatsApp: 0768662186\n\n LinkedIn: https://www.linkedin.com/in/amali-rajapaksha-921829336/"
+  },
+  {
     "objectID": "Certifications.html",
     "href": "Certifications.html",
     "title": "Certifications",
@@ -35,52 +91,52 @@
     "text": "Analysing Data with Power BI\nFeb 2026\nIssuer: Analytics Vidhya\nView Credential\n\n\n\nIntro to AI\nNov 2025\nIssuer: 365 Data Science\nView Credential"
   },
   {
-    "objectID": "Experience.html#work-experience",
-    "href": "Experience.html#work-experience",
-    "title": "Experience",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Amali Rajapaksha",
     "section": "",
-    "text": "Bank of Ceylon, Hettipola Branch\nApr 2022- Oct 2022\n\nFacilitated opening, maintenance, and closure of savings accounts and fixed deposits\nManaged customer account services, including passbook updates and issuance of banking documents\nAssisted in delivering digital banking solutions and customer support for online services\nDelivered efficient front-line customer service in a high-volume banking environment"
+    "text": "Y.M. Amali P. Rajapaksha\n\nBSc (Hons) Statistics - Undergraduate\nDepartment of Statistics\nFaculty of Applied Sciences\nUniversity of Sri Jayewardenepura\nData Analyst | R Programmer\nView My Work\nRead Cover Story"
   },
   {
-    "objectID": "Experience.html#volunteering",
-    "href": "Experience.html#volunteering",
-    "title": "Experience",
-    "section": "🤝 Volunteering",
-    "text": "🤝 Volunteering\n\n\nQuora 3.0 - Statistic Society\nDepartment of Statistics, University of Sri Jayewardenepura\nJun 2025\n\nHelped organize Quora 3.0, an annual quiz competition for first-year students.\nWorked with team members to manage event activities and support participant engagement."
-  },
-  {
-    "objectID": "about.html#about-me",
-    "href": "about.html#about-me",
-    "title": "About",
+    "objectID": "projects/project2.html",
+    "href": "projects/project2.html",
+    "title": "Disease Outbreak Detection",
     "section": "",
-    "text": "I am Y.M. Amali P. Rajapaksha, a Statistics undergraduate at the University of Sri Jayewardenepura.\nI am passionate about data analysis, statistical modeling, and programming in R.\nMy interests include time series analysis, data visualization, and real-world problem solving using data.\nI enjoy transforming raw data into meaningful insights that support decision-making."
+    "text": "This project focuses on detecting unusual disease patterns from surveillance data.\n\n\n\n\nDetect outbreaks early\nReduce false alarms\nImprove public health response\n\n\n\n\n\nTime-series analysis\nAnomaly detection\nForecasting\n\n\n\n\nThe system identified abnormal spikes several weeks before official reports.\n\n\n\nSample Figure"
   },
   {
-    "objectID": "about.html#education",
-    "href": "about.html#education",
-    "title": "About",
-    "section": "Education",
-    "text": "Education"
+    "objectID": "projects/project2.html#overview",
+    "href": "projects/project2.html#overview",
+    "title": "Disease Outbreak Detection",
+    "section": "",
+    "text": "This project focuses on detecting unusual disease patterns from surveillance data."
   },
   {
-    "objectID": "about.html#skills",
-    "href": "about.html#skills",
-    "title": "About",
-    "section": "Skills",
-    "text": "Skills"
+    "objectID": "projects/project2.html#objectives",
+    "href": "projects/project2.html#objectives",
+    "title": "Disease Outbreak Detection",
+    "section": "",
+    "text": "Detect outbreaks early\nReduce false alarms\nImprove public health response"
   },
   {
-    "objectID": "about.html#core-coursework",
-    "href": "about.html#core-coursework",
-    "title": "About",
-    "section": "Core Coursework",
-    "text": "Core Coursework"
+    "objectID": "projects/project2.html#methods",
+    "href": "projects/project2.html#methods",
+    "title": "Disease Outbreak Detection",
+    "section": "",
+    "text": "Time-series analysis\nAnomaly detection\nForecasting"
   },
   {
-    "objectID": "about.html#contact-information",
-    "href": "about.html#contact-information",
-    "title": "About",
-    "section": "Contact Information",
-    "text": "Contact Information"
+    "objectID": "projects/project2.html#results",
+    "href": "projects/project2.html#results",
+    "title": "Disease Outbreak Detection",
+    "section": "",
+    "text": "The system identified abnormal spikes several weeks before official reports.\n\n\n\nSample Figure"
+  },
+  {
+    "objectID": "Projects.html",
+    "href": "Projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Ditwah Data Hub Project\nDescription: Converted unstructured PDF reports on Cyclone Ditwah into structured, analysis-ready data and developed an interactive platform to visualize and monitor its impacts in Sri Lanka.\n\nTech Stack: R, Quarto, ggplot2, Data Visualization, Geospatial Analytics\nView Project\n\n\n\n\n\nForecasting Commodity Net Export Price Index (CNEPI)\nDescription: Developed an ARIMA model to forecast the Commodity Net Export Price Index, Individual Commodities Weighted by Ratio of Net Exports to GDP (CNEPI) of Sri Lanka\n\nTech Stack: R, ARIMA, Forecast Package, Time Series Analysis, Data Visualization\nView Project\n\n\n\n\n\n\n\nInteractive Demographic and Health Data Dashboard for Australia\nDescription: Developed an interactive R Shiny dashboard for exploring and visualizing demographic and health related data for Australia, enabling user-friendly analysis of key population and health indicators.\n\nTech Stack: R, shiny, shinydashboard, plotly, dplyr, tidyr, ggplot2\nView Project\n\n\n\n\n\nDS Job Tracker Survey\nDescription: Collected data science and statistics job advertisement data and transformed it into a study-ready dataset through data wrangling and preprocessing.\n\nTech Stack: R, Shiny, Excel, Data Wrangling\nView Project\n\n\n\n\n\n\n\nX̄ & R Charts Shiny App\nDescription: This Shiny app allows users to explore X̄ (mean) and R (range) control charts for quality control. It is developed for learning purposes and demonstrates Phase I and Phase II charting.\nTech Stack: R, shiny, dplyr, ggplot2, DT\nView Project"
   }
 ]

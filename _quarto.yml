@@ -19,11 +19,32 @@ website:
       - text: Experience
         href: Experience.qmd
       - text: Blog
-        href: Blog.qmd  
+        href: Blog.qmd 
+        
+    right:
+      - icon: github
+        href: https://github.com/amalirajapaksha
+    
+      - icon: linkedin
+        href: https://www.linkedin.com/in/amali-rajapaksha-921829336/
+    
+      - icon: envelope
+        href: mailto:amali2022ugc@gmail.com
+    
+      - icon: download
+        text: Download CV
+        href: files/CV_Amali.pdf
+        target: _blank
+            
+  
+         
       
 format:
   html:
     theme: cosmo
+    include-in-header:
+      text: |
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     css: styles.css
     toc: true
 

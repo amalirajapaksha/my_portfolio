@@ -2,18 +2,19 @@
 title: "About"
 ---
 
-::::: columns
-::: {.column width="60%"}
-I am a final year Statistics undergraduate in the [Department of Statistics, University of Sri Jayewardenepura](https://science.sjp.ac.lk/sta/). I completed my primary and secondary education at [Maliyadeva Balika Vidyalaya](http://maliyadevabalika.lk/). Currently, I am conducting my final-year undergraduate research under the supervision of [Prof. Sarath Banneheka](https://www.linkedin.com/in/sarath-banneheka-6403a660/).
+::::: about-container
+::: about-text
+I am a fourth-year Statistics undergraduate in the [Department of Statistics, University of Sri Jayewardenepura](https://science.sjp.ac.lk/sta/), with a strong background in Mathematics and Economics. I completed my primary and secondary education at [Maliyadeva Balika Vidyalaya](http://maliyadevabalika.lk/). Currently, I am conducting my final-year undergraduate research under the supervision of [Prof. Sarath Banneheka](https://www.linkedin.com/in/sarath-banneheka-6403a660/).
 
 I am passionate about **data analysis, statistical modeling, and programming in R**.\
 My interests include Advanced statistical Inference, Probability and Distribution Theory, Statistical Quality Control, Time Series Analysis, Data Visualization, and real-world problem solving using data.
 
-I enjoy transforming raw data into meaningful insights that support decision-making.
+I enjoy transforming raw data into meaningful insights that support decision-making. By combining knowledge from Statistics, Mathematics, and Economics, I aim to develop data-driven solutions to complex problems and contribute to informed decision-making across various domains.
 :::
 
-::: {.column width="40%"}
-![](profile.jpg){.my-img}
+::: about-image
+![](profile.jpg){.my-img}\
+<a class="btn btn-primary" href="files/CV_Amali.pdf" download> <i class="bi bi-download"></i> Download CV </a>
 :::
 :::::
 
@@ -21,26 +22,136 @@ I enjoy transforming raw data into meaningful insights that support decision-mak
 :::
 
 ## Education
+
 <hr class="section-line">
 
+[University of Sri Jayewardenepura, Sri Lanka](https://www.sjp.ac.lk/)\
+B.Sc. (Honours) in Statistics - (Undergraduate)\
+Department of Statistics\
+Faculty of Applied Sciences\
+*May 2023- Present*
+
+During the first two years of my studies, I followed Statistics, Mathematics, and Economics as my main subjects. By the end of the second academic year, I was successfully selected for the Special Degree Program in Statistics, achieving the highest GPA in Statistics (4.00/4.00) among approximately 130 students.\
+\
+\
+[Maliyadeva Balika Vidyalaya, Kurunegala, Sri Lanka](http://maliyadevabalika.lk/)\
+G.C.E. Ordinary Level\
+G.C.E. Advanced Level (in Physical Science Stream)\
+*Jan 2007- Nov 2022*
 
 ::: vspace
 :::
 
 ## Skills
+
 <hr class="section-line">
 
+::::::::: skills-grid
+::: skill-card
+### Programming
+
+R · Python · MATLAB
+:::
+
+::: skill-card
+### Data Science & Machine Learning
+
+NumPy · Pandas · Scikit-learn
+:::
+
+::: skill-card
+### Data Visualization
+
+Plotly · Matplotlib · Seaborn · Power BI (Basic)
+:::
+
+::: skill-card
+### Statistical Software
+
+SPSS · Minitab · Maple
+:::
+
+::: skill-card
+### Reporting & Documentation
+
+LaTeX · R Flexdashboard
+:::
+
+::: skill-card
+### Tools & Platforms
+
+Jupyter Notebook
+:::
+:::::::::
 
 ::: vspace
 :::
 
 ## Core Coursework
+
 <hr class="section-line">
 
+::::: columns
+::: {.column width="50%"}
+-   Data Mining\
+
+-   Stochastic Processes\
+
+-   Bayesian Statistics\
+
+-   Advanced Time Series Analysis\
+
+-   Generalized Linear Models and Nonlinear Models\
+
+-   Advanced Regression Analysis\
+
+-   Survival Analysis\
+
+-   Research Methodology\
+
+-   Medical Statistics\
+
+-   Multivariate Statistics\
+
+-   Advanced Statistical Inference\
+:::
+
+::: {.column width="50%"}
+-   Advanced Design of Experiments\
+
+-   Programming and Data Analysis with R\
+
+-   Advanced Probability and Distribution Theory\
+
+-   Linear Algebra\
+
+-   Differential Equations\
+
+-   Calculus\
+
+-   Vector Calculus\
+
+-   Numerical Methods
+
+-   Intermediate Microeconomics\
+
+-   Intermediate Macroeconomics\
+
+-   Managerial Economics\
+:::
+:::::
 
 ::: vspace
 :::
 
 ## Contact Information
+
 <hr class="section-line">
 
+<i class="fa-solid fa-envelope"></i> Email: [amali2022ugc\@gmail.com](mailto:amali2022ugc@gmail.com)\
+
+<i class="fa-solid fa-phone"></i> Phone: 0779056129\
+
+<i class="fa-brands fa-whatsapp"></i> WhatsApp: 0768662186\
+
+<i class="fa-brands fa-linkedin"></i> LinkedIn: <https://www.linkedin.com/in/amali-rajapaksha-921829336/>
