@@ -38,7 +38,7 @@ toc: false
 **Description**: Developed an interactive R Shiny dashboard for exploring and visualizing demographic and health related data for Australia, enabling user-friendly analysis of key population and health indicators.\
 
 **Tech Stack**: R, shiny, shinydashboard, plotly, dplyr, tidyr, ggplot2\
-[View Project](projects/project2.qmd)
+[View Project](projects/project3.qmd)
 :::
 
 ::: {.g-col-12 .g-col-md-6}
@@ -49,7 +49,7 @@ toc: false
 **Description**: Collected data science and statistics job advertisement data and transformed it into a study-ready dataset through data wrangling and preprocessing.\
 
 **Tech Stack**: R, Shiny, Excel, Data Wrangling\
-[View Project](projects/project1.qmd)
+[View Project](projects/project4.qmd)
 :::
 :::::
 
