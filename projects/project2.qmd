@@ -1,27 +1,72 @@
 ---
-title: "Disease Outbreak Detection"
+title: "Forecasting Commodity Net Export Price Index (CNEPI)"
 ---
-
-# Disease Outbreak Detection
 
 ## Overview
 
-This project focuses on detecting unusual disease patterns from surveillance data.
+<hr class="section-line">
+
+This project focuses on forecasting the Commodity Net Export Price Index (CNEPI) for Sri Lanka using ARIMA time series models. The CNEPI is constructed by weighting individual commodity prices by their net export share relative to GDP.
 
 ## Objectives
 
--   Detect outbreaks early
--   Reduce false alarms
--   Improve public health response
+<hr class="section-line">
 
-## Methods
+The main objective of this project is to build a simple and easily interpretable model so that the business community can use it to make effective decisions.
 
--   Time-series analysis
--   Anomaly detection
--   Forecasting
+This project was conducted as part of the Research Methodology course unit. Hence we applied research methodology principles rigorously throughout the project. Since this was done at the beginning of our third year, we initially had no theoretical knowledge of ARIMA models, but through extensive self-study, we learned the correct methodology for ARIMA modeling. This process significantly improved our literature review, report writing, and research skills.
+
+## Methodology
+
+<hr class="section-line">
+
+-   Preliminary (Exploratory) Analysis
+-   Test for Stationarity
+-   Choosing and Fitting Models
+-   Model Evaluation
+-   Residual Diagnostics
+-   Forecasting Future Values
+
+Throughout this project, we followed the methodology outlined in Forecasting: Principles and Practice (3rd ed.) by Hyndman & Athanasopoulos (2021). Figure 1 illustrates the exact forecasting workflow adopted in this study.
+
+<div>
+
+![Figure 1: General process for forecasting using an ARIMA model (Adapted from Hyndman & Athanasopoulos, 2021)](/arima_process.png){fig-align="center" width="404"}
+
+</div>
 
 ## Results
 
-The system identified abnormal spikes several weeks before official reports.
+<hr class="section-line">
 
-![Sample Figure](../images/project2.png)
+-   The ARIMA(2,1,3) model was identified as the most suitable forecasting model based on the model selection criteria. The fitted model is given by:
+
+::: overflow-x-auto
+$$
+Y_t = -0.0022 + BY_t + 0.1130(1-B)BY_t + 0.8485(1-B)B^2Y_t + 0.1279BZ_t - 0.9217B^2Z_t - 0.2062B^3Z_t + Z_t
+$$
+:::
+
+-   Residual tests proved the model works correctly.
+
+-   The forecasts suggest a gradual upward trend, with values rising from 100.81 in April 2025 to 100.92 by March 2026. This indicates a modest recovery and stabilization of Sri Lanka’s net export competitiveness
+
+<div>
+
+![Figure 2: Fitting and Prediction of the Commodity Net Export Price Index](/forecast.png){fig-align="center"}
+
+</div>
+
+## Research Outputs
+
+<hr class="section-line">
+
+#### Thesis
+
+[Forecasting Sri Lanka’s Commodity Net Export Price Index Using ARIMA Models)](/Report%20(Group%2001).pdf)
+
+## References
+
+<hr class="section-line">
+
+Hyndman, R. J., & Athanasopoulos, G. (2021). *Forecasting: Principles and Practice* (3rd ed.). OTexts. [https://otexts.com/fpp3/](https://otexts.com/fpp3/)
