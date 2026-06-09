@@ -158,7 +158,7 @@
     "href": "projects/project2.html#research-outputs",
     "title": "Forecasting Commodity Net Export Price Index (CNEPI)",
     "section": "Research Outputs",
-    "text": "Research Outputs\n\n\nThesis\nForecasting Sri Lanka’s Commodity Net Export Price Index Using ARIMA Models)"
+    "text": "Research Outputs\n\n\nThesis\nForecasting Sri Lanka’s Commodity Net Export Price Index Using ARIMA Models\n\n\nSlides\nPresentation Slides"
   },
   {
     "objectID": "projects/project2.html#references",
@@ -166,5 +166,12 @@
     "title": "Forecasting Commodity Net Export Price Index (CNEPI)",
     "section": "References",
     "text": "References\n\nHyndman, R. J., & Athanasopoulos, G. (2021). Forecasting: Principles and Practice (3rd ed.). OTexts. https://otexts.com/fpp3/"
+  },
+  {
+    "objectID": "projects/project2.html#bibliography",
+    "href": "projects/project2.html#bibliography",
+    "title": "Forecasting Commodity Net Export Price Index (CNEPI)",
+    "section": "Bibliography",
+    "text": "Bibliography\n\nHyndman, R. J., & Athanasopoulos, G. (2021). Forecasting: Principles and Practice (3rd ed.). OTexts. https://otexts.com/fpp3/"
   }
 ]
