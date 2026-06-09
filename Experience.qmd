@@ -3,6 +3,7 @@ title: "Experience"
 ---
 
 # **💼 Work Experience**
+
 <hr class="section-line">
 
 ### **Intern**
@@ -26,6 +27,7 @@ Apr 2022- Oct 2022
 :::
 
 # **🤝 Volunteering**
+
 <hr class="section-line">
 
 ### **Quora 3.0 - Statistic Society**

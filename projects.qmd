@@ -13,7 +13,7 @@ toc: false
 
 **Description**: Converted unstructured PDF reports on Cyclone Ditwah into structured, analysis-ready data and developed an interactive platform to visualize and monitor its impacts in Sri Lanka.\
 
-**Tech Stack**: R, Quarto, ggplot2, Data Visualization, Geospatial Analytics\
+**Tech Stack**: R, ggplot2, Data Visualization, Geospatial Analytics\
 [View Project](projects/project1.qmd)
 :::
 
@@ -61,7 +61,7 @@ toc: false
 
 **Description**: This Shiny app allows users to explore X̄ (mean) and R (range) control charts for quality control. It is developed for learning purposes and demonstrates Phase I and Phase II charting.
 
-**Tech Stack**: R, shiny, dplyr, ggplot2, DT \
+**Tech Stack**: R, shiny, dplyr, ggplot2, DT\
 [View Project](https://github.com/amalirajapaksha/Xbar_R_charts)
 :::
 ::::

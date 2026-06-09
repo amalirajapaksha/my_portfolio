@@ -2,6 +2,14 @@
 title: "Certifications"
 ---
 
+### SQL for Beginners
+
+Jun 2026\
+**Issuer:** Alison\
+[View Credential](https://alison.com/verify/2ec4c4c824)
+
+------------------------------------------------------------------------
+
 ### Analysing Data with Power BI
 
 *Feb 2026*\
@@ -15,3 +23,5 @@ title: "Certifications"
 *Nov 2025*\
 **Issuer:** 365 Data Science\
 [View Credential](https://learn.365datascience.com/certificates/CC-458936358D/)
+
+
