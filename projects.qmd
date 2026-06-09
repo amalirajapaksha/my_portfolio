@@ -14,7 +14,7 @@ toc: false
 **Description**: Converted unstructured PDF reports on Cyclone Ditwah into structured, analysis-ready data and developed an interactive platform to visualize and monitor its impacts in Sri Lanka.\
 
 **Tech Stack**: R, ggplot2, Data Visualization, Geospatial Analytics\
-[View Project](projects/project1.qmd)
+[View Project](https://thiyangt.github.io/DitwahDataHub/)
 :::
 
 ::: {.g-col-12 .g-col-md-6}
