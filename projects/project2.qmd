@@ -63,10 +63,14 @@ $$
 
 #### Thesis
 
-[Forecasting Sri Lanka’s Commodity Net Export Price Index Using ARIMA Models)](/Report%20(Group%2001).pdf)
+[Forecasting Sri Lanka’s Commodity Net Export Price Index Using ARIMA Models](/Report%20(Group%2001).pdf)
 
-## References
+#### Slides
+
+[Presentation Slides](/Presentation Slides.pdf)
+
+## Bibliography
 
 <hr class="section-line">
 
-Hyndman, R. J., & Athanasopoulos, G. (2021). *Forecasting: Principles and Practice* (3rd ed.). OTexts. [https://otexts.com/fpp3/](https://otexts.com/fpp3/)
+Hyndman, R. J., & Athanasopoulos, G. (2021). *Forecasting: Principles and Practice* (3rd ed.). OTexts. <https://otexts.com/fpp3/>
