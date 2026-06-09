@@ -1,0 +1,6 @@
+---
+title: "My First Post"
+date: 2026-06-01
+categories: [R, Time Series]
+image: ../images/project2.png
+---
