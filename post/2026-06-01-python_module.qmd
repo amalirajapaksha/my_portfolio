@@ -1,6 +1,6 @@
 ---
 title: "Creating a User-Defined Python Module: Reusing Code the Right Way"
 date: 2026-06-01
-categories: [R, Time Series]
+categories: [Python]
 image: ../images/post1.png
 ---
