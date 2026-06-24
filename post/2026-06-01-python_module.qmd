@@ -1,5 +1,5 @@
 ---
-title: "My First Post"
+title: "Creating a User-Defined Python Module: Reusing Code the Right Way"
 date: 2026-06-01
 categories: [R, Time Series]
 image: ../images/post1.png

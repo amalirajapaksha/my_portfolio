@@ -1,0 +1,6 @@
+---
+title: "Building Your First Website with Quarto: A Step-by-Step Guide"
+date: 2026-06-09
+categories: [R, Rstudio, Quarto]
+image: ../images/post2.png
+---

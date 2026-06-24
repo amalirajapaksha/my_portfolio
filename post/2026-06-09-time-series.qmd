@@ -1,6 +1,0 @@
----
-title: "My Second Post"
-date: 2026-06-09
-categories: [R, Time Series]
-image: ../images/post2.png
----
