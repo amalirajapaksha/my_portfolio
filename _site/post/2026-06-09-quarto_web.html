@@ -7,6 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="dcterms.date" content="2026-06-09">
+<meta name="description" content="A step-by-step guide to building your first website using Quarto, covering setup, structure, and deployment on GitHub Pages.">
 
 <title>Building Your First Website with Quarto: A Step-by-Step Guide – Amali Rajapaksha</title>
 <style>
@@ -151,22 +152,35 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#overview-of-the-workflow" id="toc-overview-of-the-workflow" class="nav-link active" data-scroll-target="#overview-of-the-workflow">Overview of the Workflow</a></li>
+  <li><a href="#step-1-creating-the-quarto-website-project" id="toc-step-1-creating-the-quarto-website-project" class="nav-link" data-scroll-target="#step-1-creating-the-quarto-website-project">Step 1: Creating the Quarto Website Project</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Building Your First Website with Quarto: A Step-by-Step Guide</h1>
+<h1 class="title"><strong>Building Your First Website with Quarto: A Step-by-Step Guide</strong></h1>
   <div class="quarto-categories">
     <div class="quarto-category">R</div>
     <div class="quarto-category">Rstudio</div>
     <div class="quarto-category">Quarto</div>
+    <div class="quarto-category">GitHub</div>
   </div>
   </div>
 
+<div>
+  <div class="description">
+    <span style="font-size:14px">A step-by-step guide to building your first website using Quarto, covering setup, structure, and deployment on GitHub Pages.</span>
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
@@ -187,8 +201,41 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p>In this blog post, we explore the complete workflow of building a structured website using <strong>Quarto</strong>, based on a real project: the <em>R Learning Website</em>.</p>
+<section id="overview-of-the-workflow" class="level2">
+<h2 class="anchored" data-anchor-id="overview-of-the-workflow">Overview of the Workflow</h2>
+<p>Building a Quarto website involves four main steps:</p>
+<ol type="1">
+<li><p>Creating a Quarto project</p></li>
+<li><p>Structuring content into <code>.qmd</code> files</p></li>
+<li><p>Configuring the website using <code>_quarto.yml</code></p></li>
+<li><p>Rendering and publishing the website</p></li>
+</ol>
+<p>We will explain each step using the R Learning Website as an example.</p>
+</section>
+<section id="step-1-creating-the-quarto-website-project" class="level2">
+<h2 class="anchored" data-anchor-id="step-1-creating-the-quarto-website-project">Step 1: Creating the Quarto Website Project</h2>
+<p>The project is initialized using RStudio:</p>
+<p><strong>File → New Project → New Directory → Quarto Website</strong></p>
+<p>This automatically generates the basic structure:</p>
+<pre class="text" style="color: #234460"><code>R-Learning-Website/
+│── index.qmd
+│── about.qmd
+│── _quarto.yml
+│── styles.css</code></pre>
+<p>In your case, additional learning modules were added as <code>.qmd</code> files:</p>
+<pre class="trxt" style="color: #234460"><code>Introduction to R and RStudio.qmd
+Data Types and Data Structures.qmd 
+Data Import and Export.qmd
+Reshaping Data with tidyr.qmd
+Data Manipulation with dplyr.qmd
+Data Visualization with ggplot2.qmd
+Statistical Modeling in R.qmd
+Reproduciable Reporting with Quarto.qmd
+...</code></pre>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

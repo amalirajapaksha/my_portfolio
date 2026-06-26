@@ -5,3 +5,49 @@ categories: [R, Rstudio, Quarto, GitHub]
 image: ../images/post2.png
 description: "<span style='font-size:14px'>A step-by-step guide to building your first website using Quarto, covering setup, structure, and deployment on GitHub Pages.</span>"
 ---
+
+In this blog post, we explore the complete workflow of building a structured website using **Quarto**, based on a real project: the *R Learning Website*.
+
+## Overview of the Workflow
+
+Building a Quarto website involves four main steps:
+
+1.  Creating a Quarto project
+
+2.  Structuring content into `.qmd` files
+
+3.  Configuring the website using `_quarto.yml`
+
+4.  Rendering and publishing the website
+
+We will explain each step using the R Learning Website as an example.
+
+## Step 1: Creating the Quarto Website Project
+
+The project is initialized using RStudio:
+
+**File → New Project → New Directory → Quarto Website**
+
+This automatically generates the basic structure:
+
+``` {.text style="color: #234460"}
+R-Learning-Website/
+│── index.qmd
+│── about.qmd
+│── _quarto.yml
+│── styles.css
+```
+
+In your case, additional learning modules were added as `.qmd` files:
+
+``` {.trxt style="color: #234460"}
+Introduction to R and RStudio.qmd
+Data Types and Data Structures.qmd 
+Data Import and Export.qmd
+Reshaping Data with tidyr.qmd
+Data Manipulation with dplyr.qmd
+Data Visualization with ggplot2.qmd
+Statistical Modeling in R.qmd
+Reproduciable Reporting with Quarto.qmd
+...
+```
