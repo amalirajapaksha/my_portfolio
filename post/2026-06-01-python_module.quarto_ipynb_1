@@ -23,6 +23,7 @@
         "First, create a new Python file named `calc.py`. Save this file in a folder of your choice. Inside the file, define two simple functions named add() and subtract()."
       ],
       "id": "155c00e8"
+      "id": "b009ddc2"
     },
     {
       "cell_type": "code",
@@ -36,6 +37,7 @@
         "    return (x-y)"
       ],
       "id": "33813a2f",
+      "id": "034a9dac",
       "execution_count": null,
       "outputs": []
     },
@@ -50,6 +52,7 @@
         "Now create another Python file in the same folder and import the module."
       ],
       "id": "2224875a"
+      "id": "6d03552a"
     },
     {
       "cell_type": "code",
@@ -61,6 +64,7 @@
         "print(calc.subtract(10, 2))"
       ],
       "id": "cf85f5f7",
+      "id": "7ac06e36",
       "execution_count": null,
       "outputs": []
     },
@@ -75,6 +79,7 @@
         "Sometimes you only need one or two functions from a module. Instead of importing the entire module, you can import only the functions you need."
       ],
       "id": "f0976d2e"
+      "id": "fdde5477"
     },
     {
       "cell_type": "code",
@@ -85,6 +90,7 @@
         "print(add(5, 3))"
       ],
       "id": "446fe73c",
+      "id": "ec59dc1e",
       "execution_count": null,
       "outputs": []
     },
@@ -95,6 +101,7 @@
         "You can also import multiple functions at once."
       ],
       "id": "60413847"
+      "id": "88a010b3"
     },
     {
       "cell_type": "code",
@@ -106,6 +113,7 @@
         "print(subtract(7, 4))"
       ],
       "id": "288bd006",
+      "id": "459bcff1",
       "execution_count": null,
       "outputs": []
     },
@@ -134,6 +142,7 @@
         "Although this example contains only two simple functions, the same idea applies to much larger programs. Organizing your code into modules is a fundamental programming practice that will become increasingly valuable as your projects grow in size and complexity."
       ],
       "id": "209b2483"
+      "id": "38ad8282"
     }
   ],
   "metadata": {
@@ -142,6 +151,7 @@
       "language": "python",
       "display_name": "Python 3 (ipykernel)",
       "path": "C:\\Users\\MSI\\AppData\\Local\\Programs\\Python\\Python313\\share\\jupyter\\kernels\\python3"
+      "path": "C:\\Users\\MSI\\OneDrive\\Documents\\.virtualenvs\\r-reticulate\\share\\jupyter\\kernels\\python3"
     }
   },
   "nbformat": 4,
