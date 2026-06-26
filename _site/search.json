@@ -14,6 +14,41 @@
     "text": "Ditwah Data Hub Project\nDescription: Converted unstructured PDF reports on Cyclone Ditwah into structured, analysis-ready data and developed an interactive platform to visualize and monitor its impacts in Sri Lanka.\n\nTech Stack: R, ggplot2, Data Visualization, Geospatial Analytics\nView Project\n\n\n\n\n\nForecasting Commodity Net Export Price Index (CNEPI)\nDescription: Developed an ARIMA model to forecast the Commodity Net Export Price Index, Individual Commodities Weighted by Ratio of Net Exports to GDP (CNEPI) of Sri Lanka\n\nTech Stack: R, ARIMA, Forecast Package, Time Series Analysis, Data Visualization\nView Project\n\n\n\n\n\n\n\nInteractive Demographic and Health Data Dashboard for Australia\nDescription: Developed an interactive R Shiny dashboard for exploring and visualizing demographic and health related data for Australia, enabling user-friendly analysis of key population and health indicators.\n\nTech Stack: R, shiny, shinydashboard, plotly, dplyr, tidyr, ggplot2\nView Project\n\n\n\n\n\nDS Job Tracker Survey\nDescription: Collected data science and statistics job advertisement data and transformed it into a study-ready dataset through data wrangling and preprocessing.\n\nTech Stack: R, Shiny, Excel, Data Wrangling\nView Project\n\n\n\n\n\n\n\nX̄ & R Charts Shiny App\nDescription: This Shiny app allows users to explore X̄ (mean) and R (range) control charts for quality control. It is developed for learning purposes and demonstrates Phase I and Phase II charting.\nTech Stack: R, shiny, dplyr, ggplot2, DT\nView Project"
   },
   {
+    "objectID": "post/2026-06-01-python_module.html",
+    "href": "post/2026-06-01-python_module.html",
+    "title": "Creating a User-Defined Python Module: Reusing Code the Right Way",
+    "section": "",
+    "text": "As your Python programs become larger, you will often find yourself writing the same functions repeatedly. For example, you might create functions to perform calculations, process data, or convert units. Copying these functions into every new script is not a good practice because it makes your code harder to maintain.\nA better approach is to place reusable code in a module. A user-defined module is simply a Python file (.py) that contains functions, variables, or classes created by the user. Once the module is created, it can be imported into other Python scripts, allowing you to reuse the same code without rewriting it.\nIn this post, we’ll create our own module and learn how to use it in another Python script."
+  },
+  {
+    "objectID": "post/2026-06-01-python_module.html#step-1-create-a-module",
+    "href": "post/2026-06-01-python_module.html#step-1-create-a-module",
+    "title": "Creating a User-Defined Python Module: Reusing Code the Right Way",
+    "section": "Step 1: Create a Module",
+    "text": "Step 1: Create a Module\nFirst, create a new Python file named calc.py. Save this file in a folder of your choice. Inside the file, define two simple functions named add() and subtract().\n\n# calc.py\ndef add(x, y):\n    return (x+y)\n\ndef subtract(x, y):\n    return (x-y)\n\nBy saving this file with the .py extension, you have created your own Python module."
+  },
+  {
+    "objectID": "post/2026-06-01-python_module.html#step-2-use-the-module",
+    "href": "post/2026-06-01-python_module.html#step-2-use-the-module",
+    "title": "Creating a User-Defined Python Module: Reusing Code the Right Way",
+    "section": "Step 2: Use the Module",
+    "text": "Step 2: Use the Module\nNow create another Python file in the same folder and import the module.\n\nimport calc \n\nprint(calc.add(10, 2)) \nprint(calc.subtract(10, 2))\n\n12\n8\n\n\nNotice that each function is accessed using the module name followed by a dot (.). This tells Python that the functions add() and subtract() are defined inside the calc module."
+  },
+  {
+    "objectID": "post/2026-06-01-python_module.html#importing-specific-functions",
+    "href": "post/2026-06-01-python_module.html#importing-specific-functions",
+    "title": "Creating a User-Defined Python Module: Reusing Code the Right Way",
+    "section": "Importing Specific Functions",
+    "text": "Importing Specific Functions\nSometimes you only need one or two functions from a module. Instead of importing the entire module, you can import only the functions you need.\n\nfrom calc import add \n\nprint(add(5, 3))\n\n8\n\n\nYou can also import multiple functions at once.\n\nfrom calc import add, subtract \n\nprint(add(7, 4)) \nprint(subtract(7, 4))\n\n11\n3\n\n\nSince the functions are imported directly, there is no need to use the calc. prefix."
+  },
+  {
+    "objectID": "post/2026-06-01-python_module.html#why-use-user-defined-modules",
+    "href": "post/2026-06-01-python_module.html#why-use-user-defined-modules",
+    "title": "Creating a User-Defined Python Module: Reusing Code the Right Way",
+    "section": "Why Use User-Defined Modules?",
+    "text": "Why Use User-Defined Modules?\nUsing your own modules has several advantages:\n\nAvoid writing the same code multiple times.\nKeep related functions together in one file.\nMake programs easier to read and organize.\nReuse functions in multiple Python scripts stored in the same project.\n\n\nFinal Thoughts\nA user-defined module is simply a Python file that contains reusable code. Instead of copying the same functions into every script, you can write them once, save them in a module, and import them whenever they are needed. This approach helps you write cleaner, more organized, and easier-to-maintain programs.\nAlthough this example contains only two simple functions, the same idea applies to much larger programs. Organizing your code into modules is a fundamental programming practice that will become increasingly valuable as your projects grow in size and complexity."
+  },
+  {
     "objectID": "Experience.html",
     "href": "Experience.html",
     "title": "Experience",
@@ -32,7 +67,7 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "I am a fourth-year Statistics undergraduate in the Department of Statistics, University of Sri Jayewardenepura, with a strong background in Mathematics and Economics. I completed my primary and secondary education at Maliyadeva Balika Vidyalaya. Currently, I am conducting my final-year undergraduate research under the supervision of Prof. Sarath Banneheka.\nI am passionate about data analysis, statistical modeling, and programming in R.\nMy interests include Advanced statistical Inference, Probability and Distribution Theory, Statistical Quality Control, Time Series Analysis, Data Visualization, and real-world problem solving using data.\nI enjoy transforming raw data into meaningful insights that support decision-making. By combining knowledge from Statistics, Mathematics, and Economics, I aim to develop data-driven solutions to complex problems and contribute to informed decision-making across various domains.\n\n\n\n  Download CV"
+    "text": "I am a fourth-year Statistics undergraduate in the Department of Statistics, University of Sri Jayewardenepura, with a strong background in Mathematics and Economics. I completed my primary and secondary education at Maliyadeva Balika Vidyalaya. Currently, I am conducting my final-year undergraduate research under the supervision of Prof. Sarath Banneheka and I am seeking internship opportunities in data analysis, statistics, or research-oriented roles.\nI am passionate about data analysis, statistical modeling, and programming in R.\nMy interests include Advanced Statistical Inference, Probability and Distribution Theory, Regression Analysis, Statistical Quality Control, Time Series Analysis, Data Visualization, and real-world problem solving using data.\nI enjoy transforming raw data into meaningful insights that support decision-making. By combining knowledge from Statistics, Mathematics, and Economics, I aim to develop data-driven solutions to complex problems and contribute to informed decision-making across various domains.\n\n\n\n  Download CV"
   },
   {
     "objectID": "about.html#education",
@@ -131,40 +166,5 @@
     "title": "Software",
     "section": "",
     "text": "ditwahLandslide: Early Warning Information on Landslides in Sri Lanka During the Ditwah Storm"
-  },
-  {
-    "objectID": "post/2026-06-01-python_module.html",
-    "href": "post/2026-06-01-python_module.html",
-    "title": "Creating a User-Defined Python Module: Reusing Code the Right Way",
-    "section": "",
-    "text": "As your Python programs become larger, you will often find yourself writing the same functions repeatedly. For example, you might create functions to perform calculations, process data, or convert units. Copying these functions into every new script is not a good practice because it makes your code harder to maintain.\nA better approach is to place reusable code in a module. A user-defined module is simply a Python file (.py) that contains functions, variables, or classes created by the user. Once the module is created, it can be imported into other Python scripts, allowing you to reuse the same code without rewriting it.\nIn this post, we’ll create our own module and learn how to use it in another Python script."
-  },
-  {
-    "objectID": "post/2026-06-01-python_module.html#step-1-create-a-module",
-    "href": "post/2026-06-01-python_module.html#step-1-create-a-module",
-    "title": "Creating a User-Defined Python Module: Reusing Code the Right Way",
-    "section": "Step 1: Create a Module",
-    "text": "Step 1: Create a Module\nFirst, create a new Python file named calc.py. Save this file in a folder of your choice. Inside the file, define two simple functions named add() and subtract().\n\n# calc.py\ndef add(x, y):\n    return (x+y)\n\ndef subtract(x, y):\n    return (x-y)\n\nBy saving this file with the .py extension, you have created your own Python module."
-  },
-  {
-    "objectID": "post/2026-06-01-python_module.html#step-2-use-the-module",
-    "href": "post/2026-06-01-python_module.html#step-2-use-the-module",
-    "title": "Creating a User-Defined Python Module: Reusing Code the Right Way",
-    "section": "Step 2: Use the Module",
-    "text": "Step 2: Use the Module\nNow create another Python file in the same folder and import the module.\n\nimport calc \n\nprint(calc.add(10, 2)) \nprint(calc.subtract(10, 2))\n\n12\n8\n\n\nNotice that each function is accessed using the module name followed by a dot (.). This tells Python that the functions add() and subtract() are defined inside the calc module."
-  },
-  {
-    "objectID": "post/2026-06-01-python_module.html#importing-specific-functions",
-    "href": "post/2026-06-01-python_module.html#importing-specific-functions",
-    "title": "Creating a User-Defined Python Module: Reusing Code the Right Way",
-    "section": "Importing Specific Functions",
-    "text": "Importing Specific Functions\nSometimes you only need one or two functions from a module. Instead of importing the entire module, you can import only the functions you need.\n\nfrom calc import add \n\nprint(add(5, 3))\n\n8\n\n\nYou can also import multiple functions at once.\n\nfrom calc import add, subtract \n\nprint(add(7, 4)) \nprint(subtract(7, 4))\n\n11\n3\n\n\nSince the functions are imported directly, there is no need to use the calc. prefix."
-  },
-  {
-    "objectID": "post/2026-06-01-python_module.html#why-use-user-defined-modules",
-    "href": "post/2026-06-01-python_module.html#why-use-user-defined-modules",
-    "title": "Creating a User-Defined Python Module: Reusing Code the Right Way",
-    "section": "Why Use User-Defined Modules?",
-    "text": "Why Use User-Defined Modules?\nUsing your own modules has several advantages:\n\nAvoid writing the same code multiple times.\nKeep related functions together in one file.\nMake programs easier to read and organize.\nReuse functions in multiple Python scripts stored in the same project.\n\n\nFinal Thoughts\nA user-defined module is simply a Python file that contains reusable code. Instead of copying the same functions into every script, you can write them once, save them in a module, and import them whenever they are needed. This approach helps you write cleaner, more organized, and easier-to-maintain programs.\nAlthough this example contains only two simple functions, the same idea applies to much larger programs. Organizing your code into modules is a fundamental programming practice that will become increasingly valuable as your projects grow in size and complexity."
   }
 ]

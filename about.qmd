@@ -4,10 +4,10 @@ title: "About"
 
 ::::: about-container
 ::: about-text
-I am a fourth-year Statistics undergraduate in the [Department of Statistics, University of Sri Jayewardenepura](https://science.sjp.ac.lk/sta/), with a strong background in Mathematics and Economics. I completed my primary and secondary education at [Maliyadeva Balika Vidyalaya](http://maliyadevabalika.lk/). Currently, I am conducting my final-year undergraduate research under the supervision of [Prof. Sarath Banneheka](https://www.linkedin.com/in/sarath-banneheka-6403a660/).
+I am a fourth-year Statistics undergraduate in the [Department of Statistics, University of Sri Jayewardenepura](https://science.sjp.ac.lk/sta/), with a strong background in Mathematics and Economics. I completed my primary and secondary education at [Maliyadeva Balika Vidyalaya](http://maliyadevabalika.lk/). Currently, I am conducting my final-year undergraduate research under the supervision of [Prof. Sarath Banneheka](https://www.linkedin.com/in/sarath-banneheka-6403a660/) and I am seeking internship opportunities in data analysis, statistics, or research-oriented roles.
 
 I am passionate about **data analysis, statistical modeling, and programming in R**.\
-My interests include Advanced statistical Inference, Probability and Distribution Theory, Statistical Quality Control, Time Series Analysis, Data Visualization, and real-world problem solving using data.
+My interests include Advanced Statistical Inference, Probability and Distribution Theory, Regression Analysis, Statistical Quality Control, Time Series Analysis, Data Visualization, and real-world problem solving using data.
 
 I enjoy transforming raw data into meaningful insights that support decision-making. By combining knowledge from Statistics, Mathematics, and Economics, I aim to develop data-driven solutions to complex problems and contribute to informed decision-making across various domains.
 :::
