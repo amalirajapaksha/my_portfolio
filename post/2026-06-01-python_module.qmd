@@ -1,6 +1,84 @@
 ---
-title: "Creating a User-Defined Python Module: Reusing Code the Right Way"
+title: "**Creating a User-Defined Python Module: Reusing Code the Right Way**"
 date: 2026-06-01
 categories: [Python]
 image: ../images/post1.png
+description: "<span style='font-size:14px'>A beginner-friendly guide to creating your own Python module and reusing code efficiently in real projects.</span>"
 ---
+
+As your Python programs become larger, you will often find yourself writing the same functions repeatedly. For example, you might create functions to perform calculations, process data, or convert units. Copying these functions into every new script is not a good practice because it makes your code harder to maintain.
+
+A better approach is to place reusable code in a **module**. A **user-defined module** is simply a Python file (`.py`) that contains functions, variables, or classes created by the user. Once the module is created, it can be imported into other Python scripts, allowing you to reuse the same code without rewriting it.
+
+In this post, we'll create our own module and learn how to use it in another Python script.
+
+## Step 1: Create a Module
+
+First, create a new Python file named `calc.py`. Save this file in a folder of your choice. Inside the file, define two simple functions named add() and subtract().
+
+```{python}
+
+# calc.py
+def add(x, y):
+    return (x+y)
+
+def subtract(x, y):
+    return (x-y)
+```
+
+By saving this file with the `.py` extension, you have created your own Python module.
+
+## Step 2: Use the Module
+
+Now create another Python file in the same folder and import the module.
+
+```{python}
+
+import calc 
+
+print(calc.add(10, 2)) 
+print(calc.subtract(10, 2))
+```
+
+Notice that each function is accessed using the module name followed by a dot (`.`). This tells Python that the functions `add()` and `subtract()` are defined inside the `calc` module.
+
+## Importing Specific Functions
+
+Sometimes you only need one or two functions from a module. Instead of importing the entire module, you can import only the functions you need.
+
+```{python}
+
+from calc import add 
+
+print(add(5, 3))
+```
+
+You can also import multiple functions at once.
+
+```{python}
+
+from calc import add, subtract 
+
+print(add(7, 4)) 
+print(subtract(7, 4))
+```
+
+Since the functions are imported directly, there is no need to use the `calc.` prefix.
+
+## Why Use User-Defined Modules?
+
+Using your own modules has several advantages:
+
+-   Avoid writing the same code multiple times.
+
+-   Keep related functions together in one file.
+
+-   Make programs easier to read and organize.
+
+-   Reuse functions in multiple Python scripts stored in the same project.
+
+### Final Thoughts
+
+A user-defined module is simply a Python file that contains reusable code. Instead of copying the same functions into every script, you can write them once, save them in a module, and import them whenever they are needed. This approach helps you write cleaner, more organized, and easier-to-maintain programs.
+
+Although this example contains only two simple functions, the same idea applies to much larger programs. Organizing your code into modules is a fundamental programming practice that will become increasingly valuable as your projects grow in size and complexity.

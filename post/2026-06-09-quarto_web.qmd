@@ -1,6 +1,7 @@
 ---
-title: "Building Your First Website with Quarto: A Step-by-Step Guide"
+title: "**Building Your First Website with Quarto: A Step-by-Step Guide**"
 date: 2026-06-09
-categories: [R, Rstudio, Quarto]
+categories: [R, Rstudio, Quarto, GitHub]
 image: ../images/post2.png
+description: "<span style='font-size:14px'>A step-by-step guide to building your first website using Quarto, covering setup, structure, and deployment on GitHub Pages.</span>"
 ---

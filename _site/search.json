@@ -25,7 +25,7 @@
     "href": "Blog.html",
     "title": "Blog",
     "section": "",
-    "text": "Building Your First Website with Quarto: A Step-by-Step Guide\n\n\n\n\n\n\n\n\n\nJun 9, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nCreating a User-Defined Python Module: Reusing Code the Right Way\n\n\n\n\n\n\n\n\n\nJun 1, 2026\n\n\n\n\n\n\nNo matching items"
+    "text": "Building Your First Website with Quarto: A Step-by-Step Guide\n\n\nA step-by-step guide to building your first website using Quarto, covering setup, structure, and deployment on GitHub Pages.\n\n\n\n\n\n\nJun 9, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nCreating a User-Defined Python Module: Reusing Code the Right Way\n\n\nA beginner-friendly guide to creating your own Python module and reusing code efficiently in real projects.\n\n\n\n\n\n\nJun 1, 2026\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -131,5 +131,40 @@
     "title": "Software",
     "section": "",
     "text": "ditwahLandslide: Early Warning Information on Landslides in Sri Lanka During the Ditwah Storm"
+  },
+  {
+    "objectID": "post/2026-06-01-python_module.html",
+    "href": "post/2026-06-01-python_module.html",
+    "title": "Creating a User-Defined Python Module: Reusing Code the Right Way",
+    "section": "",
+    "text": "As your Python programs become larger, you will often find yourself writing the same functions repeatedly. For example, you might create functions to perform calculations, process data, or convert units. Copying these functions into every new script is not a good practice because it makes your code harder to maintain.\nA better approach is to place reusable code in a module. A user-defined module is simply a Python file (.py) that contains functions, variables, or classes created by the user. Once the module is created, it can be imported into other Python scripts, allowing you to reuse the same code without rewriting it.\nIn this post, we’ll create our own module and learn how to use it in another Python script."
+  },
+  {
+    "objectID": "post/2026-06-01-python_module.html#step-1-create-a-module",
+    "href": "post/2026-06-01-python_module.html#step-1-create-a-module",
+    "title": "Creating a User-Defined Python Module: Reusing Code the Right Way",
+    "section": "Step 1: Create a Module",
+    "text": "Step 1: Create a Module\nFirst, create a new Python file named calc.py. Save this file in a folder of your choice. Inside the file, define two simple functions named add() and subtract().\n\n# calc.py\ndef add(x, y):\n    return (x+y)\n\ndef subtract(x, y):\n    return (x-y)\n\nBy saving this file with the .py extension, you have created your own Python module."
+  },
+  {
+    "objectID": "post/2026-06-01-python_module.html#step-2-use-the-module",
+    "href": "post/2026-06-01-python_module.html#step-2-use-the-module",
+    "title": "Creating a User-Defined Python Module: Reusing Code the Right Way",
+    "section": "Step 2: Use the Module",
+    "text": "Step 2: Use the Module\nNow create another Python file in the same folder and import the module.\n\nimport calc \n\nprint(calc.add(10, 2)) \nprint(calc.subtract(10, 2))\n\n12\n8\n\n\nNotice that each function is accessed using the module name followed by a dot (.). This tells Python that the functions add() and subtract() are defined inside the calc module."
+  },
+  {
+    "objectID": "post/2026-06-01-python_module.html#importing-specific-functions",
+    "href": "post/2026-06-01-python_module.html#importing-specific-functions",
+    "title": "Creating a User-Defined Python Module: Reusing Code the Right Way",
+    "section": "Importing Specific Functions",
+    "text": "Importing Specific Functions\nSometimes you only need one or two functions from a module. Instead of importing the entire module, you can import only the functions you need.\n\nfrom calc import add \n\nprint(add(5, 3))\n\n8\n\n\nYou can also import multiple functions at once.\n\nfrom calc import add, subtract \n\nprint(add(7, 4)) \nprint(subtract(7, 4))\n\n11\n3\n\n\nSince the functions are imported directly, there is no need to use the calc. prefix."
+  },
+  {
+    "objectID": "post/2026-06-01-python_module.html#why-use-user-defined-modules",
+    "href": "post/2026-06-01-python_module.html#why-use-user-defined-modules",
+    "title": "Creating a User-Defined Python Module: Reusing Code the Right Way",
+    "section": "Why Use User-Defined Modules?",
+    "text": "Why Use User-Defined Modules?\nUsing your own modules has several advantages:\n\nAvoid writing the same code multiple times.\nKeep related functions together in one file.\nMake programs easier to read and organize.\nReuse functions in multiple Python scripts stored in the same project.\n\n\nFinal Thoughts\nA user-defined module is simply a Python file that contains reusable code. Instead of copying the same functions into every script, you can write them once, save them in a module, and import them whenever they are needed. This approach helps you write cleaner, more organized, and easier-to-maintain programs.\nAlthough this example contains only two simple functions, the same idea applies to much larger programs. Organizing your code into modules is a fundamental programming practice that will become increasingly valuable as your projects grow in size and complexity."
   }
 ]
