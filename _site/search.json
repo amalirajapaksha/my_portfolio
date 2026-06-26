@@ -112,6 +112,27 @@
     "text": "Y.M. Amali P. Rajapaksha\n\nBSc (Hons) Statistics - Undergraduate\nDepartment of Statistics\nFaculty of Applied Sciences\nUniversity of Sri Jayewardenepura\nData Analyst | R Programmer\nView My Work\nRead Cover Story"
   },
   {
+    "objectID": "post/2026-06-09-quarto_web.html",
+    "href": "post/2026-06-09-quarto_web.html",
+    "title": "Building Your First Website with Quarto: A Step-by-Step Guide",
+    "section": "",
+    "text": "In this blog post, we explore the complete workflow of building a structured website using Quarto, based on a real project: the R Learning Website."
+  },
+  {
+    "objectID": "post/2026-06-09-quarto_web.html#overview-of-the-workflow",
+    "href": "post/2026-06-09-quarto_web.html#overview-of-the-workflow",
+    "title": "Building Your First Website with Quarto: A Step-by-Step Guide",
+    "section": "Overview of the Workflow",
+    "text": "Overview of the Workflow\nBuilding a Quarto website involves four main steps:\n\nCreating a Quarto project\nStructuring content into .qmd files\nConfiguring the website using _quarto.yml\nRendering and publishing the website\n\nWe will explain each step using the R Learning Website as an example."
+  },
+  {
+    "objectID": "post/2026-06-09-quarto_web.html#step-1-creating-the-quarto-website-project",
+    "href": "post/2026-06-09-quarto_web.html#step-1-creating-the-quarto-website-project",
+    "title": "Building Your First Website with Quarto: A Step-by-Step Guide",
+    "section": "Step 1: Creating the Quarto Website Project",
+    "text": "Step 1: Creating the Quarto Website Project\nThe project is initialized using RStudio:\nFile → New Project → New Directory → Quarto Website\nThis automatically generates the basic structure:\nR-Learning-Website/\n│── index.qmd\n│── about.qmd\n│── _quarto.yml\n│── styles.css\nIn your case, additional learning modules were added as .qmd files:\nIntroduction to R and RStudio.qmd\nData Types and Data Structures.qmd \nData Import and Export.qmd\nReshaping Data with tidyr.qmd\nData Manipulation with dplyr.qmd\nData Visualization with ggplot2.qmd\nStatistical Modeling in R.qmd\nReproduciable Reporting with Quarto.qmd\n..."
+  },
+  {
     "objectID": "projects/project2.html",
     "href": "projects/project2.html",
     "title": "Forecasting Commodity Net Export Price Index (CNEPI)",
@@ -166,26 +187,5 @@
     "title": "Software",
     "section": "",
     "text": "ditwahLandslide: Early Warning Information on Landslides in Sri Lanka During the Ditwah Storm"
-  },
-  {
-    "objectID": "post/2026-06-09-quarto_web.html",
-    "href": "post/2026-06-09-quarto_web.html",
-    "title": "Building Your First Website with Quarto: A Step-by-Step Guide",
-    "section": "",
-    "text": "In this blog post, we explore the complete workflow of building a structured website using Quarto, based on a real project: the R Learning Website."
-  },
-  {
-    "objectID": "post/2026-06-09-quarto_web.html#overview-of-the-workflow",
-    "href": "post/2026-06-09-quarto_web.html#overview-of-the-workflow",
-    "title": "Building Your First Website with Quarto: A Step-by-Step Guide",
-    "section": "Overview of the Workflow",
-    "text": "Overview of the Workflow\nBuilding a Quarto website involves four main steps:\n\nCreating a Quarto project\nStructuring content into .qmd files\nConfiguring the website using _quarto.yml\nRendering and publishing the website\n\nWe will explain each step using the R Learning Website as an example."
-  },
-  {
-    "objectID": "post/2026-06-09-quarto_web.html#step-1-creating-the-quarto-website-project",
-    "href": "post/2026-06-09-quarto_web.html#step-1-creating-the-quarto-website-project",
-    "title": "Building Your First Website with Quarto: A Step-by-Step Guide",
-    "section": "Step 1: Creating the Quarto Website Project",
-    "text": "Step 1: Creating the Quarto Website Project\nThe project is initialized using RStudio:\nFile → New Project → New Directory → Quarto Website\nThis automatically generates the basic structure:\nR-Learning-Website/\n│── index.qmd\n│── about.qmd\n│── _quarto.yml\n│── styles.css\nIn your case, additional learning modules were added as .qmd files:\nIntroduction to R and RStudio.qmd\nData Types and Data Structures.qmd \nData Import and Export.qmd\nReshaping Data with tidyr.qmd\nData Manipulation with dplyr.qmd\nData Visualization with ggplot2.qmd\nStatistical Modeling in R.qmd\nReproduciable Reporting with Quarto.qmd\n..."
   }
 ]
