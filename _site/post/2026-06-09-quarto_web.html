@@ -25,6 +25,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -159,6 +194,11 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#overview-of-the-workflow" id="toc-overview-of-the-workflow" class="nav-link active" data-scroll-target="#overview-of-the-workflow">Overview of the Workflow</a></li>
   <li><a href="#step-1-creating-the-quarto-website-project" id="toc-step-1-creating-the-quarto-website-project" class="nav-link" data-scroll-target="#step-1-creating-the-quarto-website-project">Step 1: Creating the Quarto Website Project</a></li>
+  <li><a href="#step-2-adding-content-pages" id="toc-step-2-adding-content-pages" class="nav-link" data-scroll-target="#step-2-adding-content-pages">Step 2: Adding Content Pages</a></li>
+  <li><a href="#step-3-organizing-content-into-modules" id="toc-step-3-organizing-content-into-modules" class="nav-link" data-scroll-target="#step-3-organizing-content-into-modules">Step 3: Organizing Content into Modules</a></li>
+  <li><a href="#step-4-configuring-the-website-_quarto.yml" id="toc-step-4-configuring-the-website-_quarto.yml" class="nav-link" data-scroll-target="#step-4-configuring-the-website-_quarto.yml">Step 4: Configuring the Website (<code>_quarto.yml</code>)</a></li>
+  <li><a href="#step-5-previewing-the-website" id="toc-step-5-previewing-the-website" class="nav-link" data-scroll-target="#step-5-previewing-the-website">Step 5: Previewing the Website</a></li>
+  <li><a href="#step-6-rendering-the-website" id="toc-step-6-rendering-the-website" class="nav-link" data-scroll-target="#step-6-rendering-the-website">Step 6: Rendering the Website</a></li>
   </ul>
 </nav>
     </div>
@@ -204,7 +244,8 @@ ul.task-list li input[type="checkbox"] {
 <p>In this blog post, we explore the complete workflow of building a structured website using <strong>Quarto</strong>, based on a real project: the <em>R Learning Website</em>.</p>
 <section id="overview-of-the-workflow" class="level2">
 <h2 class="anchored" data-anchor-id="overview-of-the-workflow">Overview of the Workflow</h2>
-<p>Building a Quarto website involves four main steps:</p>
+<p><br>
+Building a Quarto website involves four main steps:</p>
 <ol type="1">
 <li><p>Creating a Quarto project</p></li>
 <li><p>Structuring content into <code>.qmd</code> files</p></li>
@@ -215,7 +256,8 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="step-1-creating-the-quarto-website-project" class="level2">
 <h2 class="anchored" data-anchor-id="step-1-creating-the-quarto-website-project">Step 1: Creating the Quarto Website Project</h2>
-<p>The project is initialized using RStudio:</p>
+<p><br>
+The project is initialized using RStudio:</p>
 <p><strong>File → New Project → New Directory → Quarto Website</strong></p>
 <p>This automatically generates the basic structure:</p>
 <pre class="text" style="color: #234460"><code>R-Learning-Website/
@@ -223,7 +265,7 @@ ul.task-list li input[type="checkbox"] {
 │── about.qmd
 │── _quarto.yml
 │── styles.css</code></pre>
-<p>In your case, additional learning modules were added as <code>.qmd</code> files:</p>
+<p>In your case, additional learning modules can be added as individual .qmd files:</p>
 <pre class="trxt" style="color: #234460"><code>Introduction to R and RStudio.qmd
 Data Types and Data Structures.qmd 
 Data Import and Export.qmd
@@ -233,6 +275,147 @@ Data Visualization with ggplot2.qmd
 Statistical Modeling in R.qmd
 Reproduciable Reporting with Quarto.qmd
 ...</code></pre>
+</section>
+<section id="step-2-adding-content-pages" class="level2">
+<h2 class="anchored" data-anchor-id="step-2-adding-content-pages">Step 2: Adding Content Pages</h2>
+<p><br>
+The homepage (<code>index.qmd</code>) introduces the website:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "R Learning Website"</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="fu">## Welcome 👋</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>This website is a structured learning resource for **R programming and statistics**.</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>It includes step-by-step modules covering: - Data manipulation - Visualization - Statistical modeling - Reproducible reporting using Quarto</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>The about.qmd file typically contains author or project details.</p>
+</section>
+<section id="step-3-organizing-content-into-modules" class="level2">
+<h2 class="anchored" data-anchor-id="step-3-organizing-content-into-modules">Step 3: Organizing Content into Modules</h2>
+<p><br>
+Each <code>.qmd</code> file represents a <strong>learning unit</strong> in your website.</p>
+<p>For example, a module like <code>Data Manipulation with dplyr.qmd</code> contains:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Introduction to R and RStudio"</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="fu">## Introduction</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>R is a powerful programming language designed for statistical computing, data analysis, and data visualization. RStudio is an integrated development environment (IDE) that provides a user-friendly interface for writing, running, and managing R code.</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a><span class="fu">## Topics Covered</span></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>What is R?</span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>What is RStudio?</span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Installing R and RStudio</span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Understanding the RStudio interface</span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Running your first R commands</span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a><span class="fu">## Example</span></span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a><span class="in">```r</span></span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a><span class="co"># Assign values to variables</span></span>
+<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a>x <span class="ot">&lt;-</span> <span class="dv">10</span></span>
+<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a>y <span class="ot">&lt;-</span> <span class="dv">20</span></span>
+<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a><span class="co"># Perform a simple calculation</span></span>
+<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a>sum <span class="ot">&lt;-</span> x <span class="sc">+</span> y</span>
+<span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a><span class="co"># Display the result</span></span>
+<span id="cb4-28"><a href="#cb4-28" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(sum)</span>
+<span id="cb4-29"><a href="#cb4-29" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="step-4-configuring-the-website-_quarto.yml" class="level2">
+<h2 class="anchored" data-anchor-id="step-4-configuring-the-website-_quarto.yml">Step 4: Configuring the Website (<code>_quarto.yml</code>)</h2>
+<p><br>
+The <code>_quarto.yml</code> file controls navigation and layout.</p>
+<p>In your R Learning Website, the structure is defined like this:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>project:</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>  type: website</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>  output-dir: docs</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>website:</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>  title: "R Learning Website"</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>  navbar:</span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>    left:</span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a><span class="ss">      - </span>href: index.qmd</span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>        text: Home</span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a><span class="ss">      - </span>href: about.qmd</span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>        text: About</span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a><span class="ss">      - </span>text: Learning Modules</span>
+<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a>        menu:</span>
+<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a><span class="ss">          - </span>href: "Intrduction to R and RStudio.qmd"</span>
+<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a>            text: Introduction to R and RStudio</span>
+<span id="cb5-21"><a href="#cb5-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-22"><a href="#cb5-22" aria-hidden="true" tabindex="-1"></a><span class="ss">          - </span>href: "Data Types and Data Structures.qmd"</span>
+<span id="cb5-23"><a href="#cb5-23" aria-hidden="true" tabindex="-1"></a>            text: Data Types and Data Structures</span>
+<span id="cb5-24"><a href="#cb5-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-25"><a href="#cb5-25" aria-hidden="true" tabindex="-1"></a><span class="ss">          - </span>href: "Data Import and Export.qmd"</span>
+<span id="cb5-26"><a href="#cb5-26" aria-hidden="true" tabindex="-1"></a>            text: Data Import and Export</span>
+<span id="cb5-27"><a href="#cb5-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-28"><a href="#cb5-28" aria-hidden="true" tabindex="-1"></a><span class="ss">          - </span>href: "Reshaping Data with tidyr.qmd"</span>
+<span id="cb5-29"><a href="#cb5-29" aria-hidden="true" tabindex="-1"></a>            text: Reshaping Data with tidyr</span>
+<span id="cb5-30"><a href="#cb5-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-31"><a href="#cb5-31" aria-hidden="true" tabindex="-1"></a><span class="ss">          - </span>href: "Data Manipulation with dplyr.qmd"</span>
+<span id="cb5-32"><a href="#cb5-32" aria-hidden="true" tabindex="-1"></a>            text: Data Manipulation with dplyr</span>
+<span id="cb5-33"><a href="#cb5-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-34"><a href="#cb5-34" aria-hidden="true" tabindex="-1"></a><span class="ss">          - </span>href: "Data Visualization with ggplot2.qmd"</span>
+<span id="cb5-35"><a href="#cb5-35" aria-hidden="true" tabindex="-1"></a>            text: Data Visualization with ggplot2</span>
+<span id="cb5-36"><a href="#cb5-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-37"><a href="#cb5-37" aria-hidden="true" tabindex="-1"></a><span class="ss">          - </span>href: "Statistical Modeling in R.qmd"</span>
+<span id="cb5-38"><a href="#cb5-38" aria-hidden="true" tabindex="-1"></a>            text: Statistical Modeling in R</span>
+<span id="cb5-39"><a href="#cb5-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-40"><a href="#cb5-40" aria-hidden="true" tabindex="-1"></a><span class="ss">          - </span>href: "Reproducible Reporting with Quarto.qmd"</span>
+<span id="cb5-41"><a href="#cb5-41" aria-hidden="true" tabindex="-1"></a>            text: Reproducible Reporting with Quarto</span>
+<span id="cb5-42"><a href="#cb5-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-43"><a href="#cb5-43" aria-hidden="true" tabindex="-1"></a>format:</span>
+<span id="cb5-44"><a href="#cb5-44" aria-hidden="true" tabindex="-1"></a>  html:</span>
+<span id="cb5-45"><a href="#cb5-45" aria-hidden="true" tabindex="-1"></a>    theme: cosmo</span>
+<span id="cb5-46"><a href="#cb5-46" aria-hidden="true" tabindex="-1"></a>    css: styles.css</span>
+<span id="cb5-47"><a href="#cb5-47" aria-hidden="true" tabindex="-1"></a>    toc: true</span>
+<span id="cb5-48"><a href="#cb5-48" aria-hidden="true" tabindex="-1"></a>    </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Here,</p>
+<ul>
+<li><code>project:</code> defines the project type and specifies that the rendered website should be placed in the <code>docs</code> directory.</li>
+</ul>
+<!-- -->
+<ul>
+<li><code>website:</code> contains the website title and navigation bar.</li>
+</ul>
+<!-- -->
+<ul>
+<li><code>navbar:</code> creates the menu that links to each learning module.</li>
+</ul>
+<!-- -->
+<ul>
+<li><code>format:</code> controls the appearance of the website, including the theme, custom CSS, and table of contents.</li>
+</ul>
+<p>In this example, the website output is directed to the <code>docs</code> folder using <code>output-dir: docs</code>. This is recommended because it simplifies deployment with GitHub Pages, allowing the rendered website to be published directly from the <code>docs</code> directory.</p>
+<p><strong>Important:</strong> YAML is <strong>indentation-sensitive</strong>, meaning that the hierarchy of the configuration is determined by spaces rather than braces or parentheses. Therefore, it is essential to maintain consistent indentation throughout the <code>_ quarto.yml</code> file. Incorrect indentation may result in configuration errors or prevent the website from rendering successfully.</p>
+</section>
+<section id="step-5-previewing-the-website" class="level2">
+<h2 class="anchored" data-anchor-id="step-5-previewing-the-website">Step 5: Previewing the Website</h2>
+<p><br>
+While developing, you can preview the website using:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>quarto preview</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>This opens a live local server where changes are updated automatically.</p>
+</section>
+<section id="step-6-rendering-the-website" class="level2">
+<h2 class="anchored" data-anchor-id="step-6-rendering-the-website">Step 6: Rendering the Website</h2>
+<p><br>
+To generate the final static website:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>quarto render</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>This creates the output in the docs/ folder:</p>
+<pre class="text" style="color: #234460"><code>docs/
+│── index.html
+│── about.html
+│── Introduction to R and RStudio.html
+│── ...</code></pre>
 
 
 </section>
