@@ -10,6 +10,7 @@ In this blog post, we explore the complete workflow of building a structured web
 
 ## Overview of the Workflow
 
+\
 Building a Quarto website involves four main steps:
 
 1.  Creating a Quarto project
@@ -24,6 +25,7 @@ We will explain each step using the R Learning Website as an example.
 
 ## Step 1: Creating the Quarto Website Project
 
+\
 The project is initialized using RStudio:
 
 **File → New Project → New Directory → Quarto Website**
@@ -38,7 +40,7 @@ R-Learning-Website/
 │── styles.css
 ```
 
-In your case, additional learning modules were added as `.qmd` files:
+In your case, additional learning modules can be added as individual .qmd files:
 
 ``` {.trxt style="color: #234460"}
 Introduction to R and RStudio.qmd
@@ -50,4 +52,165 @@ Data Visualization with ggplot2.qmd
 Statistical Modeling in R.qmd
 Reproduciable Reporting with Quarto.qmd
 ...
+```
+
+## Step 2: Adding Content Pages
+
+\
+The homepage (`index.qmd`) introduces the website:
+
+``` markdown
+---
+title: "R Learning Website"
+---
+
+## Welcome 👋
+
+This website is a structured learning resource for **R programming and statistics**.
+
+It includes step-by-step modules covering: - Data manipulation - Visualization - Statistical modeling - Reproducible reporting using Quarto
+```
+
+The about.qmd file typically contains author or project details.
+
+## Step 3: Organizing Content into Modules
+
+\
+Each `.qmd` file represents a **learning unit** in your website.
+
+For example, a module like `Introduction to R and RStudio.qmd` contains:
+
+```` markdown
+---
+title: "Introduction to R and RStudio"
+---
+
+## Introduction
+
+R is a powerful programming language designed for statistical computing, data analysis, and data visualization. RStudio is an integrated development environment (IDE) that provides a user-friendly interface for writing, running, and managing R code.
+
+## Topics Covered
+
+- What is R?
+- What is RStudio?
+- Installing R and RStudio
+- Understanding the RStudio interface
+- Running your first R commands
+
+## Example
+
+```r
+# Assign values to variables
+x <- 10
+y <- 20
+
+# Perform a simple calculation
+sum <- x + y
+
+# Display the result
+print(sum)
+```
+````
+
+## Step 4: Configuring the Website (`_quarto.yml`)
+
+\
+The `_quarto.yml` file controls navigation and layout.
+
+In your R Learning Website, the structure is defined like this:
+
+``` markdown
+
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "R Learning Website"
+
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+
+      - href: about.qmd
+        text: About
+
+      - text: Learning Modules
+        menu:
+          - href: "Intrduction to R and RStudio.qmd"
+            text: Introduction to R and RStudio
+
+          - href: "Data Types and Data Structures.qmd"
+            text: Data Types and Data Structures
+
+          - href: "Data Import and Export.qmd"
+            text: Data Import and Export
+
+          - href: "Reshaping Data with tidyr.qmd"
+            text: Reshaping Data with tidyr
+
+          - href: "Data Manipulation with dplyr.qmd"
+            text: Data Manipulation with dplyr
+
+          - href: "Data Visualization with ggplot2.qmd"
+            text: Data Visualization with ggplot2
+
+          - href: "Statistical Modeling in R.qmd"
+            text: Statistical Modeling in R
+
+          - href: "Reproducible Reporting with Quarto.qmd"
+            text: Reproducible Reporting with Quarto
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    
+```
+
+Here,
+
+-   `project:` defines the project type and specifies that the rendered website should be placed in the `docs` directory.
+
+<!-- -->
+
+-    `website:` contains the website title and navigation bar.
+
+<!-- -->
+
+-    `navbar:` creates the menu that links to each learning module.
+
+<!-- -->
+
+-    `format:` controls the appearance of the website, including the theme, custom CSS, and table of contents.
+
+In this example, the website output is directed to the `docs` folder using `output-dir: docs`. This is recommended because it simplifies deployment with GitHub Pages, allowing the rendered website to be published directly from the `docs` directory.
+
+**Important:** YAML is **indentation-sensitive**, meaning that the hierarchy of the configuration is determined by spaces rather than braces or parentheses. Therefore, it is essential to maintain consistent indentation throughout the `_ quarto.yml` file. Incorrect indentation may result in configuration errors or prevent the website from rendering successfully.
+
+## Step 5: Previewing the Website
+\
+While developing, you can preview the website using:
+
+``` markdown
+quarto preview
+``` 
+This opens a live local server where changes are updated automatically.
+
+## Step 6: Rendering the Website
+\
+To generate the final static website:
+``` markdown
+quarto render
+```
+This creates the output in the docs/ folder:
+
+``` {.text style="color: #234460"}
+docs/
+│── index.html
+│── about.html
+│── Introduction to R and RStudio.html
+│── ...
 ```
