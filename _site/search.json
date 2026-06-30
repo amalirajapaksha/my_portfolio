@@ -133,6 +133,48 @@
     "text": "Step 1: Creating the Quarto Website Project\n\nThe project is initialized using RStudio:\nFile → New Project → New Directory → Quarto Website\nThis automatically generates the basic structure:\nR-Learning-Website/\n│── index.qmd\n│── about.qmd\n│── _quarto.yml\n│── styles.css\nIn your case, additional learning modules can be added as individual .qmd files:\nIntroduction to R and RStudio.qmd\nData Types and Data Structures.qmd \nData Import and Export.qmd\nReshaping Data with tidyr.qmd\nData Manipulation with dplyr.qmd\nData Visualization with ggplot2.qmd\nStatistical Modeling in R.qmd\nReproduciable Reporting with Quarto.qmd\n..."
   },
   {
+    "objectID": "post/2026-06-09-quarto_web.html#step-2-adding-content-pages",
+    "href": "post/2026-06-09-quarto_web.html#step-2-adding-content-pages",
+    "title": "Building Your First Website with Quarto: A Step-by-Step Guide",
+    "section": "Step 2: Adding Content Pages",
+    "text": "Step 2: Adding Content Pages\n\nThe homepage (index.qmd) introduces the website:\n---\ntitle: \"R Learning Website\"\n---\n\n## Welcome 👋\n\nThis website is a structured learning resource for **R programming and statistics**.\n\nIt includes step-by-step modules covering: - Data manipulation - Visualization - Statistical modeling - Reproducible reporting using Quarto\n\n::: {.callout-note}\n## Note\n\nThis website is **an illustrative example** used to demonstrate the process of building a Quarto website. It is intended for learning purposes only. You can customize its structure, content, layout, and design to suit your own project or personal website.\n:::\nThe about.qmd file typically contains author or project details."
+  },
+  {
+    "objectID": "post/2026-06-09-quarto_web.html#step-3-organizing-content-into-modules",
+    "href": "post/2026-06-09-quarto_web.html#step-3-organizing-content-into-modules",
+    "title": "Building Your First Website with Quarto: A Step-by-Step Guide",
+    "section": "Step 3: Organizing Content into Modules",
+    "text": "Step 3: Organizing Content into Modules\n\nEach .qmd file represents a learning unit in your website.\nFor example, a module like Introduction to R and RStudio.qmd contains:\n---\ntitle: \"Introduction to R and RStudio\"\n---\n\n## Introduction\n\nR is a powerful programming language designed for statistical computing, data analysis, and data visualization. RStudio is an integrated development environment (IDE) that provides a user-friendly interface for writing, running, and managing R code.\n\n## Topics Covered\n\n- What is R?\n- What is RStudio?\n- Installing R and RStudio\n- Understanding the RStudio interface\n- Running your first R commands\n\n## Example\n\n```r\n# Assign values to variables\nx &lt;- 10\ny &lt;- 20\n\n# Perform a simple calculation\nsum &lt;- x + y\n\n# Display the result\nprint(sum)\n```"
+  },
+  {
+    "objectID": "post/2026-06-09-quarto_web.html#step-4-configuring-the-website-_quarto.yml",
+    "href": "post/2026-06-09-quarto_web.html#step-4-configuring-the-website-_quarto.yml",
+    "title": "Building Your First Website with Quarto: A Step-by-Step Guide",
+    "section": "Step 4: Configuring the Website (_quarto.yml)",
+    "text": "Step 4: Configuring the Website (_quarto.yml)\n\nThe _quarto.yml file controls navigation and layout.\nIn your R Learning Website, the structure is defined like this:\n\nproject:\n  type: website\n  output-dir: docs\n\nwebsite:\n  title: \"R Learning Website\"\n\n  navbar:\n    left:\n      - href: index.qmd\n        text: Home\n\n      - href: about.qmd\n        text: About\n\n      - text: Learning Modules\n        menu:\n          - href: \"Intrduction to R and RStudio.qmd\"\n            text: Introduction to R and RStudio\n\n          - href: \"Data Types and Data Structures.qmd\"\n            text: Data Types and Data Structures\n\n          - href: \"Data Import and Export.qmd\"\n            text: Data Import and Export\n\n          - href: \"Reshaping Data with tidyr.qmd\"\n            text: Reshaping Data with tidyr\n\n          - href: \"Data Manipulation with dplyr.qmd\"\n            text: Data Manipulation with dplyr\n\n          - href: \"Data Visualization with ggplot2.qmd\"\n            text: Data Visualization with ggplot2\n\n          - href: \"Statistical Modeling in R.qmd\"\n            text: Statistical Modeling in R\n\n          - href: \"Reproducible Reporting with Quarto.qmd\"\n            text: Reproducible Reporting with Quarto\n\nformat:\n  html:\n    theme: cosmo\n    css: styles.css\n    toc: true\n    \nHere,\n\nproject: defines the project type and specifies that the rendered website should be placed in the docs directory.\n\n\n\nwebsite: contains the website title and navigation bar.\n\n\n\nnavbar: creates the menu that links to each learning module.\n\n\n\nformat: controls the appearance of the website, including the theme, custom CSS, and table of contents.\n\nIn this example, the website output is directed to the docs folder using output-dir: docs. This is recommended because it simplifies deployment with GitHub Pages, allowing the rendered website to be published directly from the docs directory.\nImportant: YAML is indentation-sensitive, meaning that the hierarchy of the configuration is determined by spaces rather than braces or parentheses. Therefore, it is essential to maintain consistent indentation throughout the _ quarto.yml file. Incorrect indentation may result in configuration errors or prevent the website from rendering successfully."
+  },
+  {
+    "objectID": "post/2026-06-09-quarto_web.html#step-5-previewing-the-website",
+    "href": "post/2026-06-09-quarto_web.html#step-5-previewing-the-website",
+    "title": "Building Your First Website with Quarto: A Step-by-Step Guide",
+    "section": "Step 5: Previewing the Website",
+    "text": "Step 5: Previewing the Website\n\nWhile developing, you can preview the website using:\nquarto preview\nThis opens a live local server where changes are updated automatically."
+  },
+  {
+    "objectID": "post/2026-06-09-quarto_web.html#step-6-rendering-the-website",
+    "href": "post/2026-06-09-quarto_web.html#step-6-rendering-the-website",
+    "title": "Building Your First Website with Quarto: A Step-by-Step Guide",
+    "section": "Step 6: Rendering the Website",
+    "text": "Step 6: Rendering the Website\n\nTo generate the final static website:\nquarto render\nThis creates the output in the docs/ folder:\ndocs/\n│── index.html\n│── about.html\n│── Introduction to R and RStudio.html\n│── ..."
+  },
+  {
+    "objectID": "post/2026-06-09-quarto_web.html#step-7-publishing-the-website-with-github-pages",
+    "href": "post/2026-06-09-quarto_web.html#step-7-publishing-the-website-with-github-pages",
+    "title": "Building Your First Website with Quarto: A Step-by-Step Guide",
+    "section": "Step 7: Publishing the Website with GitHub Pages",
+    "text": "Step 7: Publishing the Website with GitHub Pages\n\nQuarto provides several options for publishing websites, including Posit Connect Cloud, GitHub Pages, Posit Connect, Quarto Pub, and Netlify. In this tutorial, we will use GitHub Pages because it is free, beginner-friendly, and integrates seamlessly with GitHub repositories.\n\nPrerequisite\nBefore publishing your website, make sure your Quarto project is stored in a GitHub repository. This allows GitHub Pages to access your project and publish your website.\nA typical workflow is:\nCreate Quarto Website\n        ↓\nInitialize Git Repository\n        ↓\nPush Project to GitHub\n        ↓\nRender Website\n        ↓\nEnable GitHub Pages\nOnce your project is available on GitHub, you are ready to publish the website.\n\n\nEnable GitHub Pages\nQuarto provides both terminal-based commands and the GitHub web interface for deploying websites. While the terminal approach is useful for experienced users and automated workflows, the GitHub web interface is more intuitive for beginners. Therefore, in this tutorial, we will use the GitHub interface to deploy the website.\nOpen your GitHub repository and follow these steps:\n\nNavigate to Settings.\n\n\n\n\n\nSelect Pages from the left sidebar.\n\n\n\n\n\nUnder Build and deployment, choose:\n\nSource: Deploy from a branch\n\nThen select:\n\nBranch: master\nFolder: /docs\n\nClick Save.\n\n\n\n\n\n\nGitHub will automatically begin publishing your website. After a few moments, the website URL will appear at the top of the Pages settings page.\n\n\n\n\n\nNote: We select the /docs folder because our Quarto project is configured with output-dir: docs in _quarto.yml. This ensures that GitHub Pages publishes the rendered HTML files generated by Quarto."
+  },
+  {
     "objectID": "projects/project2.html",
     "href": "projects/project2.html",
     "title": "Forecasting Commodity Net Export Price Index (CNEPI)",
@@ -187,47 +229,5 @@
     "title": "Software",
     "section": "",
     "text": "ditwahLandslide: Early Warning Information on Landslides in Sri Lanka During the Ditwah Storm"
-  },
-  {
-    "objectID": "post/2026-06-09-quarto_web.html#step-2-organizing-content-into-modules",
-    "href": "post/2026-06-09-quarto_web.html#step-2-organizing-content-into-modules",
-    "title": "Building Your First Website with Quarto: A Step-by-Step Guide",
-    "section": "Step 2: Organizing Content into Modules",
-    "text": "Step 2: Organizing Content into Modules\n---\ntitle: \"Data Manipulation with dplyr\"\n---\n\n## Introduction\n\nThe `dplyr` package provides a grammar of data manipulation in R.\n\n## Key Functions\n\n- `filter()` – subset rows\n- `select()` – choose columns\n- `mutate()` – create new variables\n- `summarise()` – aggregate data\n\n## Example\n\n```r\nlibrary(dplyr)\n\ndf %&gt;%\n  filter(Sex == \"Female\") %&gt;%\n  summarise(mean_age = mean(Age, na.rm = TRUE))\n```"
-  },
-  {
-    "objectID": "post/2026-06-09-quarto_web.html#step-2-adding-content-pages",
-    "href": "post/2026-06-09-quarto_web.html#step-2-adding-content-pages",
-    "title": "Building Your First Website with Quarto: A Step-by-Step Guide",
-    "section": "Step 2: Adding Content Pages",
-    "text": "Step 2: Adding Content Pages\n\nThe homepage (index.qmd) introduces the website:\n---\ntitle: \"R Learning Website\"\n---\n\n## Welcome 👋\n\nThis website is a structured learning resource for **R programming and statistics**.\n\nIt includes step-by-step modules covering: - Data manipulation - Visualization - Statistical modeling - Reproducible reporting using Quarto\nThe about.qmd file typically contains author or project details."
-  },
-  {
-    "objectID": "post/2026-06-09-quarto_web.html#step-3-organizing-content-into-modules",
-    "href": "post/2026-06-09-quarto_web.html#step-3-organizing-content-into-modules",
-    "title": "Building Your First Website with Quarto: A Step-by-Step Guide",
-    "section": "Step 3: Organizing Content into Modules",
-    "text": "Step 3: Organizing Content into Modules\n\nEach .qmd file represents a learning unit in your website.\nFor example, a module like Data Manipulation with dplyr.qmd contains:\n---\ntitle: \"Introduction to R and RStudio\"\n---\n\n## Introduction\n\nR is a powerful programming language designed for statistical computing, data analysis, and data visualization. RStudio is an integrated development environment (IDE) that provides a user-friendly interface for writing, running, and managing R code.\n\n## Topics Covered\n\n- What is R?\n- What is RStudio?\n- Installing R and RStudio\n- Understanding the RStudio interface\n- Running your first R commands\n\n## Example\n\n```r\n# Assign values to variables\nx &lt;- 10\ny &lt;- 20\n\n# Perform a simple calculation\nsum &lt;- x + y\n\n# Display the result\nprint(sum)\n```"
-  },
-  {
-    "objectID": "post/2026-06-09-quarto_web.html#step-4-configuring-the-website-_quarto.yml",
-    "href": "post/2026-06-09-quarto_web.html#step-4-configuring-the-website-_quarto.yml",
-    "title": "Building Your First Website with Quarto: A Step-by-Step Guide",
-    "section": "Step 4: Configuring the Website (_quarto.yml)",
-    "text": "Step 4: Configuring the Website (_quarto.yml)\n\nThe _quarto.yml file controls navigation and layout.\nIn your R Learning Website, the structure is defined like this:\n\nproject:\n  type: website\n  output-dir: docs\n\nwebsite:\n  title: \"R Learning Website\"\n\n  navbar:\n    left:\n      - href: index.qmd\n        text: Home\n\n      - href: about.qmd\n        text: About\n\n      - text: Learning Modules\n        menu:\n          - href: \"Intrduction to R and RStudio.qmd\"\n            text: Introduction to R and RStudio\n\n          - href: \"Data Types and Data Structures.qmd\"\n            text: Data Types and Data Structures\n\n          - href: \"Data Import and Export.qmd\"\n            text: Data Import and Export\n\n          - href: \"Reshaping Data with tidyr.qmd\"\n            text: Reshaping Data with tidyr\n\n          - href: \"Data Manipulation with dplyr.qmd\"\n            text: Data Manipulation with dplyr\n\n          - href: \"Data Visualization with ggplot2.qmd\"\n            text: Data Visualization with ggplot2\n\n          - href: \"Statistical Modeling in R.qmd\"\n            text: Statistical Modeling in R\n\n          - href: \"Reproducible Reporting with Quarto.qmd\"\n            text: Reproducible Reporting with Quarto\n\nformat:\n  html:\n    theme: cosmo\n    css: styles.css\n    toc: true\n    \nHere,\n\nproject: defines the project type and specifies that the rendered website should be placed in the docs directory.\n\n\n\nwebsite: contains the website title and navigation bar.\n\n\n\nnavbar: creates the menu that links to each learning module.\n\n\n\nformat: controls the appearance of the website, including the theme, custom CSS, and table of contents.\n\nIn this example, the website output is directed to the docs folder using output-dir: docs. This is recommended because it simplifies deployment with GitHub Pages, allowing the rendered website to be published directly from the docs directory.\nImportant: YAML is indentation-sensitive, meaning that the hierarchy of the configuration is determined by spaces rather than braces or parentheses. Therefore, it is essential to maintain consistent indentation throughout the _ quarto.yml file. Incorrect indentation may result in configuration errors or prevent the website from rendering successfully."
-  },
-  {
-    "objectID": "post/2026-06-09-quarto_web.html#step-5-previewing-the-website",
-    "href": "post/2026-06-09-quarto_web.html#step-5-previewing-the-website",
-    "title": "Building Your First Website with Quarto: A Step-by-Step Guide",
-    "section": "Step 5: Previewing the Website",
-    "text": "Step 5: Previewing the Website\n\nWhile developing, you can preview the website using:\nquarto preview\nThis opens a live local server where changes are updated automatically."
-  },
-  {
-    "objectID": "post/2026-06-09-quarto_web.html#step-6-rendering-the-website",
-    "href": "post/2026-06-09-quarto_web.html#step-6-rendering-the-website",
-    "title": "Building Your First Website with Quarto: A Step-by-Step Guide",
-    "section": "Step 6: Rendering the Website",
-    "text": "Step 6: Rendering the Website\n\nTo generate the final static website:\nquarto render\nThis creates the output in the docs/ folder:\ndocs/\n│── index.html\n│── about.html\n│── Introduction to R and RStudio.html\n│── ..."
   }
 ]

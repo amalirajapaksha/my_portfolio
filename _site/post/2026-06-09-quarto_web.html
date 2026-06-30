@@ -199,6 +199,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#step-4-configuring-the-website-_quarto.yml" id="toc-step-4-configuring-the-website-_quarto.yml" class="nav-link" data-scroll-target="#step-4-configuring-the-website-_quarto.yml">Step 4: Configuring the Website (<code>_quarto.yml</code>)</a></li>
   <li><a href="#step-5-previewing-the-website" id="toc-step-5-previewing-the-website" class="nav-link" data-scroll-target="#step-5-previewing-the-website">Step 5: Previewing the Website</a></li>
   <li><a href="#step-6-rendering-the-website" id="toc-step-6-rendering-the-website" class="nav-link" data-scroll-target="#step-6-rendering-the-website">Step 6: Rendering the Website</a></li>
+  <li><a href="#step-7-publishing-the-website-with-github-pages" id="toc-step-7-publishing-the-website-with-github-pages" class="nav-link" data-scroll-target="#step-7-publishing-the-website-with-github-pages">Step 7: Publishing the Website with GitHub Pages</a>
+  <ul class="collapse">
+  <li><a href="#prerequisite" id="toc-prerequisite" class="nav-link" data-scroll-target="#prerequisite">Prerequisite</a></li>
+  <li><a href="#enable-github-pages" id="toc-enable-github-pages" class="nav-link" data-scroll-target="#enable-github-pages">Enable GitHub Pages</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -288,14 +293,20 @@ The homepage (<code>index.qmd</code>) introduces the website:</p>
 <span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>This website is a structured learning resource for **R programming and statistics**.</span>
 <span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>It includes step-by-step modules covering: - Data manipulation - Visualization - Statistical modeling - Reproducible reporting using Quarto</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>It includes step-by-step modules covering: - Data manipulation - Visualization - Statistical modeling - Reproducible reporting using Quarto</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>::: {.callout-note}</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a><span class="fu">## Note</span></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>This website is **an illustrative example** used to demonstrate the process of building a Quarto website. It is intended for learning purposes only. You can customize its structure, content, layout, and design to suit your own project or personal website.</span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>:::</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>The about.qmd file typically contains author or project details.</p>
 </section>
 <section id="step-3-organizing-content-into-modules" class="level2">
 <h2 class="anchored" data-anchor-id="step-3-organizing-content-into-modules">Step 3: Organizing Content into Modules</h2>
 <p><br>
 Each <code>.qmd</code> file represents a <strong>learning unit</strong> in your website.</p>
-<p>For example, a module like <code>Data Manipulation with dplyr.qmd</code> contains:</p>
+<p>For example, a module like <code>Introduction to R and RStudio.qmd</code> contains:</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Introduction to R and RStudio"</span></span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
@@ -416,8 +427,69 @@ To generate the final static website:</p>
 │── about.html
 │── Introduction to R and RStudio.html
 │── ...</code></pre>
+</section>
+<section id="step-7-publishing-the-website-with-github-pages" class="level2">
+<h2 class="anchored" data-anchor-id="step-7-publishing-the-website-with-github-pages">Step 7: Publishing the Website with GitHub Pages</h2>
+<p><br>
+Quarto provides several options for publishing websites, including Posit Connect Cloud, GitHub Pages, Posit Connect, Quarto Pub, and Netlify. In this tutorial, we will use GitHub Pages because it is free, beginner-friendly, and integrates seamlessly with GitHub repositories.</p>
+<section id="prerequisite" class="level3">
+<h3 class="anchored" data-anchor-id="prerequisite">Prerequisite</h3>
+<p>Before publishing your website, make sure your Quarto project is stored in a GitHub repository. This allows GitHub Pages to access your project and publish your website.</p>
+<p>A typical workflow is:</p>
+<pre class="text" style="color: #234460"><code>Create Quarto Website
+        ↓
+Initialize Git Repository
+        ↓
+Push Project to GitHub
+        ↓
+Render Website
+        ↓
+Enable GitHub Pages</code></pre>
+<p>Once your project is available on GitHub, you are ready to publish the website.</p>
+</section>
+<section id="enable-github-pages" class="level3">
+<h3 class="anchored" data-anchor-id="enable-github-pages">Enable GitHub Pages</h3>
+<p>Quarto provides both terminal-based commands and the GitHub web interface for deploying websites. While the terminal approach is useful for experienced users and automated workflows, the GitHub web interface is more intuitive for beginners. Therefore, in this tutorial, we will use the GitHub interface to deploy the website.</p>
+<p>Open your GitHub repository and follow these steps:</p>
+<ol type="1">
+<li><p>Navigate to <strong>Settings</strong>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../images/post2_ss1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%"></p>
+</figure>
+</div></li>
+<li><p>Select <strong>Pages</strong> from the left sidebar.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../images/post_ss2.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%"></p>
+</figure>
+</div></li>
+<li><p>Under <strong>Build and deployment</strong>, choose:</p>
+<ul>
+<li><strong>Source:</strong> <em>Deploy from a branch</em></li>
+</ul></li>
+<li><p>Then select:</p>
+<ul>
+<li><p><strong>Branch:</strong> <code>master</code></p></li>
+<li><p><strong>Folder:</strong> <code>/docs</code></p></li>
+</ul></li>
+<li><p>Click <strong>Save</strong>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../images/post2_ss3.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%"></p>
+</figure>
+</div></li>
+</ol>
+<p>GitHub will automatically begin publishing your website. After a few moments, the website URL will appear at the top of the Pages settings page.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../images/post2_ss4.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%"></p>
+</figure>
+</div>
+<p>Note: We select the <code>/docs</code> folder because our Quarto project is configured with <code>output-dir: docs</code> in <code>_quarto.yml</code>. This ensures that GitHub Pages publishes the rendered HTML files generated by Quarto.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
