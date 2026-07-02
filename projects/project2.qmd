@@ -31,7 +31,7 @@ Throughout this project, we followed the methodology outlined in Forecasting: Pr
 
 <div>
 
-![Figure 1: General process for forecasting using an ARIMA model (Adapted from Hyndman & Athanasopoulos, 2021)](/arima_process.png){fig-align="center" width="404"}
+![Figure 1: General process for forecasting using an ARIMA model (Adapted from Hyndman & Athanasopoulos, 2021)](/images/arima_process.png){fig-align="center" width="404"}
 
 </div>
 
@@ -53,7 +53,7 @@ $$
 
 <div>
 
-![Figure 2: Fitting and Prediction of the Commodity Net Export Price Index](/forecast.png){fig-align="center"}
+![Figure 2: Fitting and Prediction of the Commodity Net Export Price Index](/images/forecast.png){fig-align="center"}
 
 </div>
 
