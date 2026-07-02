@@ -229,7 +229,7 @@ docs/
 ## Step 7: Publishing the Website with GitHub Pages
 
 \
-Quarto provides several options for publishing websites, including Posit Connect Cloud, GitHub Pages, Posit Connect, Quarto Pub, and Netlify. In this tutorial, we will use GitHub Pages because it is free, beginner-friendly, and integrates seamlessly with GitHub repositories.
+Quarto provides several options for publishing websites, including Posit Connect Cloud, GitHub Pages, Posit Connect, Quarto Pub, and Netlify. In this post, we will use GitHub Pages because it is free, beginner-friendly, and integrates seamlessly with GitHub repositories.
 
 ### Prerequisite
 
@@ -253,7 +253,7 @@ Once your project is available on GitHub, you are ready to publish the website.
 
 ### Enable GitHub Pages
 
-Quarto provides both terminal-based commands and the GitHub web interface for deploying websites. While the terminal approach is useful for experienced users and automated workflows, the GitHub web interface is more intuitive for beginners. Therefore, in this tutorial, we will use the GitHub interface to deploy the website.
+Quarto provides both terminal-based commands and the GitHub web interface for deploying websites. While the terminal approach is useful for experienced users and automated workflows, the GitHub web interface is more intuitive for beginners. Therefore, in this post, we will use the GitHub interface to deploy the website.
 
 Open your GitHub repository and follow these steps:
 
