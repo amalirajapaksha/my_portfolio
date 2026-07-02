@@ -4,7 +4,7 @@ html, body {
   height: 100vh;
   overflow: hidden;
 
-  background: url("bg.jpg") center center / cover no-repeat fixed;
+  background: url("images/bg.jpg") center center / cover no-repeat fixed;
 }
 
 body::before {
@@ -46,7 +46,7 @@ body::before {
     overflow-x: hidden;
     overflow-y: auto;
 
-    background: url("bg.jpg") center center / cover no-repeat;
+    background: url("images/bg.jpg") center center / cover no-repeat;
     background-attachment: scroll;
   }
 }

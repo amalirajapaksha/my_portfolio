@@ -24,7 +24,7 @@ University of Sri Jayewardenepura**
 ::::
 
 ::: hero-image
-![](profile.jpg){.profile-pic}
+![](images/profile.jpg){.profile-pic}
 :::
 ::::::
 :::::::
