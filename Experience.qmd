@@ -20,7 +20,7 @@ Apr 2022- Oct 2022
 -   Delivered efficient front-line customer service in a high-volume banking environment
 
 ::: text-center
-![](Intern_BOC.jpeg){.round-img width="10cm"}
+![](images/Intern_BOC.jpeg){.round-img width="10cm"}
 :::
 
 ::: vspace
@@ -41,20 +41,20 @@ Jun 2025
 
 ::::: columns
 ::: {.column width="68%"}
-![](Quora1.jpeg){.round-img}
+![](images/Quora1.jpeg){.round-img}
 :::
 
 ::: {.column width="30%"}
-![](Quora2.jpeg){.round-img}
+![](images/Quora2.jpeg){.round-img}
 :::
 :::::
 
 ::::: columns
 ::: {.column width="48%"}
-![](Quora4.jpeg){.round-img}
+![](images/Quora4.jpeg){.round-img}
 :::
 
 ::: {.column width="48%"}
-![](Quora3.jpeg){.round-img}
+![](images/Quora3.jpeg){.round-img}
 :::
 :::::
