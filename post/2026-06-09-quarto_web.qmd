@@ -263,7 +263,7 @@ Open your GitHub repository and follow these steps:
 
 2.  Select **Pages** from the left sidebar.
 
-    ![](../images/post_ss2.png){fig-align="center" width="80%"}
+    ![](../images/post2_ss2.png){fig-align="center" width="80%"}
 
 3.  Under **Build and deployment**, choose:
 

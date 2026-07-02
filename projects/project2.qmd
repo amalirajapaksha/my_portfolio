@@ -63,11 +63,11 @@ $$
 
 #### Thesis
 
-[Forecasting Sri Lanka’s Commodity Net Export Price Index Using ARIMA Models](files/Report%20(Group%2001).pdf)
+[Forecasting Sri Lanka’s Commodity Net Export Price Index Using ARIMA Models](/files/Report%20(Group%2001).pdf)
 
 #### Slides
 
-[Presentation Slides](files/Presentation%20Slides.pdf)
+[Presentation Slides](/files/Presentation%20Slides.pdf)
 
 ## Bibliography
 
