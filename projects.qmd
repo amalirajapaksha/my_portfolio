@@ -11,7 +11,7 @@ toc: false
 
 ### Ditwah Data Hub Project
 
-**Description**: Converted unstructured PDF reports on Cyclone Ditwah into structured, analysis-ready data and developed an interactive platform to visualize and monitor its impacts in Sri Lanka.\
+**Description**: Converted unstructured PDF reports on Cyclone Ditwah into structured, analysis-ready data and developed an interactive platform to visualize and monitor its impacts in Sri Lanka. The project was founded and led by [Dr. Thiyanga Talagala](https://thiyanga.netlify.app/)
 
 **Tech Stack**: R, ggplot2, Data Visualization, Geospatial Analytics\
 [View Project](https://thiyangt.github.io/DitwahDataHub/)
