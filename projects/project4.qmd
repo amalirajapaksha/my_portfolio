@@ -15,17 +15,9 @@ Job advertisement data for this project were collected collaboratively by a grou
 [Job Ad Data Collector](https://amalirajapaksha.shinyapps.io/Job_Ad/)
 
 ## Collected Datasets
-<<<<<<< HEAD
 
-=======
->>>>>>> 60078229a1ee3031fe48d4b50ed0eccfe475f31e
 <hr class="section-line">
 
 The project involved ten groups, with each group independently collecting data related to data science and analytics job advertisements. After data collection, we (Group_1) performed data preprocessing, cleaning, and standardization, and then combined all group datasets into a single unified dataset for analysis. This final dataset provides a comprehensive and structured view of the collected job advertisement information. All individual group datasets, along with the final cleaned dataset prepared by our group, are available for reference.
 
-<<<<<<< HEAD
 <https://github.com/amalirajapaksha/DSjobtracker_survey>
-=======
-[https://github.com/amalirajapaksha/DSjobtracker_survey](https://github.com/amalirajapaksha/DSjobtracker_survey)
-
->>>>>>> 60078229a1ee3031fe48d4b50ed0eccfe475f31e
