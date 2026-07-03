@@ -11,7 +11,7 @@
     "href": "Projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Ditwah Data Hub Project\nDescription: Converted unstructured PDF reports on Cyclone Ditwah into structured, analysis-ready data and developed an interactive platform to visualize and monitor its impacts in Sri Lanka.\n\nTech Stack: R, ggplot2, Data Visualization, Geospatial Analytics\nView Project\n\n\n\n\n\nForecasting Commodity Net Export Price Index (CNEPI)\nDescription: Developed an ARIMA model to forecast the Commodity Net Export Price Index, Individual Commodities Weighted by Ratio of Net Exports to GDP (CNEPI) of Sri Lanka\n\nTech Stack: R, ARIMA, Forecast Package, Time Series Analysis, Data Visualization\nView Project\n\n\n\n\n\n\n\nInteractive Demographic and Health Data Dashboard for Australia\nDescription: Developed an interactive R Shiny dashboard for exploring and visualizing demographic and health related data for Australia, enabling user-friendly analysis of key population and health indicators.\n\nTech Stack: R, shiny, shinydashboard, plotly, dplyr, tidyr, ggplot2\nView Project\n\n\n\n\n\nDS Job Tracker Survey\nDescription: Collected data science and statistics job advertisement data and transformed it into a study-ready dataset through data wrangling and preprocessing.\n\nTech Stack: R, Shiny, Excel, Data Wrangling\nView Project\n\n\n\n\n\n\n\nX̄ & R Charts Shiny App\nDescription: This Shiny app allows users to explore X̄ (mean) and R (range) control charts for quality control. It is developed for learning purposes and demonstrates Phase I and Phase II charting.\nTech Stack: R, shiny, dplyr, ggplot2, DT\nView Project"
+    "text": "Ditwah Data Hub Project\nDescription: Converted unstructured PDF reports on Cyclone Ditwah into structured, analysis-ready data and developed an interactive platform to visualize and monitor its impacts in Sri Lanka. The project was founded and led by Dr. Thiyanga Talagala\nTech Stack: R, ggplot2, Data Visualization, Geospatial Analytics\nView Project\n\n\n\n\n\nForecasting Commodity Net Export Price Index (CNEPI)\nDescription: Developed an ARIMA model to forecast the Commodity Net Export Price Index, Individual Commodities Weighted by Ratio of Net Exports to GDP (CNEPI) of Sri Lanka\n\nTech Stack: R, ARIMA, Forecast Package, Time Series Analysis, Data Visualization\nView Project\n\n\n\n\n\n\n\nInteractive Demographic and Health Data Dashboard for Australia\nDescription: Developed an interactive R Shiny dashboard for exploring and visualizing demographic and health related data for Australia, enabling user-friendly analysis of key population and health indicators.\n\nTech Stack: R, shiny, shinydashboard, plotly, dplyr, tidyr, ggplot2\nView Project\n\n\n\n\n\nDS Job Tracker Survey\nDescription: Collected data science and statistics job advertisement data and transformed it into a study-ready dataset through data wrangling and preprocessing.\n\nTech Stack: R, Shiny, Excel, Data Wrangling\nView Project\n\n\n\n\n\n\n\nX̄ & R Charts Shiny App\nDescription: This Shiny app allows users to explore X̄ (mean) and R (range) control charts for quality control. It is developed for learning purposes and demonstrates Phase I and Phase II charting.\nTech Stack: R, shiny, dplyr, ggplot2, DT\nView Project"
   },
   {
     "objectID": "post/2026-06-01-python_module.html",
@@ -229,5 +229,12 @@
     "title": "Software",
     "section": "",
     "text": "ditwahLandslide: Early Warning Information on Landslides in Sri Lanka During the Ditwah Storm"
+  },
+  {
+    "objectID": "projects/project2.html#code-availability",
+    "href": "projects/project2.html#code-availability",
+    "title": "Forecasting Commodity Net Export Price Index (CNEPI)",
+    "section": "Code Availability",
+    "text": "Code Availability\nAll code used for data preprocessing, model development, forecasting, and visualization is publicly available on GitHub:\nGitHub: Repository Name"
   }
 ]

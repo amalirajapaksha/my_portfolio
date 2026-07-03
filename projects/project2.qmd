@@ -57,6 +57,12 @@ $$
 
 </div>
 
+## Code Availability
+
+All code used for data preprocessing, model development, forecasting, and visualization is publicly available on GitHub:
+
+**GitHub:** [Repository Name](https://github.com/amalirajapaksha/CNEPI)
+
 ## Research Outputs
 
 <hr class="section-line">
