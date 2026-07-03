@@ -20,7 +20,7 @@ toc: false
 ::: {.g-col-12 .g-col-md-6}
 ![](images/project6.png){width="100px" style="float:left; margin-right:1em;"}
 
-### Forecasting Commodity Net Export Price Index (CNEPI)
+### Python for Data Science: A Course for R Users
 
 **Description**: Developed an interactive introductory course on Python for Data Science, designed to help R users learn essential Python concepts and workflows for data analysis through practical examples and hands-on exercises.\
 
