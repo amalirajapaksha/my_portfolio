@@ -1,3 +1,52 @@
 ---
 title: "Interactive Demographic and Health Data Dashboard for Australia"
 ---
+
+![](/images/population_pyramid.png){fig-align="center"}
+
+Demographic and health data play a vital role in understanding population dynamics, monitoring public health, and supporting evidence-based decision-making worldwide. By transforming complex, publicly available datasets into an accessible and interactive platform, this dashboard enables users to explore demographic patterns, health outcomes, and population dynamics with ease. It was developed under the guidance of [Dr. Chathuri Jayasinghe](https://www.linkedin.com/in/chathuri-lakshika-jayasinghe-72326020/) as part of the STA 322 2.0 Medical Statistics (2025/26) course. The dashboard is designed to support students, researchers, policymakers, and the general public in understanding Australia's demographic transition and the changing health profile of its population. Through interactive visualizations, it demonstrates the country's progression through different stages of demographic transition while highlighting emerging challenges and opportunities related to population ageing, fertility, mortality, and migration. These demographic trends have important implications for economic growth, labour force dynamics, pension sustainability, healthcare systems, and the demand for social services. By presenting data in a clear and engaging format, the dashboard facilitates evidence-based decision-making, promotes a better understanding of public health and demographic issues, and serves as a valuable resource for academic learning, research, and policy planning.
+
+
+## Key Features
+<hr class="section-line">
+
+-   Interactive charts for Australian health indicators
+
+-   Easy-to-read KPIs
+
+-   Filters to compare data by year, gender, or region
+
+-   Focus on demographic and health trends in Australia
+
+## Tools & Technology
+<hr class="section-line">
+
+-   **R Shiny** for building the dashboard
+
+-   **ggplot2** and other R libraries for visualization
+
+-   **shinyapps.io** for deploying and hosting the dashboard online
+
+-   **Clean, simple design** for accessibility
+
+
+## Project Output
+<hr class="section-line">
+
+[Australian Demographic & Health Data Dashboard](https://amalirajapaksha.shinyapps.io/health-data-dashboard/)
+
+## Project Reproducibility
+<hr class="section-line">
+
+All R code, data, and supporting files required to reproduce the analyses and results presented in this project are available in the GitHub repository.
+
+[https://github.com/amalirajapaksha/health-data-dashboard](https://github.com/amalirajapaksha/health-data-dashboard)
+
+## Data Sources
+<hr class="section-line">
+
+The data used in this project were obtained from the following sources:
+
+- Australian Bureau of Statistics (ABS): <https://www.abs.gov.au>
+- Australian Institute of Health and Welfare (AIHW): <https://www.aihw.gov.au>
+- The World Bank: <https://data.worldbank.org>

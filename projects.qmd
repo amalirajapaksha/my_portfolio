@@ -18,7 +18,7 @@ toc: false
 :::
 
 ::: {.g-col-12 .g-col-md-6}
-![](images/project2.png){width="100px" style="float:left; margin-right:1em;"}
+![](images/project6.png){width="100px" style="float:left; margin-right:1em;"}
 
 ### Forecasting Commodity Net Export Price Index (CNEPI)
 
@@ -31,6 +31,17 @@ toc: false
 
 ::::: grid
 ::: {.g-col-12 .g-col-md-6}
+![](images/project2.png){width="100px" style="float:left; margin-right:1em;"}
+
+### Forecasting Commodity Net Export Price Index (CNEPI)
+
+**Description**: Developed an ARIMA model to forecast the Commodity Net Export Price Index, Individual Commodities Weighted by Ratio of Net Exports to GDP (CNEPI) of Sri Lanka\
+
+**Tech Stack**: R, ARIMA, Forecast Package, Time Series Analysis, Data Visualization\
+[View Project](projects/project2.qmd)
+:::
+
+::: {.g-col-12 .g-col-md-6}
 ![](images/project3.png){width="100px" style="float:left; margin-right:1em;"}
 
 ### Interactive Demographic and Health Data Dashboard for Australia
@@ -40,7 +51,9 @@ toc: false
 **Tech Stack**: R, shiny, shinydashboard, plotly, dplyr, tidyr, ggplot2\
 [View Project](projects/project3.qmd)
 :::
+:::::
 
+:::: grid
 ::: {.g-col-12 .g-col-md-6}
 ![](images/project4.png){width="100px" style="float:left; margin-right:1em;"}
 
@@ -51,9 +64,7 @@ toc: false
 **Tech Stack**: R, Shiny, Excel, Data Wrangling\
 [View Project](projects/project4.qmd)
 :::
-:::::
 
-:::: grid
 ::: {.g-col-12 .g-col-md-6}
 ![](images/project5.png){width="100px" style="float:left; margin-right:1em;"}
 
