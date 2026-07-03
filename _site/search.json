@@ -299,5 +299,36 @@
     "title": "Software",
     "section": "",
     "text": "ditwahLandslide: Early Warning Information on Landslides in Sri Lanka During the Ditwah Storm"
+<<<<<<< HEAD
+=======
+  },
+  {
+    "objectID": "projects/project3.html",
+    "href": "projects/project3.html",
+    "title": "Interactive Demographic and Health Data Dashboard for Australia",
+    "section": "",
+    "text": "Demographic and health data play a vital role in understanding population dynamics, monitoring public health, and supporting evidence-based decision-making worldwide. By transforming complex, publicly available datasets into an accessible and interactive platform, this dashboard enables users to explore demographic patterns, health outcomes, and population dynamics with ease. It was developed under the guidance of Dr. Chathuri Jayasinghe as part of the STA 322 2.0 Medical Statistics (2025/26) course. The dashboard is designed to support students, researchers, policymakers, and the general public in understanding Australia’s demographic transition and the changing health profile of its population. Through interactive visualizations, it demonstrates the country’s progression through different stages of demographic transition while highlighting emerging challenges and opportunities related to population ageing, fertility, mortality, and migration. These demographic trends have important implications for economic growth, labour force dynamics, pension sustainability, healthcare systems, and the demand for social services. By presenting data in a clear and engaging format, the dashboard facilitates evidence-based decision-making, promotes a better understanding of public health and demographic issues, and serves as a valuable resource for academic learning, research, and policy planning."
+  },
+  {
+    "objectID": "projects/project4.html",
+    "href": "projects/project4.html",
+    "title": "DS Job Tracker Survey",
+    "section": "",
+    "text": "The DS Job Tracker Survey was conducted to collect, organize, and analyze job advertisements related to data science and statistics. By systematically extracting information from job postings and transforming it into a structured, study-ready dataset, the project provides valuable insights into the qualifications, technical skills, programming languages, software tools, and experience commonly requested by employers. It serves as a practical resource for students, graduates, and professionals seeking to understand current industry expectations and identify the competencies most sought after in the data science job market. Throughout this project, I strengthened my skills in data collection, data wrangling, and data preprocessing while working with real-world job advertisement data. The project also provided an opportunity to explore trends in job postings, compare skill requirements across different roles, and gain a better understanding of the knowledge and technical expertise required to pursue a career in data science and statistics."
+  },
+  {
+    "objectID": "projects/project4.html#job-ad-data-collector-r-shiny-app",
+    "href": "projects/project4.html#job-ad-data-collector-r-shiny-app",
+    "title": "DS Job Tracker Survey",
+    "section": "Job Ad Data Collector (R Shiny App)",
+    "text": "Job Ad Data Collector (R Shiny App)\n\nJob advertisement data for this project were collected collaboratively by a group of twelve students, including myself. As part of the project, I designed and developed an R Shiny application to support the data collection process. The application provides a simple and structured interface for recording information from data science and analytics job advertisements, ensuring consistency in the collected data. All entries are automatically stored in a connected Google Sheet, enabling efficient and centralized data management.\nJob Ad Data Collector"
+  },
+  {
+    "objectID": "projects/project4.html#collected-datasets",
+    "href": "projects/project4.html#collected-datasets",
+    "title": "DS Job Tracker Survey",
+    "section": "Collected Datasets",
+    "text": "Collected Datasets\n\nThe project involved ten groups, with each group independently collecting data related to data science and analytics job advertisements. After data collection, we (Group_1) performed data preprocessing, cleaning, and standardization, and then combined all group datasets into a single unified dataset for analysis. This final dataset provides a comprehensive and structured view of the collected job advertisement information. All individual group datasets, along with the final cleaned dataset prepared by our group, are available for reference.\nhttps://github.com/amalirajapaksha/DSjobtracker_survey"
+>>>>>>> 60078229a1ee3031fe48d4b50ed0eccfe475f31e
   }
 ]
