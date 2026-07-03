@@ -1,3 +1,23 @@
 ---
 title: "DS Job Tracker Survey"
 ---
+
+![](/images/ds_jobtracker.png){fig-align="center"}
+
+The **DS Job Tracker Survey** was conducted to collect, organize, and analyze job advertisements related to data science and statistics. By systematically extracting information from job postings and transforming it into a structured, study-ready dataset, the project provides valuable insights into the qualifications, technical skills, programming languages, software tools, and experience commonly requested by employers. It serves as a practical resource for students, graduates, and professionals seeking to understand current industry expectations and identify the competencies most sought after in the data science job market. Throughout this project, I strengthened my skills in data collection, data wrangling, and data preprocessing while working with real-world job advertisement data. The project also provided an opportunity to explore trends in job postings, compare skill requirements across different roles, and gain a better understanding of the knowledge and technical expertise required to pursue a career in data science and statistics.
+
+## Job Ad Data Collector (R Shiny App)
+
+<hr class="section-line">
+
+Job advertisement data for this project were collected collaboratively by a group of twelve students, including myself. As part of the project, I designed and developed an R Shiny application to support the data collection process. The application provides a simple and structured interface for recording information from data science and analytics job advertisements, ensuring consistency in the collected data. All entries are automatically stored in a connected Google Sheet, enabling efficient and centralized data management.
+
+[Job Ad Data Collector](https://amalirajapaksha.shinyapps.io/Job_Ad/)
+
+## Collected Datasets
+
+<hr class="section-line">
+
+The project involved ten groups, with each group independently collecting data related to data science and analytics job advertisements. After data collection, we (Group_1) performed data preprocessing, cleaning, and standardization, and then combined all group datasets into a single unified dataset for analysis. This final dataset provides a comprehensive and structured view of the collected job advertisement information. All individual group datasets, along with the final cleaned dataset prepared by our group, are available for reference.
+
+<https://github.com/amalirajapaksha/DSjobtracker_survey>

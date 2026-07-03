@@ -61,7 +61,7 @@ NumPy · Pandas · Scikit-learn
 ::: skill-card
 ### Data Visualization
 
-Plotly · Matplotlib · Seaborn · Power BI (Basic)
+Plotly · Matplotlib · Seaborn · Power BI 
 :::
 
 ::: skill-card
@@ -73,7 +73,7 @@ SPSS · Minitab · Maple
 ::: skill-card
 ### Reporting & Documentation
 
-LaTeX · R Flexdashboard
+LaTeX · R Flexdashboard · Quarto
 :::
 
 ::: skill-card

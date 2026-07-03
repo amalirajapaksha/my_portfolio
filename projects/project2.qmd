@@ -63,7 +63,7 @@ $$
 
 All code used for data preprocessing, model development, forecasting, and visualization is publicly available on GitHub:
 
-[https://github.com/amalirajapaksha/CNEPI](https://github.com/amalirajapaksha/CNEPI)
+<https://github.com/amalirajapaksha/CNEPI>
 
 ## Research Outputs
 
