@@ -11,7 +11,7 @@ toc: false
 
 ### Ditwah Data Hub Project
 
-**Description**: Converted unstructured PDF reports on Cyclone Ditwah into structured, analysis-ready data and developed an interactive platform to visualize and monitor its impacts in Sri Lanka. The project was founded and led by [Dr. Thiyanga Talagala](https://thiyanga.netlify.app/)
+**Description**: Converted unstructured PDF reports on Cyclone Ditwah into structured, analysis-ready data and developed an interactive platform to visualize and monitor its impacts in Sri Lanka under the supervision of [Dr. Thiyanga Talagala](https://thiyanga.netlify.app/) \
 
 **Tech Stack**: R, ggplot2, Data Visualization, Geospatial Analytics\
 [View Project](https://thiyangt.github.io/DitwahDataHub/)
@@ -22,10 +22,10 @@ toc: false
 
 ### Forecasting Commodity Net Export Price Index (CNEPI)
 
-**Description**: Developed an ARIMA model to forecast the Commodity Net Export Price Index, Individual Commodities Weighted by Ratio of Net Exports to GDP (CNEPI) of Sri Lanka\
+**Description**: Developed an interactive introductory course on Python for Data Science, designed to help R users learn essential Python concepts and workflows for data analysis through practical examples and hands-on exercises.\
 
-**Tech Stack**: R, ARIMA, Forecast Package, Time Series Analysis, Data Visualization\
-[View Project](projects/project2.qmd)
+**Tech Stack**: Python, Jupyter Notebook, Pandas, NumPy, Matplotlib, Data Science, R\
+[View Project](https://akt-python-workshop26.share.connect.posit.cloud/)
 :::
 :::::
 
