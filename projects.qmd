@@ -11,7 +11,7 @@ toc: false
 
 ### Ditwah Data Hub Project
 
-**Description**: Converted unstructured PDF reports on Cyclone Ditwah into structured, analysis-ready data and developed an interactive platform to visualize and monitor its impacts in Sri Lanka under the supervision of [Dr. Thiyanga Talagala](https://thiyanga.netlify.app/) \
+**Description**: Converted unstructured PDF reports on Cyclone Ditwah into structured, analysis-ready data and developed an interactive platform to visualize and monitor its impacts in Sri Lanka under the supervision of [Dr. Thiyanga Talagala](https://thiyanga.netlify.app/)\
 
 **Tech Stack**: R, ggplot2, Data Visualization, Geospatial Analytics\
 [View Project](https://thiyangt.github.io/DitwahDataHub/)
@@ -53,7 +53,7 @@ toc: false
 :::
 :::::
 
-:::: grid
+::::: grid
 ::: {.g-col-12 .g-col-md-6}
 ![](images/project4.png){width="100px" style="float:left; margin-right:1em;"}
 
@@ -68,11 +68,11 @@ toc: false
 ::: {.g-col-12 .g-col-md-6}
 ![](images/project5.png){width="100px" style="float:left; margin-right:1em;"}
 
-### X̄ & R Charts Shiny App
+### Statistical Process Control Chart Application
 
 **Description**: This Shiny app allows users to explore X̄ (mean) and R (range) control charts for quality control. It is developed for learning purposes and demonstrates Phase I and Phase II charting.
 
 **Tech Stack**: R, shiny, dplyr, ggplot2, DT\
 [View Project](https://github.com/amalirajapaksha/Xbar_R_charts)
 :::
-::::
+:::::
