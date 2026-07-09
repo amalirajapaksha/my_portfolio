@@ -70,7 +70,7 @@ toc: false
 
 ### Statistical Process Control Chart Application
 
-**Description**: This Shiny app allows users to explore X̄ (mean) and R (range) control charts for quality control. It is developed for learning purposes and demonstrates Phase I and Phase II charting.
+**Description**: This Shiny app allows users to explore X̄ (mean) and R (range) control charts for quality control. It is developed for learning purposes and demonstrates Phase I and Phase II charting. This can also be used in industrial settings.
 
 **Tech Stack**: R, shiny, dplyr, ggplot2, DT\
 [View Project](https://github.com/amalirajapaksha/Xbar_R_charts)
