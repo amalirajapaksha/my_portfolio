@@ -4,3 +4,5 @@ title: "Statistics: Seeing Beyond the Peaks and Valleys"
 
 A dataset can be imagined as a mountain range filled with peaks and valleys.\
 Each value rises and falls across the landscape. From a close view, it appears irregular and scattered, but from a higher perspective, its true structure becomes clear. Statistics helps us step back and reveal the hidden patterns within variation.
+
+![](images/bg.jpg)
