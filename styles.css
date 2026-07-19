@@ -610,4 +610,17 @@ footer {
   }
 
 }
-                    
+
+
+
+
+/*========================= 
+TABLETS (769px - 1024px) 
+======================== */ 
+@media (min-width: 769px) and (max-width: 1024px) {
+body { font-size: 16px;
+} 
+
+.navbar a { font-size: 14px; } 
+
+}

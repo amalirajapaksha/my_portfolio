@@ -121,3 +121,78 @@ body::before {
     font-size: 1.5rem;
   }
 }
+
+
+
+
+
+
+/* =========================
+   TABLETS
+   (769px - 1024px)
+========================= */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+  html, body {
+    overflow-x: hidden;
+    background: url("images/bg.jpg") center center / cover no-repeat;
+    background-attachment: fixed;
+  }
+
+  .hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    text-align: left;
+  }
+
+  .hero-image {
+    order: 0;
+    margin-bottom: 0;
+  }
+
+  .hero-name {
+    font-size: 2.2rem;
+  }
+}
+
+
+/* =========================
+   NOTEBOOKS / SMALL LAPTOPS
+   (1025px - 1366px)
+========================= */
+@media (min-width: 1025px) and (max-width: 1366px) {
+
+  html, body {
+    overflow-x: hidden;
+    background: url("images/bg.jpg") center center / cover no-repeat;
+    background-attachment: fixed;
+  }
+
+  .hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    text-align: left;
+  }
+
+  .hero-image {
+    order: 0;
+    margin-bottom: 0;
+  }
+
+  .profile-pic {
+    width: 260px;
+    height: 320px;
+  }
+
+  .hero-name {
+    font-size: 2.8rem;
+  }
+}
+
+
+
+
