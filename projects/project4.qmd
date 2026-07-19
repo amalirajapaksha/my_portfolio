@@ -2,9 +2,11 @@
 title: "DS Job Tracker Survey"
 ---
 
-![](/images/ds_jobtracker.png){fig-align="center" width="500"}
+![](/images/ds_jobtracker.png){fig-align="center" width="800"}
 
-The **DS Job Tracker Survey** was conducted to collect, organize, and analyze job advertisements related to data science and statistics. By systematically extracting information from job postings and transforming it into a structured, study-ready dataset, the project provides valuable insights into the qualifications, technical skills, programming languages, software tools, and experience commonly requested by employers. It serves as a practical resource for students, graduates, and professionals seeking to understand current industry expectations and identify the competencies most sought after in the data science job market. Throughout this project, I strengthened my skills in data collection, data wrangling, and data preprocessing while working with real-world job advertisement data. The project also provided an opportunity to explore trends in job postings, compare skill requirements across different roles, and gain a better understanding of the knowledge and technical expertise required to pursue a career in data science and statistics.
+The **DS Job Tracker Survey** was conducted to collect, organize, and analyze job advertisements related to data science and statistics. By systematically extracting information from job postings and transforming it into a structured, study-ready dataset, the project provides valuable insights into the qualifications, technical skills, programming languages, software tools, and experience commonly requested by employers. It serves as a practical resource for students, graduates, and professionals seeking to understand current industry expectations and identify the competencies most sought after in the data science job market.
+
+Throughout this project, I strengthened my skills in data collection, data wrangling, and data preprocessing while working with real-world job advertisement data. The project also provided an opportunity to explore trends in job postings, compare skill requirements across different roles, and gain a better understanding of the knowledge and technical expertise required to pursue a career in data science and statistics.
 
 ## Job Ad Data Collector (R Shiny App)
 
