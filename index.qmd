@@ -11,7 +11,7 @@ css: home.css
 Y.M. Amali P. Rajapaksha
 :::
 
-**BSc (Hons) Statistics - Undergraduate\
+**BSc (Hons) in Statistics - Undergraduate\
 Department of Statistics\
 Faculty of Applied Sciences\
 University of Sri Jayewardenepura**

@@ -6,7 +6,9 @@ title: "Certifications"
 
 Jun 2026\
 **Issuer:** Alison\
-[View Credential](https://alison.com/verify/2ec4c4c824)
+<a class="credential-btn" href="https://alison.com/verify/2ec4c4c824" target="_blank">
+View Credential
+</a>
 
 ------------------------------------------------------------------------
 
@@ -14,7 +16,9 @@ Jun 2026\
 
 *Feb 2026*\
 **Issuer:** Analytics Vidhya\
-[View Credential](https://courses.analyticsvidhya.com/certificates/460qcjgqhe)
+<a class="credential-btn" href="https://courses.analyticsvidhya.com/certificates/460qcjgqhe" target="_blank">
+View Credential
+</a>
 
 ------------------------------------------------------------------------
 
@@ -22,6 +26,6 @@ Jun 2026\
 
 *Nov 2025*\
 **Issuer:** 365 Data Science\
-[View Credential](https://learn.365datascience.com/certificates/CC-458936358D/)
-
-
+<a class="credential-btn" href="https://learn.365datascience.com/certificates/CC-458936358D/" target="_blank">
+View Credential
+</a>
