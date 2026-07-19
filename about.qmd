@@ -46,45 +46,142 @@ G.C.E. Advanced Level (in Physical Science Stream)\
 <hr class="section-line">
 
 ::::::::: skills-grid
+
 ::: skill-card
 ### Programming
 
-R · Python · MATLAB
+<div class="skill-list">
+
+<span class="skill-item">
+  <img src="https://cdn.simpleicons.org/r" width="20" alt="R"> R
+</span>
+
+<span class="skill-item">
+  <img src="https://cdn.simpleicons.org/python" width="20" alt="Python"> Python
+</span>
+
+<span class="skill-item">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg" width="20" alt="MATLAB"> MATLAB
+</span>
+
+</div>
+
 :::
 
 ::: skill-card
 ### Data Science & Machine Learning
 
-NumPy · Pandas · Scikit-learn
+<div class="skill-list">
+
+<span class="skill-item">
+  <img src="images/tidyverse.svg" width="20"> tidyverse
+</span>
+
+<span class="skill-item">
+  <img src="https://cdn.simpleicons.org/numpy" width="20" alt="NumPy"> NumPy
+</span>
+
+<span class="skill-item">
+  <img src="https://cdn.simpleicons.org/pandas" width="20" alt="Pandas"> Pandas
+</span>
+
+<span class="skill-item">
+  <img src="https://cdn.simpleicons.org/scikitlearn" width="20" alt="Scikit-learn"> scikit-learn
+</span>
+
+</div>
+
 :::
 
 ::: skill-card
 ### Data Visualization
 
-Plotly · Matplotlib · Seaborn · Power BI 
+<div class="skill-list">
+
+<span class="skill-item">
+  <img src="images/Ggplot2_logo.svg" width="20"> ggplot2
+</span>
+
+<span class="skill-item">
+  <img src="https://cdn.simpleicons.org/plotly" width="20" alt="Plotly"> Plotly
+</span>
+
+<span class="skill-item">
+  <img src="images/Matplotlib_icon.svg" width="20"> Matplotlib
+</span>
+
+<span class="skill-item">
+  <img src="images/seaborn-1.svg" height="20" alt="Seaborn"> seaborn
+</span>
+
+<span class="skill-item">
+  <img src="images/New_Power_BI_Logo.svg" width="20" alt="Power BI"> Power BI
+</span>
+
+</div>
+
 :::
 
 ::: skill-card
 ### Statistical Software
 
-SPSS · Minitab · Maple
-:::
+<div class="skill-list">
+
+<span class="skill-item">
+  <img src="images/SPSS.WEBP" height="20" alt="SPSS"> SPSS
+</span>
+
+<span class="skill-item">
+  <img src="images/Minitab_Logo.svg" height="20"> Minitab
+</span>
+
+<span class="skill-item">
+  <img src="images/Maple.png" height="18" alt="Maple"> Maple
+</span>
+
+</div>
+
+::: 
 
 ::: skill-card
 ### Reporting & Documentation
 
-LaTeX · R Flexdashboard · Quarto
+<div class="skill-list">
+
+<span class="skill-item">
+  <img src="images/LaTeX_logo.svg" width="20" alt="LaTeX"> LaTeX
+</span>
+
+<span class="skill-item">
+  <img src="images/flexdashboard.png" width="20"> R Flexdashboard
+</span>
+
+<span class="skill-item">
+  <img src="https://cdn.simpleicons.org/quarto" width="20" alt="Quarto"> Quarto
+</span>
+
+</div>
+
 :::
 
 ::: skill-card
 ### Tools & Platforms
 
-Jupyter Notebook
-:::
-:::::::::
+<div class="skill-list">
 
-::: vspace
+<span class="skill-item">
+  <img src="https://cdn.simpleicons.org/jupyter" width="20" alt="Jupyter"> Jupyter Notebook
+</span>
+
+<span class="skill-item">
+  <img src="https://cdn.simpleicons.org/github" width="20" alt="GitHub"> GitHub
+</span>
+
+</div>
+
 :::
+
+:::::::::
 
 ## Core Coursework
 
@@ -153,4 +250,4 @@ Jupyter Notebook
 
 <i class="fa-brands fa-whatsapp"></i> WhatsApp: 0768662186\
 
-<i class="fa-brands fa-linkedin"></i> LinkedIn: <https://www.linkedin.com/in/amali-rajapaksha-921829336/>
+<i class="fa-brands fa-linkedin"></i> LinkedIn: <https://www.linkedin.com/in/amalirajapaksha>
