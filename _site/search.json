@@ -95,7 +95,7 @@
     "href": "Experience.html",
     "title": "Experience",
     "section": "",
-    "text": "💼 Work Experience\n\n\nIntern\nBank of Ceylon, Hettipola Branch\nApr 2022- Oct 2022\n\nFacilitated opening, maintenance, and closure of savings accounts and fixed deposits\nManaged customer account services, including passbook updates and issuance of banking documents\nAssisted in delivering digital banking solutions and customer support for online services\nDelivered efficient front-line customer service in a high-volume banking environment\n\n\n\n\n\n\n\n\n\n\n🤝 Volunteering\n\n\nQuora 3.0 - Statistic Society\nDepartment of Statistics, University of Sri Jayewardenepura\nJun 2025\n\nHelped organize Quora 3.0, an annual quiz competition for first-year students.\nWorked with team members to manage event activities and support participant engagement."
+    "text": "💼 Work Experience\n\n\nStatistical Consultant\nStatistical Consulting Service Department of Statistics, University of Sri Jayewardenepura\nMay 2026 - present\n\nProvided statistical consultation for the research project, “Opportunities, Challenges, and Constraints Associated with Bivalve Aquaculture Development in Northern Sri Lanka: Socio-economic and Environmental Aspects”, including data management, statistical analysis, and interpretation of results.\nConducted statistical analysis of GPS collar tracking data for an elephant movement study in collaboration with the Department of Wildlife Conservation through spatial and temporal data analysis.\nAssisted researchers in selecting appropriate statistical methods, data visualization, and interpretation of findings for research publications.\n\n\n\n\n\nIntern\nBank of Ceylon, Hettipola Branch\nApr 2022- Oct 2022\n\nFacilitated opening, maintenance, and closure of savings accounts and fixed deposits\nManaged customer account services, including passbook updates and issuance of banking documents\nAssisted in delivering digital banking solutions and customer support for online services\nDelivered efficient front-line customer service in a high-volume banking environment\n\n\n\n\n\n\n\n\n\n\n🤝 Volunteering\n\n\nQuora 3.0 - Statistic Society\nDepartment of Statistics, University of Sri Jayewardenepura\nJun 2025\n\nHelped organize Quora 3.0, an annual quiz competition for first-year students.\nWorked with team members to manage event activities and support participant engagement."
   },
   {
     "objectID": "Blog.html",
@@ -299,5 +299,40 @@
     "title": "Software",
     "section": "",
     "text": "ditwahLandslide: Early Warning Information on Landslides in Sri Lanka During the Ditwah Storm"
+  },
+  {
+    "objectID": "projects/dengue_dashboard.html",
+    "href": "projects/dengue_dashboard.html",
+    "title": "Sri Lanka Dengue Dashboard: A Web-Based Decision Support Tool for Dengue Surveillance in Sri Lanka",
+    "section": "",
+    "text": "This dashboard provides an interactive overview of the dengue situation in Sri Lanka using the latest available surveillance data. Built with R using the Quarto Dashboard framework, it presents recent dengue trends, district-level analyses, historical patterns, comparisons with the global dengue situation, and explores the relationship between dengue transmission and key climate variables. The dashboard offers valuable insights for monitoring, understanding, and supporting evidence-based decision-making on dengue dynamics in Sri Lanka."
+  },
+  {
+    "objectID": "projects/dengue_dashboard.html#project-reproducibility",
+    "href": "projects/dengue_dashboard.html#project-reproducibility",
+    "title": "Sri Lanka Dengue Dashboard: A Web-Based Decision Support Tool for Dengue Surveillance in Sri Lanka",
+    "section": "Project Reproducibility",
+    "text": "Project Reproducibility\n\nAll R code, data, and supporting files required to reproduce the analyses and results presented in this project are available in the GitHub repository.\nhttps://github.com/amalirajapaksha/denguedashboard_SriLanka"
+  },
+  {
+    "objectID": "projects/dengue_dashboard.html#data-sources",
+    "href": "projects/dengue_dashboard.html#data-sources",
+    "title": "Sri Lanka Dengue Dashboard: A Web-Based Decision Support Tool for Dengue Surveillance in Sri Lanka",
+    "section": "Data Sources",
+    "text": "Data Sources\n\nThe data used in this project were obtained from the following sources:\n\nLocal Data up to December 2025 :\n\nTalagala, T. (2026). denguedatahub: A Tidy Format Datasets of Dengue by Country. R package version 4.1.1. https://thiyangt.github.io/denguedatahubweb/\n\nLocal Data for 2026\n\nEpidemiology Unit. (2026). Weekly Epidemiological Reports on Dengue Surveillance. Ministry of Health, Sri Lanka. Available at: https://www.epid.gov.lk/\nNational Dengue Control Unit. (2026). Weekly Dengue Updates. Ministry of Health, Sri Lanka. Available at: https://www.dengue.health.gov.lk/updates/\n\nGlobal Data :\n\nWorld Health Organization. (2026). Global Dengue Surveillance Dashboard. Available at: https://worldhealthorg.shinyapps.io/dengue_global/\n\nClimate Data :\n\nNASA Langley Research Center. (2026). NASA POWER Data Access Viewer. National Aeronautics and Space Administration. Available at: https://power.larc.nasa.gov/data-access-viewer/"
+  },
+  {
+    "objectID": "projects/dengue_dashboard.html#project-showcase",
+    "href": "projects/dengue_dashboard.html#project-showcase",
+    "title": "Sri Lanka Dengue Dashboard: A Web-Based Decision Support Tool for Dengue Surveillance in Sri Lanka",
+    "section": "Project Showcase",
+    "text": "Project Showcase"
+  },
+  {
+    "objectID": "projects/dengue_dashboard.html#access-the-dashboard",
+    "href": "projects/dengue_dashboard.html#access-the-dashboard",
+    "title": "Sri Lanka Dengue Dashboard: A Web-Based Decision Support Tool for Dengue Surveillance in Sri Lanka",
+    "section": "Access the Dashboard",
+    "text": "Access the Dashboard\n\n🌐 Live Dashboard: https://amalirajapaksha.github.io/denguedashboard_SriLanka/"
   }
 ]

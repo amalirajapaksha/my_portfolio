@@ -26,18 +26,15 @@ website:
         href: https://github.com/amalirajapaksha
     
       - icon: linkedin
-        href: https://www.linkedin.com/in/amali-rajapaksha-921829336/
+        href: https://www.linkedin.com/in/amalirajapaksha/
     
       - icon: envelope
         href: mailto:amali2022ugc@gmail.com
     
       - icon: download
         text: Download CV
-        href: files/CV_Amali.pdf
+        href: files/CV_Amali_updated.pdf
         target: _blank
-            
-  
-         
       
 format:
   html:

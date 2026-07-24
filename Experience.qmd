@@ -6,10 +6,22 @@ title: "Experience"
 
 <hr class="section-line">
 
+### **Statistical Consultant**
+
+[Statistical Consulting Service](https://science.sjp.ac.lk/sta/scs-usj/) Department of Statistics, University of Sri Jayewardenepura\
+*May 2026 - present*
+
+-   Provided statistical consultation for the research project, ***"Opportunities, Challenges, and Constraints Associated with Bivalve Aquaculture Development in Northern Sri Lanka: Socio-economic and Environmental Aspects"***, including data management, statistical analysis, and interpretation of results.
+
+-   Conducted statistical analysis of GPS collar tracking data for an elephant movement study in collaboration with the [Department of Wildlife Conservation](https://www.dwc.gov.lk/) through spatial and temporal data analysis.
+
+-   Assisted researchers in selecting appropriate statistical methods, data visualization, and interpretation of findings for research publications.\
+\
+
 ### **Intern**
 
 [Bank of Ceylon](https://www.boc.lk), Hettipola Branch\
-Apr 2022- Oct 2022
+*Apr 2022- Oct 2022*
 
 -   Facilitated opening, maintenance, and closure of savings accounts and fixed deposits
 
@@ -33,7 +45,7 @@ Apr 2022- Oct 2022
 ### **Quora 3.0 - Statistic Society**
 
 [Department of Statistics, University of Sri Jayewardenepura](https://science.sjp.ac.lk/sta/)\
-Jun 2025
+*Jun 2025*
 
 -   Helped organize Quora 3.0, an annual quiz competition for first-year students.
 
