@@ -8,6 +8,8 @@ I'm a data science and statistics enthusiast with a passion for uncovering meani
 
 For more about me, please visit my [amalipriyanwada.netlify.app](https://amalipriyanwada.netlify.app).
 
+<img src="images/overview.png" width="600"/>
+
 *Last updated: July 2026*
 
 
