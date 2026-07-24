@@ -1,0 +1,58 @@
+---
+title: "Sri Lanka Dengue Dashboard: A Web-Based Decision Support Tool for Dengue Surveillance in Sri Lanka"
+---
+
+This dashboard provides an interactive overview of the dengue situation in Sri Lanka using the latest available surveillance data. Built with R using the Quarto Dashboard framework, it presents recent dengue trends, district-level analyses, historical patterns, comparisons with the global dengue situation, and explores the relationship between dengue transmission and key climate variables. The dashboard offers valuable insights for monitoring, understanding, and supporting evidence-based decision-making on dengue dynamics in Sri Lanka.
+
+## Project Showcase
+
+<hr class="section-line">
+
+::: {style="display: flex; justify-content: center;"}
+<iframe 
+  src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7481425738420629504?collapsed=1"
+  height="541" 
+  width="504" 
+  frameborder="0" 
+  allowfullscreen="" 
+  title="Embedded post"> 
+</iframe>
+:::
+
+## Access the Dashboard
+
+<hr class="section-line">
+
+🌐 **Live Dashboard:** <https://amalirajapaksha.github.io/denguedashboard_SriLanka/>
+
+## Project Reproducibility
+
+<hr class="section-line">
+
+All R code, data, and supporting files required to reproduce the analyses and results presented in this project are available in the GitHub repository.
+
+<https://github.com/amalirajapaksha/denguedashboard_SriLanka>
+
+## Data Sources
+
+<hr class="section-line">
+
+The data used in this project were obtained from the following sources:
+
+-   Local Data up to December 2025 :
+
+    -   Talagala, T. (2026). *denguedatahub: A Tidy Format Datasets of Dengue by Country*. R package version 4.1.1. <https://thiyangt.github.io/denguedatahubweb/>
+
+-   Local Data for 2026
+
+    -   Epidemiology Unit. (2026). *Weekly Epidemiological Reports on Dengue Surveillance*. Ministry of Health, Sri Lanka. Available at: <https://www.epid.gov.lk/>
+
+    -   National Dengue Control Unit. (2026). *Weekly Dengue Updates*. Ministry of Health, Sri Lanka. Available at: <https://www.dengue.health.gov.lk/updates/>
+
+-   Global Data :
+
+    -   World Health Organization. (2026). *Global Dengue Surveillance Dashboard*. Available at: <https://worldhealthorg.shinyapps.io/dengue_global/>
+
+-   Climate Data :
+
+    -   NASA Langley Research Center. (2026). *NASA POWER Data Access Viewer*. National Aeronautics and Space Administration. Available at: <https://power.larc.nasa.gov/data-access-viewer/>
