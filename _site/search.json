@@ -11,7 +11,7 @@
     "href": "Projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Ditwah Data Hub Project\nDescription: Converted unstructured PDF reports on Cyclone Ditwah into structured, analysis-ready data and developed an interactive platform to visualize and monitor its impacts in Sri Lanka under the supervision of Dr. Thiyanga Talagala\n\nTech Stack: R, ggplot2, Data Visualization, Geospatial Analytics\n\nView Project\n\n\n\n\n\nPython for Data Science: A Course for R Users\nDescription: Developed an interactive introductory course on Python for Data Science, designed to help R users learn essential Python concepts and workflows for data analysis through practical examples and hands-on exercises.\n\nTech Stack: Python, Jupyter Notebook, Pandas, NumPy, Matplotlib, Data Science, R\n\nView Project\n\n\n\n\n\n\n\nForecasting Commodity Net Export Price Index (CNEPI)\nDescription: Developed an ARIMA model to forecast the Commodity Net Export Price Index, Individual Commodities Weighted by Ratio of Net Exports to GDP (CNEPI) of Sri Lanka\n\nTech Stack: R, ARIMA, Forecast Package, Time Series Analysis, Data Visualization\n\nView Project\n\n\n\n\n\nInteractive Demographic and Health Data Dashboard for Australia\nDescription: Developed an interactive R Shiny dashboard for exploring and visualizing demographic and health related data for Australia, enabling user-friendly analysis of key population and health indicators.\n\nTech Stack: R, shiny, shinydashboard, plotly, dplyr, tidyr, ggplot2\n\nView Project\n\n\n\n\n\n\n\nDS Job Tracker Survey\nDescription: Collected data science and statistics job advertisement data and transformed it into a study-ready dataset through data wrangling and preprocessing.\n\nTech Stack: R, Shiny, Excel, Data Wrangling\n\nView Project\n\n\n\n\n\nStatistical Process Control Chart Application\nDescription: This Shiny app allows users to explore X̄ (mean) and R (range) control charts for quality control. It is developed for learning purposes and demonstrates Phase I and Phase II charting. This can also be used in industrial settings.\nTech Stack: R, shiny, dplyr, ggplot2, DT\n\nView Project"
+    "text": "Ditwah Data Hub Project\nDescription: Converted unstructured PDF reports on Cyclone Ditwah into structured, analysis-ready data and developed an interactive platform to visualize and monitor its impacts in Sri Lanka under the supervision of Dr. Thiyanga Talagala\n\nTech Stack: R, ggplot2, Data Visualization, Geospatial Analytics\n\nView Project\n\n\n\n\n\nPython for Data Science: A Course for R Users\nDescription: Developed an interactive introductory course on Python for Data Science, designed to help R users learn essential Python concepts and workflows for data analysis through practical examples and hands-on exercises.\n\nTech Stack: Python, Jupyter Notebook, Pandas, NumPy, Matplotlib, Data Science, R\n\nView Project\n\n\n\n\n\n\n\nForecasting Commodity Net Export Price Index (CNEPI)\nDescription: Developed an ARIMA model to forecast the Commodity Net Export Price Index, Individual Commodities Weighted by Ratio of Net Exports to GDP (CNEPI) of Sri Lanka\n\nTech Stack: R, ARIMA, Forecast Package, Time Series Analysis, Data Visualization\n\nView Project\n\n\n\n\n\nSri Lanka Dengue Dashboard: A Web-Based Decision Support Tool\nDescription: This dashboard provides an interactive overview of the dengue situation in Sri Lanka using the latest available surveillance data.\n\nTech Stack: R, Quarto Dashboard, Spatio-Temporal Analyses, plotly, dplyr, tidyr, ggplot2\n\nView Project\n\n\n\n\n\n\n\nDS Job Tracker Survey\nDescription: Collected data science and statistics job advertisement data and transformed it into a study-ready dataset through data wrangling and preprocessing.\n\nTech Stack: R, Shiny, Excel, Data Wrangling\n\nView Project\n\n\n\n\n\nInteractive Demographic and Health Data Dashboard for Australia\nDescription: Developed an interactive R Shiny dashboard for exploring and visualizing demographic and health related data for Australia, enabling user-friendly analysis of key population and health indicators.\n\nTech Stack: R, shiny, shinydashboard, plotly, dplyr, tidyr, ggplot2\n\nView Project\n\n\n\n\n\n\n\nStatistical Process Control Chart Application\nDescription: This Shiny app allows users to explore X̄ (mean) and R (range) control charts for quality control. It is developed for learning purposes and demonstrates Phase I and Phase II charting. This can also be used in industrial settings.\nTech Stack: R, shiny, dplyr, ggplot2, DT\n\nView Project"
   },
   {
     "objectID": "projects/project3.html",
@@ -54,6 +54,41 @@
     "title": "Interactive Demographic and Health Data Dashboard for Australia",
     "section": "Data Sources",
     "text": "Data Sources\n\nThe data used in this project were obtained from the following sources:\n\nAustralian Bureau of Statistics (ABS): https://www.abs.gov.au\nAustralian Institute of Health and Welfare (AIHW): https://www.aihw.gov.au\nThe World Bank: https://data.worldbank.org"
+  },
+  {
+    "objectID": "projects/dengue_dashboard.html",
+    "href": "projects/dengue_dashboard.html",
+    "title": "Sri Lanka Dengue Dashboard: A Web-Based Decision Support Tool for Dengue Surveillance in Sri Lanka",
+    "section": "",
+    "text": "This dashboard provides an interactive overview of the dengue situation in Sri Lanka using the latest available surveillance data. Built with R using the Quarto Dashboard framework, it presents recent dengue trends, district-level analyses, historical patterns, comparisons with the global dengue situation, and explores the relationship between dengue transmission and key climate variables. The dashboard offers valuable insights for monitoring, understanding, and supporting evidence-based decision-making on dengue dynamics in Sri Lanka."
+  },
+  {
+    "objectID": "projects/dengue_dashboard.html#project-showcase",
+    "href": "projects/dengue_dashboard.html#project-showcase",
+    "title": "Sri Lanka Dengue Dashboard: A Web-Based Decision Support Tool for Dengue Surveillance in Sri Lanka",
+    "section": "Project Showcase",
+    "text": "Project Showcase"
+  },
+  {
+    "objectID": "projects/dengue_dashboard.html#access-the-dashboard",
+    "href": "projects/dengue_dashboard.html#access-the-dashboard",
+    "title": "Sri Lanka Dengue Dashboard: A Web-Based Decision Support Tool for Dengue Surveillance in Sri Lanka",
+    "section": "Access the Dashboard",
+    "text": "Access the Dashboard\n\n🌐 Live Dashboard: https://amalirajapaksha.github.io/denguedashboard_SriLanka/"
+  },
+  {
+    "objectID": "projects/dengue_dashboard.html#project-reproducibility",
+    "href": "projects/dengue_dashboard.html#project-reproducibility",
+    "title": "Sri Lanka Dengue Dashboard: A Web-Based Decision Support Tool for Dengue Surveillance in Sri Lanka",
+    "section": "Project Reproducibility",
+    "text": "Project Reproducibility\n\nAll R code, data, and supporting files required to reproduce the analyses and results presented in this project are available in the GitHub repository.\nhttps://github.com/amalirajapaksha/denguedashboard_SriLanka"
+  },
+  {
+    "objectID": "projects/dengue_dashboard.html#data-sources",
+    "href": "projects/dengue_dashboard.html#data-sources",
+    "title": "Sri Lanka Dengue Dashboard: A Web-Based Decision Support Tool for Dengue Surveillance in Sri Lanka",
+    "section": "Data Sources",
+    "text": "Data Sources\n\nThe data used in this project were obtained from the following sources:\n\nLocal Data up to December 2025 :\n\nTalagala, T. (2026). denguedatahub: A Tidy Format Datasets of Dengue by Country. R package version 4.1.1. https://thiyangt.github.io/denguedatahubweb/\n\nLocal Data for 2026 :\n\nEpidemiology Unit. (2026). Weekly Epidemiological Reports on Dengue Surveillance. Ministry of Health, Sri Lanka. Available at: https://www.epid.gov.lk/\nNational Dengue Control Unit. (2026). Weekly Dengue Updates. Ministry of Health, Sri Lanka. Available at: https://www.dengue.health.gov.lk/updates/\n\nGlobal Data :\n\nWorld Health Organization. (2026). Global Dengue Surveillance Dashboard. Available at: https://worldhealthorg.shinyapps.io/dengue_global/\n\nClimate Data :\n\nNASA Langley Research Center. (2026). NASA POWER Data Access Viewer. National Aeronautics and Space Administration. Available at: https://power.larc.nasa.gov/data-access-viewer/"
   },
   {
     "objectID": "post/2026-06-01-python_module.html",
@@ -301,38 +336,17 @@
     "text": "ditwahLandslide: Early Warning Information on Landslides in Sri Lanka During the Ditwah Storm"
   },
   {
-    "objectID": "projects/dengue_dashboard.html",
-    "href": "projects/dengue_dashboard.html",
-    "title": "Sri Lanka Dengue Dashboard: A Web-Based Decision Support Tool for Dengue Surveillance in Sri Lanka",
+    "objectID": "Software.html#r-packages",
+    "href": "Software.html#r-packages",
+    "title": "Software",
     "section": "",
-    "text": "This dashboard provides an interactive overview of the dengue situation in Sri Lanka using the latest available surveillance data. Built with R using the Quarto Dashboard framework, it presents recent dengue trends, district-level analyses, historical patterns, comparisons with the global dengue situation, and explores the relationship between dengue transmission and key climate variables. The dashboard offers valuable insights for monitoring, understanding, and supporting evidence-based decision-making on dengue dynamics in Sri Lanka."
+    "text": "ditwahLandslide: Early Warning Information on Landslides in Sri Lanka During the Ditwah Storm"
   },
   {
-    "objectID": "projects/dengue_dashboard.html#project-reproducibility",
-    "href": "projects/dengue_dashboard.html#project-reproducibility",
-    "title": "Sri Lanka Dengue Dashboard: A Web-Based Decision Support Tool for Dengue Surveillance in Sri Lanka",
-    "section": "Project Reproducibility",
-    "text": "Project Reproducibility\n\nAll R code, data, and supporting files required to reproduce the analyses and results presented in this project are available in the GitHub repository.\nhttps://github.com/amalirajapaksha/denguedashboard_SriLanka"
-  },
-  {
-    "objectID": "projects/dengue_dashboard.html#data-sources",
-    "href": "projects/dengue_dashboard.html#data-sources",
-    "title": "Sri Lanka Dengue Dashboard: A Web-Based Decision Support Tool for Dengue Surveillance in Sri Lanka",
-    "section": "Data Sources",
-    "text": "Data Sources\n\nThe data used in this project were obtained from the following sources:\n\nLocal Data up to December 2025 :\n\nTalagala, T. (2026). denguedatahub: A Tidy Format Datasets of Dengue by Country. R package version 4.1.1. https://thiyangt.github.io/denguedatahubweb/\n\nLocal Data for 2026\n\nEpidemiology Unit. (2026). Weekly Epidemiological Reports on Dengue Surveillance. Ministry of Health, Sri Lanka. Available at: https://www.epid.gov.lk/\nNational Dengue Control Unit. (2026). Weekly Dengue Updates. Ministry of Health, Sri Lanka. Available at: https://www.dengue.health.gov.lk/updates/\n\nGlobal Data :\n\nWorld Health Organization. (2026). Global Dengue Surveillance Dashboard. Available at: https://worldhealthorg.shinyapps.io/dengue_global/\n\nClimate Data :\n\nNASA Langley Research Center. (2026). NASA POWER Data Access Viewer. National Aeronautics and Space Administration. Available at: https://power.larc.nasa.gov/data-access-viewer/"
-  },
-  {
-    "objectID": "projects/dengue_dashboard.html#project-showcase",
-    "href": "projects/dengue_dashboard.html#project-showcase",
-    "title": "Sri Lanka Dengue Dashboard: A Web-Based Decision Support Tool for Dengue Surveillance in Sri Lanka",
-    "section": "Project Showcase",
-    "text": "Project Showcase"
-  },
-  {
-    "objectID": "projects/dengue_dashboard.html#access-the-dashboard",
-    "href": "projects/dengue_dashboard.html#access-the-dashboard",
-    "title": "Sri Lanka Dengue Dashboard: A Web-Based Decision Support Tool for Dengue Surveillance in Sri Lanka",
-    "section": "Access the Dashboard",
-    "text": "Access the Dashboard\n\n🌐 Live Dashboard: https://amalirajapaksha.github.io/denguedashboard_SriLanka/"
+    "objectID": "Software.html#dashboards",
+    "href": "Software.html#dashboards",
+    "title": "Software",
+    "section": "Dashboards",
+    "text": "Dashboards\n\n\n\n\n\nSri Lanka Dengue Dashboard: Interactive overview of the dengue situation in Sri Lanka using the latest available surveillance data."
   }
 ]

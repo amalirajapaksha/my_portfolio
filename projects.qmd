@@ -45,15 +45,15 @@ toc: false
 :::
 
 ::: {.g-col-12 .g-col-md-6}
-![](images/project3.png){width="100px" style="float:left; margin-right:1em;"}
+![](images/dengue_dashboard.png){width="100px" style="float:left; margin-right:1em;"}
 
-### **Interactive Demographic and Health Data Dashboard for Australia**
+### **Sri Lanka Dengue Dashboard: A Web-Based Decision Support Tool**
 
-**Description**: Developed an interactive R Shiny dashboard for exploring and visualizing demographic and health related data for Australia, enabling user-friendly analysis of key population and health indicators.\
+**Description**: This dashboard provides an interactive overview of the dengue situation in Sri Lanka using the latest available surveillance data.\
 
-**Tech Stack**: R, shiny, shinydashboard, plotly, dplyr, tidyr, ggplot2\
+**Tech Stack**: R, Quarto Dashboard, Spatio-Temporal Analyses, plotly, dplyr, tidyr, ggplot2\
 \
-[View Project](projects/project3.qmd){.view-project-btn target="_blank"}
+[View Project](projects/dengue_dashboard.qmd){.view-project-btn target="_blank"}
 :::
 :::::
 
@@ -71,6 +71,20 @@ toc: false
 :::
 
 ::: {.g-col-12 .g-col-md-6}
+![](images/project3.png){width="100px" style="float:left; margin-right:1em;"}
+
+### **Interactive Demographic and Health Data Dashboard for Australia**
+
+**Description**: Developed an interactive R Shiny dashboard for exploring and visualizing demographic and health related data for Australia, enabling user-friendly analysis of key population and health indicators.\
+
+**Tech Stack**: R, shiny, shinydashboard, plotly, dplyr, tidyr, ggplot2\
+\
+[View Project](projects/project3.qmd){.view-project-btn target="_blank"}
+:::
+:::::
+
+:::: grid
+::: {.g-col-12 .g-col-md-6}
 ![](images/project5.png){width="100px" style="float:left; margin-right:1em;"}
 
 ### **Statistical Process Control Chart Application**
@@ -81,4 +95,4 @@ toc: false
 \
 [View Project](https://github.com/amalirajapaksha/Xbar_R_charts){.view-project-btn target="_blank"}
 :::
-:::::
+::::

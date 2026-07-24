@@ -9,13 +9,8 @@ This dashboard provides an interactive overview of the dengue situation in Sri L
 <hr class="section-line">
 
 ::: {style="display: flex; justify-content: center;"}
-<iframe 
-  src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7481425738420629504?collapsed=1"
-  height="541" 
-  width="504" 
-  frameborder="0" 
-  allowfullscreen="" 
-  title="Embedded post"> 
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7481425738420629504?collapsed=1" height="541" width="504" frameborder="0" allowfullscreen title="Embedded post">
+
 </iframe>
 :::
 
@@ -43,7 +38,7 @@ The data used in this project were obtained from the following sources:
 
     -   Talagala, T. (2026). *denguedatahub: A Tidy Format Datasets of Dengue by Country*. R package version 4.1.1. <https://thiyangt.github.io/denguedatahubweb/>
 
--   Local Data for 2026
+-   Local Data for 2026 :
 
     -   Epidemiology Unit. (2026). *Weekly Epidemiological Reports on Dengue Surveillance*. Ministry of Health, Sri Lanka. Available at: <https://www.epid.gov.lk/>
 

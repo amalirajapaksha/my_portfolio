@@ -2,14 +2,34 @@
  title: "Software"
 ---
 
+## R packages
+
+<hr class="section-line">
+
 ::::: columns
 ::: {.column width="18%"}
 ![](images/project1.png){width="120" style="margin-right: 20px;"}
 :::
 
 ::: {.column width="82%"}
-[ditwahLandslide](https://thiyangt.github.io/ditwahLandslide/): Early Warning Information on Landslides in Sri Lanka During the Ditwah Storm
+[**ditwahLandslide**](https://thiyangt.github.io/ditwahLandslide/): Early Warning Information on Landslides in Sri Lanka During the Ditwah Storm
 
 [![CRAN Version](https://img.shields.io/cran/v/ditwahLandslide.svg)](https://CRAN.R-project.org/package=ditwahLandslide) [![GitHub](https://img.shields.io/badge/GitHub-Repository-black?logo=github)](https://github.com/thiyangt/ditwahLandslide)
+:::
+:::::
+
+## Dashboards
+
+<hr class="section-line">
+
+::::: columns
+::: {.column width="18%"}
+![](images/dengue_dashboard_logo.png){width="200" style="margin-right: 20px;"}
+:::
+
+::: {.column width="82%"}
+[**Sri Lanka Dengue Dashboard**](https://amalirajapaksha.github.io/denguedashboard_SriLanka/): Interactive overview of the dengue situation in Sri Lanka using the latest available surveillance data.\
+\
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21533747.svg)](https://doi.org/10.5281/zenodo.21533747)
 :::
 :::::
