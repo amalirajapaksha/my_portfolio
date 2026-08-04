@@ -26,13 +26,14 @@
 ::: {.column width="18%"}
 ![](images/dengue_dashboard_logo.png){width="200" style="margin-right: 20px;"}
 :::
+
 ::: {.column width="82%"}
 [**Sri Lanka Dengue Dashboard**](https://amalirajapaksha.github.io/denguedashboard_SriLanka/): Interactive overview of the dengue situation in Sri Lanka using the latest available surveillance data.\
 \
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21533747.svg)](https://doi.org/10.5281/zenodo.21533747)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-black?logo=github)](https://github.com/amalirajapaksha/denguedashboard_SriLanka)
 :::
 :::::
-
 
 ::::: columns
 ::: {.column width="18%"}
@@ -40,8 +41,9 @@
 :::
 
 ::: {.column width="82%"}
-[**Australian Demographic & Health Data Dashboard**](https://github.com/amalirajapaksha/health-data-dashboard):  An interactive R Shiny dashboard visualizing key health and demographic trends across Australia.\
+[**Australian Demographic & Health Data Dashboard**](https://amalirajapaksha.shinyapps.io/health-data-dashboard/): An interactive R Shiny dashboard visualizing key health and demographic trends across Australia.\
 \
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21788542.svg)](https://doi.org/10.5281/zenodo.21788542)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-black?logo=github)](https://github.com/amalirajapaksha/health-data-dashboard)
 :::
 :::::
