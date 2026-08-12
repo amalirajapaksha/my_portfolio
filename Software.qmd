@@ -1,6 +1,94 @@
 ---
- title: "Software"
+ title: ""
 ---
+
+# Publications
+
+## Preprints
+
+<hr class="section-line">
+
+-   **Y. M. Amali P. Rajapaksha, (2026). *Sri Lanka Dengue Dashboard: A Web-Based Decision Support Tool for Dengue Surveillance in Sri Lanka.* arXiv preprint arXiv:2608.07650.**
+
+    [![PDF](https://img.shields.io/badge/PDF-arXiv-BA1B1B.svg)](https://arxiv.org/pdf/2608.07650)   [![DOI](https://img.shields.io/badge/DOI-10.48550%2FarXiv.2608.07650-blue.svg)](https://doi.org/10.48550/arXiv.2608.07650)   <button class="bibtex-btn" onclick="copyBibTeX(this)"> <img src="https://img.shields.io/badge/BibTeX-Copy-green.svg" alt="Copy BibTeX"/> </button>
+
+```{=html}
+<script>
+function copyBibTeX(button) {
+
+  const bibtex = `@misc{rajapaksha2026srilankadenguedashboard,
+  title={Sri Lanka Dengue Dashboard: A Web-Based Decision Support Tool for Dengue Surveillance in Sri Lanka},
+  author={Y. M. Amali P. Rajapaksha},
+  year={2026},
+  eprint={2608.07650},
+  archivePrefix={arXiv},
+  primaryClass={stat.OT},
+  url={https://arxiv.org/abs/2608.07650},
+  doi={10.48550/arXiv.2608.07650}
+}`;
+
+  navigator.clipboard.writeText(bibtex).then(function() {
+
+    button.innerHTML =
+      '<img src="https://img.shields.io/badge/BibTeX-Copied!-brightgreen.svg" alt="BibTeX Copied">';
+
+    setTimeout(function() {
+      button.innerHTML =
+        '<img src="https://img.shields.io/badge/BibTeX-Copy-green.svg" alt="Copy BibTeX">';
+    }, 2000);
+
+  }).catch(function() {
+
+    const textarea = document.createElement("textarea");
+
+    textarea.value = bibtex;
+    textarea.style.position = "fixed";
+    textarea.style.opacity = "0";
+
+    document.body.appendChild(textarea);
+
+    textarea.focus();
+    textarea.select();
+
+    document.execCommand("copy");
+
+    document.body.removeChild(textarea);
+
+    button.innerHTML =
+      '<img src="https://img.shields.io/badge/BibTeX-Copied!-brightgreen.svg" alt="BibTeX Copied">';
+
+    setTimeout(function() {
+      button.innerHTML =
+        '<img src="https://img.shields.io/badge/BibTeX-Copy-green.svg" alt="Copy BibTeX">';
+    }, 2000);
+
+  });
+
+}
+</script>
+```
+
+```{=html}
+<style>
+.bibtex-btn {
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.bibtex-btn img {
+  display: inline-block;
+  vertical-align: middle;
+}
+</style>
+```
+\
+\
+
+# Software
 
 ## R packages
 

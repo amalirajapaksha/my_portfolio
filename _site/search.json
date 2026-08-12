@@ -331,22 +331,29 @@
   {
     "objectID": "Software.html",
     "href": "Software.html",
-    "title": "Software",
+    "title": "Publications",
     "section": "",
-    "text": "ditwahLandslide: Early Warning Information on Landslides in Sri Lanka During the Ditwah Storm"
+    "text": "Y. M. Amali P. Rajapaksha, (2026). Sri Lanka Dengue Dashboard: A Web-Based Decision Support Tool for Dengue Surveillance in Sri Lanka. arXiv preprint arXiv:2608.07650."
   },
   {
     "objectID": "Software.html#r-packages",
     "href": "Software.html#r-packages",
-    "title": "Software",
-    "section": "",
-    "text": "ditwahLandslide: Early Warning Information on Landslides in Sri Lanka During the Ditwah Storm"
+    "title": "Publications",
+    "section": "R packages",
+    "text": "R packages\n\n\n\n\n\nditwahLandslide: Early Warning Information on Landslides in Sri Lanka During the Ditwah Storm"
   },
   {
     "objectID": "Software.html#dashboards",
     "href": "Software.html#dashboards",
-    "title": "Software",
+    "title": "Publications",
     "section": "Dashboards",
     "text": "Dashboards\n\n\n\n\n\nSri Lanka Dengue Dashboard: Interactive overview of the dengue situation in Sri Lanka using the latest available surveillance data.\n\n \n\n\n\n\n\n\nAustralian Demographic & Health Data Dashboard: An interactive R Shiny dashboard visualizing key health and demographic trends across Australia."
+  },
+  {
+    "objectID": "Software.html#preprints",
+    "href": "Software.html#preprints",
+    "title": "Publications",
+    "section": "",
+    "text": "Y. M. Amali P. Rajapaksha, (2026). Sri Lanka Dengue Dashboard: A Web-Based Decision Support Tool for Dengue Surveillance in Sri Lanka. arXiv preprint arXiv:2608.07650."
   }
 ]

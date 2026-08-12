@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Software – Amali Rajapaksha</title>
+<title>software – Amali Rajapaksha</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -99,7 +99,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./Software.html" aria-current="page"> 
-<span class="menu-text">Software</span></a>
+<span class="menu-text">Publications &amp; Software</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./Projects.html"> 
@@ -155,33 +155,108 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#r-packages" id="toc-r-packages" class="nav-link active" data-scroll-target="#r-packages">R packages</a></li>
+  <li><a href="#publications" id="toc-publications" class="nav-link active" data-scroll-target="#publications">Publications</a>
+  <ul class="collapse">
+  <li><a href="#preprints" id="toc-preprints" class="nav-link" data-scroll-target="#preprints">Preprints</a></li>
+  </ul></li>
+  <li><a href="#software" id="toc-software" class="nav-link" data-scroll-target="#software">Software</a>
+  <ul class="collapse">
+  <li><a href="#r-packages" id="toc-r-packages" class="nav-link" data-scroll-target="#r-packages">R packages</a></li>
   <li><a href="#dashboards" id="toc-dashboards" class="nav-link" data-scroll-target="#dashboards">Dashboards</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Software</h1>
-</div>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
-<div class="quarto-title-meta">
 
-    
-  
-    
-  </div>
-  
+<section id="publications" class="level1">
+<h1>Publications</h1>
+<section id="preprints" class="level2">
+<h2 class="anchored" data-anchor-id="preprints">Preprints</h2>
+<hr class="section-line">
+<ul>
+<li><p><strong>Y. M. Amali P. Rajapaksha, (2026). <em>Sri Lanka Dengue Dashboard: A Web-Based Decision Support Tool for Dengue Surveillance in Sri Lanka.</em> arXiv preprint arXiv:2608.07650.</strong></p>
+<p><a href="https://arxiv.org/pdf/2608.07650"><img src="https://img.shields.io/badge/PDF-arXiv-BA1B1B.svg" class="img-fluid" alt="PDF"></a>&nbsp;&nbsp; <a href="https://doi.org/10.48550/arXiv.2608.07650"><img src="https://img.shields.io/badge/DOI-10.48550%2FarXiv.2608.07650-blue.svg" class="img-fluid" alt="DOI"></a>&nbsp;&nbsp; <button class="bibtex-btn" onclick="copyBibTeX(this)"> <img src="https://img.shields.io/badge/BibTeX-Copy-green.svg" alt="Copy BibTeX"> </button></p></li>
+</ul>
+<script>
+function copyBibTeX(button) {
 
+  const bibtex = `@misc{rajapaksha2026srilankadenguedashboard,
+  title={Sri Lanka Dengue Dashboard: A Web-Based Decision Support Tool for Dengue Surveillance in Sri Lanka},
+  author={Y. M. Amali P. Rajapaksha},
+  year={2026},
+  eprint={2608.07650},
+  archivePrefix={arXiv},
+  primaryClass={stat.OT},
+  url={https://arxiv.org/abs/2608.07650},
+  doi={10.48550/arXiv.2608.07650}
+}`;
 
-</header>
+  navigator.clipboard.writeText(bibtex).then(function() {
 
+    button.innerHTML =
+      '<img src="https://img.shields.io/badge/BibTeX-Copied!-brightgreen.svg" alt="BibTeX Copied">';
 
+    setTimeout(function() {
+      button.innerHTML =
+        '<img src="https://img.shields.io/badge/BibTeX-Copy-green.svg" alt="Copy BibTeX">';
+    }, 2000);
+
+  }).catch(function() {
+
+    const textarea = document.createElement("textarea");
+
+    textarea.value = bibtex;
+    textarea.style.position = "fixed";
+    textarea.style.opacity = "0";
+
+    document.body.appendChild(textarea);
+
+    textarea.focus();
+    textarea.select();
+
+    document.execCommand("copy");
+
+    document.body.removeChild(textarea);
+
+    button.innerHTML =
+      '<img src="https://img.shields.io/badge/BibTeX-Copied!-brightgreen.svg" alt="BibTeX Copied">';
+
+    setTimeout(function() {
+      button.innerHTML =
+        '<img src="https://img.shields.io/badge/BibTeX-Copy-green.svg" alt="Copy BibTeX">';
+    }, 2000);
+
+  });
+
+}
+</script>
+<style>
+.bibtex-btn {
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.bibtex-btn img {
+  display: inline-block;
+  vertical-align: middle;
+}
+</style>
+<p><br>
+<br>
+</p>
+</section>
+</section>
+<section id="software" class="level1">
+<h1>Software</h1>
 <section id="r-packages" class="level2">
 <h2 class="anchored" data-anchor-id="r-packages">R packages</h2>
 <hr class="section-line">
@@ -217,6 +292,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

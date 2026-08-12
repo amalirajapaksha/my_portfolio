@@ -10,7 +10,7 @@ website:
     left:
       - text: About
         href: about.qmd
-      - text: Software
+      - text: Publications & Software
         href: Software.qmd
       - text: Projects
         href: Projects.qmd
