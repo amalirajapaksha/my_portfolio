@@ -151,7 +151,7 @@
     "href": "about.html#education",
     "title": "About",
     "section": "Education",
-    "text": "Education\n\n\nB.Sc. (Honours) in Statistics - (Undergraduate)\nDepartment of Statistics, Faculty of Applied Sciences, University of Sri Jayewardenepura, Sri Lanka\nMay 2023- Present\nDuring the first two years of my studies, I followed Statistics, Mathematics, and Economics as my main subjects. By the end of the second academic year, I was successfully selected for the Special Degree Program in Statistics, achieving the highest GPA in Statistics (4.00/4.00) among approximately 130 students.\n\n\n\nG.C.E. Advanced Level\nMaliyadeva Balika Vidyalaya, Kurunegala, Sri Lanka\nFeb 2021\nPhysical Science Stream including Mathematics, Physics, and Chemistry\n\n\n\nG.C.E. Ordinary Level\nMaliyadeva Balika Vidyalaya, Kurunegala, Sri Lanka\nDec 2017"
+    "text": "Education\n\n\nB.Sc. (Honours) in Statistics - (Undergraduate)\nDepartment of Statistics, Faculty of Applied Sciences, University of Sri Jayewardenepura, Sri Lanka\nMay 2023- Present\nDuring the first two years of my undergraduate studies, I studied Statistics, Mathematics, and Economics as my main subjects. At the end of my second academic year, I was selected for the Special Degree Programme in Statistics, achieving the highest GPA in Statistics (4.00/4.00) among approximately 130 students.\n\n\n\nG.C.E. Advanced Level\nMaliyadeva Balika Vidyalaya, Kurunegala, Sri Lanka\nFeb 2021\nI completed my G.C.E. Advanced Level examination in the Physical Science Stream, including Mathematics, Physics, and Chemistry.\n\n\n\nG.C.E. Ordinary Level\nMaliyadeva Balika Vidyalaya, Kurunegala, Sri Lanka\nDec 2017"
   },
   {
     "objectID": "about.html#skills",
@@ -336,6 +336,13 @@
     "text": "Y. M. Amali P. Rajapaksha, (2026). Sri Lanka Dengue Dashboard: A Web-Based Decision Support Tool for Dengue Surveillance in Sri Lanka. arXiv preprint arXiv:2608.07650."
   },
   {
+    "objectID": "Software.html#preprints",
+    "href": "Software.html#preprints",
+    "title": "Publications",
+    "section": "",
+    "text": "Y. M. Amali P. Rajapaksha, (2026). Sri Lanka Dengue Dashboard: A Web-Based Decision Support Tool for Dengue Surveillance in Sri Lanka. arXiv preprint arXiv:2608.07650."
+  },
+  {
     "objectID": "Software.html#r-packages",
     "href": "Software.html#r-packages",
     "title": "Publications",
@@ -348,12 +355,5 @@
     "title": "Publications",
     "section": "Dashboards",
     "text": "Dashboards\n\n\n\n\n\nSri Lanka Dengue Dashboard: Interactive overview of the dengue situation in Sri Lanka using the latest available surveillance data.\n\n \n\n\n\n\n\n\nAustralian Demographic & Health Data Dashboard: An interactive R Shiny dashboard visualizing key health and demographic trends across Australia."
-  },
-  {
-    "objectID": "Software.html#preprints",
-    "href": "Software.html#preprints",
-    "title": "Publications",
-    "section": "",
-    "text": "Y. M. Amali P. Rajapaksha, (2026). Sri Lanka Dengue Dashboard: A Web-Based Decision Support Tool for Dengue Surveillance in Sri Lanka. arXiv preprint arXiv:2608.07650."
   }
 ]
