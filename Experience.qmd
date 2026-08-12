@@ -1,5 +1,6 @@
 ---
 title: "Experience"
+page-layout: full
 ---
 
 # **💼 Work Experience**
@@ -16,7 +17,7 @@ title: "Experience"
 -   Conducted statistical analysis of GPS collar tracking data for an elephant movement study in collaboration with the [Department of Wildlife Conservation](https://www.dwc.gov.lk/) through spatial and temporal data analysis.
 
 -   Assisted researchers in selecting appropriate statistical methods, data visualization, and interpretation of findings for research publications.\
-\
+    \
 
 ### **Intern**
 

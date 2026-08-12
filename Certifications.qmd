@@ -1,5 +1,6 @@
 ---
 title: "Certifications"
+page-layout: full
 ---
 
 ### SQL for Beginners
