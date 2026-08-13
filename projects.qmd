@@ -5,8 +5,10 @@ page-layout: full
 toc: false
 ---
 
+<div id="projects-container">
+
 ::::: grid
-::: {.g-col-12 .g-col-md-6}
+::: {.g-col-12 .g-col-md-6 .project-card}
 ![](images/project1.png){width="100px" style="float:left; margin-right:1em;"}
 
 ### **Ditwah Data Hub Project**
@@ -18,7 +20,7 @@ toc: false
 [View Project](https://thiyangt.github.io/DitwahDataHub/){.view-project-btn target="_blank"}
 :::
 
-::: {.g-col-12 .g-col-md-6}
+::: {.g-col-12 .g-col-md-6 .project-card}
 ![](images/project6.png){width="100px" style="float:left; margin-right:1em;"}
 
 ### **Python for Data Science: A Course for R Users**
@@ -32,7 +34,7 @@ toc: false
 :::::
 
 ::::: grid
-::: {.g-col-12 .g-col-md-6}
+::: {.g-col-12 .g-col-md-6 .project-card}
 ![](images/project2.png){width="100px" style="float:left; margin-right:1em;"}
 
 ### **Forecasting Commodity Net Export Price Index (CNEPI)**
@@ -44,7 +46,7 @@ toc: false
 [View Project](projects/project2.qmd){.view-project-btn target="_blank"}
 :::
 
-::: {.g-col-12 .g-col-md-6}
+::: {.g-col-12 .g-col-md-6 .project-card}
 ![](images/dengue_dashboard.png){width="100px" style="float:left; margin-right:1em;"}
 
 ### **Sri Lanka Dengue Dashboard: A Web-Based Decision Support Tool**
@@ -58,7 +60,7 @@ toc: false
 :::::
 
 ::::: grid
-::: {.g-col-12 .g-col-md-6}
+::: {.g-col-12 .g-col-md-6 .project-card}
 ![](images/project4.png){width="100px" style="float:left; margin-right:1em;"}
 
 ### **DS Job Tracker Survey**
@@ -70,7 +72,7 @@ toc: false
 [View Project](projects/project4.qmd){.view-project-btn target="_blank"}
 :::
 
-::: {.g-col-12 .g-col-md-6}
+::: {.g-col-12 .g-col-md-6 .project-card}
 ![](images/project3.png){width="100px" style="float:left; margin-right:1em;"}
 
 ### **Interactive Demographic and Health Data Dashboard for Australia**
@@ -84,7 +86,7 @@ toc: false
 :::::
 
 :::: grid
-::: {.g-col-12 .g-col-md-6}
+::: {.g-col-12 .g-col-md-6 .project-card}
 ![](images/project5.png){width="100px" style="float:left; margin-right:1em;"}
 
 ### **Statistical Process Control Chart Application**
@@ -96,3 +98,105 @@ toc: false
 [View Project](https://github.com/amalirajapaksha/Xbar_R_charts){.view-project-btn target="_blank"}
 :::
 ::::
+
+</div>
+
+<div id="pagination" class="project-pagination"></div>
+
+<script>
+
+document.addEventListener("DOMContentLoaded", function () {
+
+  const projectsPerPage = 8;
+  const projects = document.querySelectorAll("#projects-container .project-card");
+  const pagination = document.getElementById("pagination");
+
+  const totalPages = Math.ceil(projects.length / projectsPerPage);
+  let currentPage = 1;
+
+  function showPage(page) {
+
+    currentPage = page;
+
+    projects.forEach((project, index) => {
+
+      const start = (page - 1) * projectsPerPage;
+      const end = start + projectsPerPage;
+
+      if (index >= start && index < end) {
+        project.style.display = "";
+      } else {
+        project.style.display = "none";
+      }
+
+    });
+
+    createPagination();
+
+    window.scrollTo({
+      top: document.querySelector("#projects-container").offsetTop - 80,
+      behavior: "smooth"
+    });
+  }
+
+  function createPagination() {
+
+    pagination.innerHTML = "";
+
+    if (totalPages <= 1) {
+      return;
+    }
+
+    const previous = document.createElement("button");
+    previous.innerHTML = "← Previous";
+    previous.className = "pagination-btn";
+
+    previous.disabled = currentPage === 1;
+
+    previous.onclick = function () {
+      if (currentPage > 1) {
+        showPage(currentPage - 1);
+      }
+    };
+
+    pagination.appendChild(previous);
+
+    for (let i = 1; i <= totalPages; i++) {
+
+      const button = document.createElement("button");
+
+      button.innerHTML = i;
+      button.className = "pagination-btn";
+
+      if (i === currentPage) {
+        button.classList.add("active");
+      }
+
+      button.onclick = function () {
+        showPage(i);
+      };
+
+      pagination.appendChild(button);
+    }
+
+    const next = document.createElement("button");
+
+    next.innerHTML = "Next →";
+    next.className = "pagination-btn";
+
+    next.disabled = currentPage === totalPages;
+
+    next.onclick = function () {
+      if (currentPage < totalPages) {
+        showPage(currentPage + 1);
+      }
+    };
+
+    pagination.appendChild(next);
+  }
+
+  showPage(1);
+
+});
+
+</script>

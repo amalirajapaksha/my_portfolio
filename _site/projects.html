@@ -174,8 +174,9 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<div id="projects-container">
 <div class="grid">
-<div class="g-col-12 g-col-md-6">
+<div class="g-col-12 g-col-md-6 project-card">
 <p><img src="images/project1.png" class="img-fluid" style="float:left; margin-right:1em;" width="100"></p>
 <section id="ditwah-data-hub-project" class="level3">
 <h3 class="anchored" data-anchor-id="ditwah-data-hub-project"><strong>Ditwah Data Hub Project</strong></h3>
@@ -186,7 +187,7 @@ ul.task-list li input[type="checkbox"] {
 <a href="https://thiyangt.github.io/DitwahDataHub/" class="view-project-btn" target="_blank">View Project</a></p>
 </section>
 </div>
-<div class="g-col-12 g-col-md-6">
+<div class="g-col-12 g-col-md-6 project-card">
 <p><img src="images/project6.png" class="img-fluid" style="float:left; margin-right:1em;" width="100"></p>
 <section id="python-for-data-science-a-course-for-r-users" class="level3">
 <h3 class="anchored" data-anchor-id="python-for-data-science-a-course-for-r-users"><strong>Python for Data Science: A Course for R Users</strong></h3>
@@ -199,7 +200,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <div class="grid">
-<div class="g-col-12 g-col-md-6">
+<div class="g-col-12 g-col-md-6 project-card">
 <p><img src="images/project2.png" class="img-fluid" style="float:left; margin-right:1em;" width="100"></p>
 <section id="forecasting-commodity-net-export-price-index-cnepi" class="level3">
 <h3 class="anchored" data-anchor-id="forecasting-commodity-net-export-price-index-cnepi"><strong>Forecasting Commodity Net Export Price Index (CNEPI)</strong></h3>
@@ -210,7 +211,7 @@ ul.task-list li input[type="checkbox"] {
 <a href="./projects/project2.html" class="view-project-btn" target="_blank">View Project</a></p>
 </section>
 </div>
-<div class="g-col-12 g-col-md-6">
+<div class="g-col-12 g-col-md-6 project-card">
 <p><img src="images/dengue_dashboard.png" class="img-fluid" style="float:left; margin-right:1em;" width="100"></p>
 <section id="sri-lanka-dengue-dashboard-a-web-based-decision-support-tool" class="level3">
 <h3 class="anchored" data-anchor-id="sri-lanka-dengue-dashboard-a-web-based-decision-support-tool"><strong>Sri Lanka Dengue Dashboard: A Web-Based Decision Support Tool</strong></h3>
@@ -223,7 +224,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <div class="grid">
-<div class="g-col-12 g-col-md-6">
+<div class="g-col-12 g-col-md-6 project-card">
 <p><img src="images/project4.png" class="img-fluid" style="float:left; margin-right:1em;" width="100"></p>
 <section id="ds-job-tracker-survey" class="level3">
 <h3 class="anchored" data-anchor-id="ds-job-tracker-survey"><strong>DS Job Tracker Survey</strong></h3>
@@ -234,7 +235,7 @@ ul.task-list li input[type="checkbox"] {
 <a href="./projects/project4.html" class="view-project-btn" target="_blank">View Project</a></p>
 </section>
 </div>
-<div class="g-col-12 g-col-md-6">
+<div class="g-col-12 g-col-md-6 project-card">
 <p><img src="images/project3.png" class="img-fluid" style="float:left; margin-right:1em;" width="100"></p>
 <section id="interactive-demographic-and-health-data-dashboard-for-australia" class="level3">
 <h3 class="anchored" data-anchor-id="interactive-demographic-and-health-data-dashboard-for-australia"><strong>Interactive Demographic and Health Data Dashboard for Australia</strong></h3>
@@ -247,7 +248,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <div class="grid">
-<div class="g-col-12 g-col-md-6">
+<div class="g-col-12 g-col-md-6 project-card">
 <p><img src="images/project5.png" class="img-fluid" style="float:left; margin-right:1em;" width="100"></p>
 <section id="statistical-process-control-chart-application" class="level3">
 <h3 class="anchored" data-anchor-id="statistical-process-control-chart-application"><strong>Statistical Process Control Chart Application</strong></h3>
@@ -258,6 +259,107 @@ ul.task-list li input[type="checkbox"] {
 </section>
 </div>
 </div>
+</div>
+<div id="pagination" class="project-pagination">
+
+</div>
+<script>
+
+document.addEventListener("DOMContentLoaded", function () {
+
+  const projectsPerPage = 8;
+  const projects = document.querySelectorAll("#projects-container .project-card");
+  const pagination = document.getElementById("pagination");
+
+  const totalPages = Math.ceil(projects.length / projectsPerPage);
+  let currentPage = 1;
+
+  function showPage(page) {
+
+    currentPage = page;
+
+    projects.forEach((project, index) => {
+
+      const start = (page - 1) * projectsPerPage;
+      const end = start + projectsPerPage;
+
+      if (index >= start && index < end) {
+        project.style.display = "";
+      } else {
+        project.style.display = "none";
+      }
+
+    });
+
+    createPagination();
+
+    window.scrollTo({
+      top: document.querySelector("#projects-container").offsetTop - 80,
+      behavior: "smooth"
+    });
+  }
+
+  function createPagination() {
+
+    pagination.innerHTML = "";
+
+    if (totalPages <= 1) {
+      return;
+    }
+
+    const previous = document.createElement("button");
+    previous.innerHTML = "← Previous";
+    previous.className = "pagination-btn";
+
+    previous.disabled = currentPage === 1;
+
+    previous.onclick = function () {
+      if (currentPage > 1) {
+        showPage(currentPage - 1);
+      }
+    };
+
+    pagination.appendChild(previous);
+
+    for (let i = 1; i <= totalPages; i++) {
+
+      const button = document.createElement("button");
+
+      button.innerHTML = i;
+      button.className = "pagination-btn";
+
+      if (i === currentPage) {
+        button.classList.add("active");
+      }
+
+      button.onclick = function () {
+        showPage(i);
+      };
+
+      pagination.appendChild(button);
+    }
+
+    const next = document.createElement("button");
+
+    next.innerHTML = "Next →";
+    next.className = "pagination-btn";
+
+    next.disabled = currentPage === totalPages;
+
+    next.onclick = function () {
+      if (currentPage < totalPages) {
+        showPage(currentPage + 1);
+      }
+    };
+
+    pagination.appendChild(next);
+  }
+
+  showPage(1);
+
+});
+
+</script>
 
 
 

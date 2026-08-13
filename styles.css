@@ -388,6 +388,45 @@ i {
 
 
 
+/* Project pagination */
+
+.project-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.pagination-btn {
+  border: 1px solid #d1d5db;
+  background: white;
+  color: #374151;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+.pagination-btn:hover:not(:disabled) {
+  background: #f3f4f6;
+}
+
+.pagination-btn.active {
+  background: #3b82f6;
+  color: white;
+  border-color: #3b82f6;
+}
+
+.pagination-btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+
+
 /* =========================
    Certifications
 ========================= */
@@ -615,3 +654,7 @@ body { font-size: 16px;
 .navbar a { font-size: 14px; } 
 
 }
+
+
+
+
