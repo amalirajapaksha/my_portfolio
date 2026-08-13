@@ -3,6 +3,7 @@ project:
 
 website:
   title: "Amali Rajapaksha"
+  favicon: images/logo.png
 
   navbar:
     background: "#0f172a"
