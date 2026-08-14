@@ -4,11 +4,6 @@ date: 2026-08-14
 categories: [R, Data Visualization, Dengue, Quarto, GitHub]
 image: ../images/dengue_dashboard2.png
 description: "<span style='font-size:14px'>An interactive overview of the dengue situation in Sri Lanka using the latest available surveillance data.</span>"
-format:
-  html:
-    include-in-header:
-      - text: |
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 ---
 
 ![](/images/dengue_dashboard2.png){fig-align="center"}
