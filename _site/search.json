@@ -91,104 +91,6 @@
     "text": "Data Sources\n\nThe data used in this project were obtained from the following sources:\n\nLocal Data up to December 2025 :\n\nTalagala, T. (2026). denguedatahub: A Tidy Format Datasets of Dengue by Country. R package version 4.1.1. https://thiyangt.github.io/denguedatahubweb/\n\nLocal Data for 2026 :\n\nEpidemiology Unit. (2026). Weekly Epidemiological Reports on Dengue Surveillance. Ministry of Health, Sri Lanka. Available at: https://www.epid.gov.lk/\nNational Dengue Control Unit. (2026). Weekly Dengue Updates. Ministry of Health, Sri Lanka. Available at: https://www.dengue.health.gov.lk/updates/\n\nGlobal Data :\n\nWorld Health Organization. (2026). Global Dengue Surveillance Dashboard. Available at: https://worldhealthorg.shinyapps.io/dengue_global/\n\nClimate Data :\n\nNASA Langley Research Center. (2026). NASA POWER Data Access Viewer. National Aeronautics and Space Administration. Available at: https://power.larc.nasa.gov/data-access-viewer/"
   },
   {
-    "objectID": "post/2026-06-01-python_module.html",
-    "href": "post/2026-06-01-python_module.html",
-    "title": "Creating a User-Defined Python Module: Reusing Code the Right Way",
-    "section": "",
-    "text": "As your Python programs become larger, you will often find yourself writing the same functions repeatedly. For example, you might create functions to perform calculations, process data, or convert units. Copying these functions into every new script is not a good practice because it makes your code harder to maintain.\nA better approach is to place reusable code in a module. A user-defined module is simply a Python file (.py) that contains functions, variables, or classes created by the user. Once the module is created, it can be imported into other Python scripts, allowing you to reuse the same code without rewriting it.\nIn this post, we’ll create our own module and learn how to use it in another Python script."
-  },
-  {
-    "objectID": "post/2026-06-01-python_module.html#step-1-create-a-module",
-    "href": "post/2026-06-01-python_module.html#step-1-create-a-module",
-    "title": "Creating a User-Defined Python Module: Reusing Code the Right Way",
-    "section": "Step 1: Create a Module",
-    "text": "Step 1: Create a Module\nFirst, create a new Python file named calc.py. Save this file in a folder of your choice. Inside the file, define two simple functions named add() and subtract().\n\n# calc.py\ndef add(x, y):\n    return (x+y)\n\ndef subtract(x, y):\n    return (x-y)\n\nBy saving this file with the .py extension, you have created your own Python module."
-  },
-  {
-    "objectID": "post/2026-06-01-python_module.html#step-2-use-the-module",
-    "href": "post/2026-06-01-python_module.html#step-2-use-the-module",
-    "title": "Creating a User-Defined Python Module: Reusing Code the Right Way",
-    "section": "Step 2: Use the Module",
-    "text": "Step 2: Use the Module\nNow create another Python file in the same folder and import the module.\n\nimport calc \n\nprint(calc.add(10, 2)) \nprint(calc.subtract(10, 2))\n\n12\n8\n\n\nNotice that each function is accessed using the module name followed by a dot (.). This tells Python that the functions add() and subtract() are defined inside the calc module."
-  },
-  {
-    "objectID": "post/2026-06-01-python_module.html#importing-specific-functions",
-    "href": "post/2026-06-01-python_module.html#importing-specific-functions",
-    "title": "Creating a User-Defined Python Module: Reusing Code the Right Way",
-    "section": "Importing Specific Functions",
-    "text": "Importing Specific Functions\nSometimes you only need one or two functions from a module. Instead of importing the entire module, you can import only the functions you need.\n\nfrom calc import add \n\nprint(add(5, 3))\n\n8\n\n\nYou can also import multiple functions at once.\n\nfrom calc import add, subtract \n\nprint(add(7, 4)) \nprint(subtract(7, 4))\n\n11\n3\n\n\nSince the functions are imported directly, there is no need to use the calc. prefix."
-  },
-  {
-    "objectID": "post/2026-06-01-python_module.html#why-use-user-defined-modules",
-    "href": "post/2026-06-01-python_module.html#why-use-user-defined-modules",
-    "title": "Creating a User-Defined Python Module: Reusing Code the Right Way",
-    "section": "Why Use User-Defined Modules?",
-    "text": "Why Use User-Defined Modules?\nUsing your own modules has several advantages:\n\nAvoid writing the same code multiple times.\nKeep related functions together in one file.\nMake programs easier to read and organize.\nReuse functions in multiple Python scripts stored in the same project.\n\n\nFinal Thoughts\nA user-defined module is simply a Python file that contains reusable code. Instead of copying the same functions into every script, you can write them once, save them in a module, and import them whenever they are needed. This approach helps you write cleaner, more organized, and easier-to-maintain programs.\nAlthough this example contains only two simple functions, the same idea applies to much larger programs. Organizing your code into modules is a fundamental programming practice that will become increasingly valuable as your projects grow in size and complexity."
-  },
-  {
-    "objectID": "Experience.html",
-    "href": "Experience.html",
-    "title": "Experience",
-    "section": "",
-    "text": "💼 Work Experience\n\n\nStatistical Consultant\nStatistical Consulting Service Department of Statistics, University of Sri Jayewardenepura\nMay 2026 - present\n\nProvided statistical consultation for the research project, “Opportunities, Challenges, and Constraints Associated with Bivalve Aquaculture Development in Northern Sri Lanka: Socio-economic and Environmental Aspects”, including data management, statistical analysis, and interpretation of results.\nConducted statistical analysis of GPS collar tracking data for an elephant movement study in collaboration with the Department of Wildlife Conservation through spatial and temporal data analysis.\nAssisted researchers in selecting appropriate statistical methods, data visualization, and interpretation of findings for research publications.\n\n\n\n\n\nIntern\nBank of Ceylon, Hettipola Branch\nApr 2022- Oct 2022\n\nFacilitated opening, maintenance, and closure of savings accounts and fixed deposits\nManaged customer account services, including passbook updates and issuance of banking documents\nAssisted in delivering digital banking solutions and customer support for online services\nDelivered efficient front-line customer service in a high-volume banking environment\n\n\n\n\n\n\n\n\n\n\n🤝 Volunteering\n\n\nQuora 3.0 - Statistic Society\nDepartment of Statistics, University of Sri Jayewardenepura\nJun 2025\n\nHelped organize Quora 3.0, an annual quiz competition for first-year students.\nWorked with team members to manage event activities and support participant engagement."
-  },
-  {
-    "objectID": "Blog.html",
-    "href": "Blog.html",
-    "title": "Blog",
-    "section": "",
-    "text": "Sri Lanka Dengue Dashboard\n\n\nAn interactive overview of the dengue situation in Sri Lanka using the latest available surveillance data.\n\n\n\n\n\n\nAug 14, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nBuilding Your First Website with Quarto: A Step-by-Step Guide\n\n\nA step-by-step guide to building your first website using Quarto, covering setup, structure, and deployment on GitHub Pages.\n\n\n\n\n\n\nJun 9, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nCreating a User-Defined Python Module: Reusing Code the Right Way\n\n\nA beginner-friendly guide to creating your own Python module and reusing code efficiently in real projects.\n\n\n\n\n\n\nJun 1, 2026\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "I am a fourth-year undergraduate pursuing a BSc (Hons) in Statistics at the Department of Statistics, University of Sri Jayewardenepura, with a strong background in Mathematics and Economics. I completed my primary and secondary education at Maliyadeva Balika Vidyalaya. Currently, I am conducting my final-year undergraduate research under the supervision of Prof. Sarath Banneheka and I am seeking internship opportunities in data analysis, statistics, or research-oriented roles.\nI am passionate about data analysis, statistical modeling, and programming in R.  My interests include Advanced Statistical Inference, Probability and Distribution Theory, Regression Analysis, Statistical Quality Control, Time Series Analysis, Data Visualization, and real-world problem solving using data.\nI enjoy transforming raw data into meaningful insights that support decision-making. By combining knowledge from Statistics, Mathematics, and Economics, I aim to develop data-driven solutions to complex problems and contribute to informed decision-making across various domains.\n\n\n\n  Download CV"
-  },
-  {
-    "objectID": "about.html#education",
-    "href": "about.html#education",
-    "title": "About",
-    "section": "Education",
-    "text": "Education\n\n\nB.Sc. (Honours) in Statistics - (Undergraduate)\nDepartment of Statistics, Faculty of Applied Sciences, University of Sri Jayewardenepura, Sri Lanka\nMay 2023- Present\nDuring the first two years of my undergraduate studies, I studied Statistics, Mathematics, and Economics as my main subjects. At the end of my second academic year, I was selected for the Special Degree Programme in Statistics, achieving the highest GPA in Statistics (4.00/4.00) among approximately 130 students.\n\n\n\nG.C.E. Advanced Level\nMaliyadeva Balika Vidyalaya, Kurunegala, Sri Lanka\nFeb 2021\nI completed my G.C.E. Advanced Level examination in the Physical Science Stream, including Mathematics, Physics, and Chemistry.\n\n\n\nG.C.E. Ordinary Level\nMaliyadeva Balika Vidyalaya, Kurunegala, Sri Lanka\nDec 2017"
-  },
-  {
-    "objectID": "about.html#skills",
-    "href": "about.html#skills",
-    "title": "About",
-    "section": "Skills",
-    "text": "Skills\n\n\n\nProgramming\n\n R\n Python\n MATLAB\n\n\n\nData Science & Machine Learning\n\n tidyverse\n NumPy\n Pandas\n scikit-learn\n\n\n\nData Visualization\n\n ggplot2\n Plotly\n Matplotlib\n seaborn\n Power BI\n\n\n\nStatistical Software\n\n SPSS\n Minitab\n Maple\n\n\n\nReporting & Documentation\n\n LaTeX\n R Flexdashboard\n Quarto\n\n\n\nTools & Platforms\n\n Jupyter Notebook\n GitHub"
-  },
-  {
-    "objectID": "about.html#core-coursework",
-    "href": "about.html#core-coursework",
-    "title": "About",
-    "section": "Core Coursework",
-    "text": "Core Coursework\n\n\n\n\nData Mining\n\nStochastic Processes\n\nBayesian Statistics\n\nAdvanced Time Series Analysis\n\nGeneralized Linear Models and Nonlinear Models\n\nAdvanced Regression Analysis\n\nSurvival Analysis\n\nResearch Methodology\n\nMedical Statistics\n\nMultivariate Statistics\n\nAdvanced Statistical Inference\n\n\n\n\nAdvanced Design of Experiments\n\nProgramming and Data Analysis with R\n\nAdvanced Probability and Distribution Theory\n\nLinear Algebra\n\nDifferential Equations\n\nCalculus\n\nVector Calculus\n\nNumerical Methods\nIntermediate Microeconomics\n\nIntermediate Macroeconomics\n\nManagerial Economics"
-  },
-  {
-    "objectID": "about.html#contact-information",
-    "href": "about.html#contact-information",
-    "title": "About",
-    "section": "Contact Information",
-    "text": "Contact Information\n\n Email: amali2022ugc@gmail.com\n\n Phone: 0779056129\n\n WhatsApp: 0768662186\n\n LinkedIn: https://www.linkedin.com/in/amalirajapaksha"
-  },
-  {
-    "objectID": "Certifications.html",
-    "href": "Certifications.html",
-    "title": "Certifications",
-    "section": "",
-    "text": "SQL for Beginners\nJun 2026\nIssuer: Alison\n View Credential \n\n\n\nAnalysing Data with Power BI\nFeb 2026\nIssuer: Analytics Vidhya\n View Credential \n\n\n\nIntro to AI\nNov 2025\nIssuer: 365 Data Science\n View Credential"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Amali Rajapaksha",
-    "section": "",
-    "text": "Y.M. Amali P. Rajapaksha\n\nBSc (Hons) in Statistics - Undergraduate\nDepartment of Statistics\nFaculty of Applied Sciences\nUniversity of Sri Jayewardenepura\nData Analyst | R Programmer\nView My Work\nRead Cover Story"
-  },
-  {
     "objectID": "post/2026-06-09-quarto_web.html",
     "href": "post/2026-06-09-quarto_web.html",
     "title": "Building Your First Website with Quarto: A Step-by-Step Guide",
@@ -250,6 +152,111 @@
     "title": "Building Your First Website with Quarto: A Step-by-Step Guide",
     "section": "Step 7: Publishing the Website with GitHub Pages",
     "text": "Step 7: Publishing the Website with GitHub Pages\n\nQuarto provides several options for publishing websites, including Posit Connect Cloud, GitHub Pages, Posit Connect, Quarto Pub, and Netlify. In this post, we will use GitHub Pages because it is free, beginner-friendly, and integrates seamlessly with GitHub repositories.\n\nPrerequisite\nBefore publishing your website, make sure your Quarto project is stored in a GitHub repository. This allows GitHub Pages to access your project and publish your website.\nA typical workflow is:\nCreate Quarto Website\n        ↓\nInitialize Git Repository\n        ↓\nPush Project to GitHub\n        ↓\nRender Website\n        ↓\nEnable GitHub Pages\nOnce your project is available on GitHub, you are ready to publish the website.\n\n\nEnable GitHub Pages\nQuarto provides both terminal-based commands and the GitHub web interface for deploying websites. While the terminal approach is useful for experienced users and automated workflows, the GitHub web interface is more intuitive for beginners. Therefore, in this post, we will use the GitHub interface to deploy the website.\nOpen your GitHub repository and follow these steps:\n\nNavigate to Settings.\n\n\n\n\n\nSelect Pages from the left sidebar.\n\n\n\n\n\nUnder Build and deployment, choose:\n\nSource: Deploy from a branch\n\nThen select:\n\nBranch: master\nFolder: /docs\n\nClick Save.\n\n\n\n\n\n\nGitHub will automatically begin publishing your website. After a few moments, the website URL will appear at the top of the Pages settings page.\n\n\n\n\n\nNote: We select the /docs folder because our Quarto project is configured with output-dir: docs in _quarto.yml. This ensures that GitHub Pages publishes the rendered HTML files generated by Quarto."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Amali Rajapaksha",
+    "section": "",
+    "text": "Y.M. Amali P. Rajapaksha\n\nBSc (Hons) in Statistics - Undergraduate\nDepartment of Statistics\nFaculty of Applied Sciences\nUniversity of Sri Jayewardenepura\nData Analyst | R Programmer\nView My Work\nRead Cover Story"
+  },
+  {
+    "objectID": "Certifications.html",
+    "href": "Certifications.html",
+    "title": "Certifications",
+    "section": "",
+    "text": "SQL for Beginners\nJun 2026\nIssuer: Alison\n View Credential \n\n\n\nAnalysing Data with Power BI\nFeb 2026\nIssuer: Analytics Vidhya\n View Credential \n\n\n\nIntro to AI\nNov 2025\nIssuer: 365 Data Science\n View Credential"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I am a fourth-year undergraduate pursuing a BSc (Hons) in Statistics at the Department of Statistics, University of Sri Jayewardenepura, with a strong background in Mathematics and Economics. I completed my primary and secondary education at Maliyadeva Balika Vidyalaya. Currently, I am conducting my final-year undergraduate research under the supervision of Prof. Sarath Banneheka and I am seeking internship opportunities in data analysis, statistics, or research-oriented roles.\nI am passionate about data analysis, statistical modeling, and programming in R.  My interests include Advanced Statistical Inference, Probability and Distribution Theory, Regression Analysis, Statistical Quality Control, Time Series Analysis, Data Visualization, and real-world problem solving using data.\nI enjoy transforming raw data into meaningful insights that support decision-making. By combining knowledge from Statistics, Mathematics, and Economics, I aim to develop data-driven solutions to complex problems and contribute to informed decision-making across various domains.\n\n\n\n  Download CV"
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About",
+    "section": "Education",
+    "text": "Education\n\n\nB.Sc. (Honours) in Statistics - (Undergraduate)\nDepartment of Statistics, Faculty of Applied Sciences, University of Sri Jayewardenepura, Sri Lanka\nMay 2023- Present\nDuring the first two years of my undergraduate studies, I studied Statistics, Mathematics, and Economics as my main subjects. At the end of my second academic year, I was selected for the Special Degree Programme in Statistics, achieving the highest GPA in Statistics (4.00/4.00) among approximately 130 students.\n\n\n\nG.C.E. Advanced Level\nMaliyadeva Balika Vidyalaya, Kurunegala, Sri Lanka\nFeb 2021\nI completed my G.C.E. Advanced Level examination in the Physical Science Stream, including Mathematics, Physics, and Chemistry.\n\n\n\nG.C.E. Ordinary Level\nMaliyadeva Balika Vidyalaya, Kurunegala, Sri Lanka\nDec 2017"
+  },
+  {
+    "objectID": "about.html#skills",
+    "href": "about.html#skills",
+    "title": "About",
+    "section": "Skills",
+    "text": "Skills\n\n\n\nProgramming\n\n R\n Python\n MATLAB\n\n\n\nData Science & Machine Learning\n\n tidyverse\n NumPy\n Pandas\n scikit-learn\n\n\n\nData Visualization\n\n ggplot2\n Plotly\n Matplotlib\n seaborn\n Power BI\n\n\n\nStatistical Software\n\n SPSS\n Minitab\n Maple\n\n\n\nReporting & Documentation\n\n LaTeX\n R Flexdashboard\n Quarto\n\n\n\nTools & Platforms\n\n Jupyter Notebook\n GitHub"
+  },
+  {
+    "objectID": "about.html#core-coursework",
+    "href": "about.html#core-coursework",
+    "title": "About",
+    "section": "Core Coursework",
+    "text": "Core Coursework\n\n\n\n\nData Mining\n\nStochastic Processes\n\nBayesian Statistics\n\nAdvanced Time Series Analysis\n\nGeneralized Linear Models and Nonlinear Models\n\nAdvanced Regression Analysis\n\nSurvival Analysis\n\nResearch Methodology\n\nMedical Statistics\n\nMultivariate Statistics\n\nAdvanced Statistical Inference\n\n\n\n\nAdvanced Design of Experiments\n\nProgramming and Data Analysis with R\n\nAdvanced Probability and Distribution Theory\n\nLinear Algebra\n\nDifferential Equations\n\nCalculus\n\nVector Calculus\n\nNumerical Methods\nIntermediate Microeconomics\n\nIntermediate Macroeconomics\n\nManagerial Economics"
+  },
+  {
+    "objectID": "about.html#contact-information",
+    "href": "about.html#contact-information",
+    "title": "About",
+    "section": "Contact Information",
+    "text": "Contact Information\n\n Email: amali2022ugc@gmail.com\n\n Phone: 0779056129\n\n WhatsApp: 0768662186\n\n LinkedIn: https://www.linkedin.com/in/amalirajapaksha"
+  },
+  {
+    "objectID": "Blog.html",
+    "href": "Blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Sri Lanka Dengue Dashboard\n\n\nAn interactive overview of the dengue situation in Sri Lanka using the latest available surveillance data.\n\n\n\n\n\n\nAug 14, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nBuilding Your First Website with Quarto: A Step-by-Step Guide\n\n\nA step-by-step guide to building your first website using Quarto, covering setup, structure, and deployment on GitHub Pages.\n\n\n\n\n\n\nJun 9, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nCreating a User-Defined Python Module: Reusing Code the Right Way\n\n\nA beginner-friendly guide to creating your own Python module and reusing code efficiently in real projects.\n\n\n\n\n\n\nJun 1, 2026\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "Experience.html",
+    "href": "Experience.html",
+    "title": "Experience",
+    "section": "",
+    "text": "💼 Work Experience\n\n\nStatistical Consultant\nStatistical Consulting Service Department of Statistics, University of Sri Jayewardenepura\nMay 2026 - present\n\nProvided statistical consultation for the research project, “Opportunities, Challenges, and Constraints Associated with Bivalve Aquaculture Development in Northern Sri Lanka: Socio-economic and Environmental Aspects”, including data management, statistical analysis, and interpretation of results.\nConducted statistical analysis of GPS collar tracking data for an elephant movement study in collaboration with the Department of Wildlife Conservation through spatial and temporal data analysis.\nAssisted researchers in selecting appropriate statistical methods, data visualization, and interpretation of findings for research publications.\n\n\n\n\n\nIntern\nBank of Ceylon, Hettipola Branch\nApr 2022- Oct 2022\n\nFacilitated opening, maintenance, and closure of savings accounts and fixed deposits\nManaged customer account services, including passbook updates and issuance of banking documents\nAssisted in delivering digital banking solutions and customer support for online services\nDelivered efficient front-line customer service in a high-volume banking environment\n\n\n\n\n\n\n\n\n\n\n🤝 Volunteering\n\n\nQuora 3.0 - Statistic Society\nDepartment of Statistics, University of Sri Jayewardenepura\nJun 2025\n\nHelped organize Quora 3.0, an annual quiz competition for first-year students.\nWorked with team members to manage event activities and support participant engagement."
+  },
+  {
+    "objectID": "post/2026-06-01-python_module.html",
+    "href": "post/2026-06-01-python_module.html",
+    "title": "Creating a User-Defined Python Module: Reusing Code the Right Way",
+    "section": "",
+    "text": "As your Python programs become larger, you will often find yourself writing the same functions repeatedly. For example, you might create functions to perform calculations, process data, or convert units. Copying these functions into every new script is not a good practice because it makes your code harder to maintain.\nA better approach is to place reusable code in a module. A user-defined module is simply a Python file (.py) that contains functions, variables, or classes created by the user. Once the module is created, it can be imported into other Python scripts, allowing you to reuse the same code without rewriting it.\nIn this post, we’ll create our own module and learn how to use it in another Python script."
+  },
+  {
+    "objectID": "post/2026-06-01-python_module.html#step-1-create-a-module",
+    "href": "post/2026-06-01-python_module.html#step-1-create-a-module",
+    "title": "Creating a User-Defined Python Module: Reusing Code the Right Way",
+    "section": "Step 1: Create a Module",
+    "text": "Step 1: Create a Module\nFirst, create a new Python file named calc.py. Save this file in a folder of your choice. Inside the file, define two simple functions named add() and subtract().\n\n# calc.py\ndef add(x, y):\n    return (x+y)\n\ndef subtract(x, y):\n    return (x-y)\n\nBy saving this file with the .py extension, you have created your own Python module."
+  },
+  {
+    "objectID": "post/2026-06-01-python_module.html#step-2-use-the-module",
+    "href": "post/2026-06-01-python_module.html#step-2-use-the-module",
+    "title": "Creating a User-Defined Python Module: Reusing Code the Right Way",
+    "section": "Step 2: Use the Module",
+    "text": "Step 2: Use the Module\nNow create another Python file in the same folder and import the module.\n\nimport calc \n\nprint(calc.add(10, 2)) \nprint(calc.subtract(10, 2))\n\n12\n8\n\n\nNotice that each function is accessed using the module name followed by a dot (.). This tells Python that the functions add() and subtract() are defined inside the calc module."
+  },
+  {
+    "objectID": "post/2026-06-01-python_module.html#importing-specific-functions",
+    "href": "post/2026-06-01-python_module.html#importing-specific-functions",
+    "title": "Creating a User-Defined Python Module: Reusing Code the Right Way",
+    "section": "Importing Specific Functions",
+    "text": "Importing Specific Functions\nSometimes you only need one or two functions from a module. Instead of importing the entire module, you can import only the functions you need.\n\nfrom calc import add \n\nprint(add(5, 3))\n\n8\n\n\nYou can also import multiple functions at once.\n\nfrom calc import add, subtract \n\nprint(add(7, 4)) \nprint(subtract(7, 4))\n\n11\n3\n\n\nSince the functions are imported directly, there is no need to use the calc. prefix."
+  },
+  {
+    "objectID": "post/2026-06-01-python_module.html#why-use-user-defined-modules",
+    "href": "post/2026-06-01-python_module.html#why-use-user-defined-modules",
+    "title": "Creating a User-Defined Python Module: Reusing Code the Right Way",
+    "section": "Why Use User-Defined Modules?",
+    "text": "Why Use User-Defined Modules?\nUsing your own modules has several advantages:\n\nAvoid writing the same code multiple times.\nKeep related functions together in one file.\nMake programs easier to read and organize.\nReuse functions in multiple Python scripts stored in the same project.\n\n\nFinal Thoughts\nA user-defined module is simply a Python file that contains reusable code. Instead of copying the same functions into every script, you can write them once, save them in a module, and import them whenever they are needed. This approach helps you write cleaner, more organized, and easier-to-maintain programs.\nAlthough this example contains only two simple functions, the same idea applies to much larger programs. Organizing your code into modules is a fundamental programming practice that will become increasingly valuable as your projects grow in size and complexity."
+  },
+  {
+    "objectID": "post/2026-08-14-dengue_dashboard.html",
+    "href": "post/2026-08-14-dengue_dashboard.html",
+    "title": "Sri Lanka Dengue Dashboard",
+    "section": "",
+    "text": "🔗 Click here to view the dashboard.\n\nThis dashboard provides an interactive overview of the dengue situation in Sri Lanka using the latest available surveillance data. Built with R using the Quarto Dashboard framework, it presents recent dengue trends, district-level analyses, historical patterns, comparisons with the global dengue situation, and explores the relationship between dengue transmission and key climate variables. The dashboard offers valuable insights for monitoring, understanding, and supporting evidence-based decision-making on dengue dynamics in Sri Lanka.\nRelated preprint:\nRead the paper on arXiv: https://arxiv.org/abs/2608.07650\nReproducible code:\nView the source code on GitHub: https://github.com/amalirajapaksha/denguedashboard_sriLanka\nCite the work as follows:\nRajapaksha, Y. M. A. P. (2026). Sri Lanka Dengue Dashboard: A Web-Based Decision Support Tool for Dengue Surveillance in Sri Lanka. arXiv preprint arXiv:2608.07650.\n@misc{rajapaksha2026srilankadenguedashboard,\n  title = {Sri Lanka Dengue Dashboard: A Web-Based Decision Support Tool for Dengue Surveillance in Sri Lanka},\n  author = {Y. M. Amali P. Rajapaksha},\n  year = {2026},\n  eprint = {2608.07650},\n  archivePrefix = {arXiv},\n  primaryClass = {stat.OT},\n  url = {https://arxiv.org/abs/2608.07650}\n}"
   },
   {
     "objectID": "projects/project2.html",
@@ -355,19 +362,5 @@
     "title": "Publications",
     "section": "Dashboards",
     "text": "Dashboards\n\n\n\n\n\nSri Lanka Dengue Dashboard: Interactive overview of the dengue situation in Sri Lanka using the latest available surveillance data.\n\n \n\n\n\n\n\n\nAustralian Demographic & Health Data Dashboard: An interactive R Shiny dashboard visualizing key health and demographic trends across Australia."
-  },
-  {
-    "objectID": "post/2026-08-14-dengue_dashboard.html",
-    "href": "post/2026-08-14-dengue_dashboard.html",
-    "title": "Sri Lanka Dengue Dashboard",
-    "section": "",
-    "text": "🔗 Click here to view the dashboard.\n\nThis dashboard provides an interactive overview of the dengue situation in Sri Lanka using the latest available surveillance data. Built with R using the Quarto Dashboard framework, it presents recent dengue trends, district-level analyses, historical patterns, comparisons with the global dengue situation, and explores the relationship between dengue transmission and key climate variables. The dashboard offers valuable insights for monitoring, understanding, and supporting evidence-based decision-making on dengue dynamics in Sri Lanka.\nRelated preprint:\nRead the paper on arXiv: https://arxiv.org/abs/2608.07650\nReproducible code:\nView the source code on GitHub: https://github.com/amalirajapaksha/denguedashboard_sriLanka\nCite the work as follows:\nRajapaksha, Y. M. A. P. (2026). Sri Lanka Dengue Dashboard: A Web-Based Decision Support Tool for Dengue Surveillance in Sri Lanka. arXiv preprint arXiv:2608.07650.\n@misc{rajapaksha2026srilankadenguedashboard,\n  title = {Sri Lanka Dengue Dashboard: A Web-Based Decision Support Tool for Dengue Surveillance in Sri Lanka},\n  author = {Y. M. Amali P. Rajapaksha},\n  year = {2026},\n  eprint = {2608.07650},\n  archivePrefix = {arXiv},\n  primaryClass = {stat.OT},\n  url = {https://arxiv.org/abs/2608.07650}\n}"
-  },
-  {
-    "objectID": "post/2026-08-14-dengue_dashboard.html#dashboard-overview",
-    "href": "post/2026-08-14-dengue_dashboard.html#dashboard-overview",
-    "title": "Sri Lanka Dengue Dashboard",
-    "section": "Dashboard Overview",
-    "text": "Dashboard Overview\nYour content continues here…"
   }
 ]
