@@ -1,14 +1,14 @@
 ---
 title: "**Sri Lanka Dengue Dashboard**"
+date: 2026-08-14
+categories: [R, Data Visualization, Dengue, Quarto, GitHub]
+image: ../images/dengue_dashboard2.png
+description: "<span style='font-size:14px'>An interactive overview of the dengue situation in Sri Lanka using the latest available surveillance data.</span>"
 format:
   html:
     include-in-header:
       - text: |
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-date: 2026-08-14
-categories: [R, Data Visualization, Dengue, Quarto, GitHub]
-image: ../images/dengue_dashboard2.png
-description: "<span style='font-size:14px'>An interactive overview of the dengue situation in Sri Lanka using the latest available surveillance data.</span>"
 ---
 
 ![](/images/dengue_dashboard2.png){fig-align="center"}
@@ -42,58 +42,3 @@ Rajapaksha, Y. M. A. P. (2026). Sri Lanka Dengue Dashboard: A Web-Based Decision
 }
 ```
 
-::: share-buttons
-<a id="share-linkedin"
-     aria-label="Share on LinkedIn"
-     title="Share on LinkedIn"
-     target="_blank"
-     rel="noopener noreferrer"> <i class="fa-brands fa-linkedin"></i> </a>
-
-<a id="share-facebook"
-     aria-label="Share on Facebook"
-     title="Share on Facebook"
-     target="_blank"
-     rel="noopener noreferrer"> <i class="fa-brands fa-facebook"></i> </a>
-
-<a id="share-email"
-     aria-label="Share by Email"
-     title="Share by Email"> <i class="fa-solid fa-envelope"></i> </a>
-
-<a id="share-x"
-     aria-label="Share on X"
-     title="Share on X"
-     target="_blank"
-     rel="noopener noreferrer"> <i class="fa-brands fa-x-twitter"></i> </a>
-
-<a id="share-whatsapp"
-     aria-label="Share on WhatsApp"
-     title="Share on WhatsApp"
-     target="_blank"
-     rel="noopener noreferrer"> <i class="fa-brands fa-whatsapp"></i> </a>
-:::
-
-```{=html}
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-
-  const url = encodeURIComponent(window.location.href);
-  const title = encodeURIComponent(document.title);
-
-  document.getElementById("share-linkedin").href =
-    "https://www.linkedin.com/sharing/share-offsite/?url=" + url;
-
-  document.getElementById("share-facebook").href =
-    "https://www.facebook.com/sharer/sharer.php?u=" + url;
-
-  document.getElementById("share-email").href =
-    "mailto:?subject=" + title + "&body=" + url;
-
-  document.getElementById("share-x").href =
-    "https://twitter.com/intent/tweet?url=" + url + "&text=" + title;
-
-  document.getElementById("share-whatsapp").href =
-    "https://wa.me/?text=" + title + "%20" + url;
-
-});
-</script>
-```
