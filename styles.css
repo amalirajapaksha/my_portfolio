@@ -489,6 +489,55 @@ i {
 
 
 
+.share-buttons {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e5e7eb;
+}
+
+.share-buttons a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 19px;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+  cursor: pointer;
+}
+
+.share-buttons a:hover {
+  transform: translateY(-3px);
+  opacity: 0.8;
+}
+
+.share-linkedin {
+  color: #0a66c2;
+}
+
+.share-facebook {
+  color: #1877f2;
+}
+
+.share-email {
+  color: #555555;
+}
+
+.share-twitter {
+  color: #000000;
+}
+
+.share-whatsapp {
+  color: #25d366;
+}
+
+
+
 
 
 /* =========================

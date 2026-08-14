@@ -1,5 +1,10 @@
 ---
 title: "**Sri Lanka Dengue Dashboard**"
+format:
+  html:
+    include-in-header:
+      - text: |
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 date: 2026-08-14
 categories: [R, Data Visualization, Dengue, Quarto, GitHub]
 image: ../images/dengue_dashboard2.png
@@ -8,25 +13,19 @@ description: "<span style='font-size:14px'>An interactive overview of the dengue
 
 ![](/images/dengue_dashboard2.png){fig-align="center"}
 
-<div style="
-  background-color: #d1fae5;
-  border-left: 5px solid #059669;
-  padding: 12px 18px;
-  border-radius: 6px;
-  margin: 20px 0;
-">
+::: {style="background-color: #d1fae5; border-left: 5px solid #059669; padding: 12px 18px; border-radius: 6px; margin: 20px 0;"}
 
 🔗 Click <a href="https://amalirajapaksha.github.io/denguedashboard_SriLanka/" target="_blank"><strong>here</strong></a> to view the dashboard.
 
-</div>
+:::
 
 This dashboard provides an interactive overview of the dengue situation in Sri Lanka using the latest available surveillance data. Built with R using the Quarto Dashboard framework, it presents recent dengue trends, district-level analyses, historical patterns, comparisons with the global dengue situation, and explores the relationship between dengue transmission and key climate variables. The dashboard offers valuable insights for monitoring, understanding, and supporting evidence-based decision-making on dengue dynamics in Sri Lanka.
 
 **Related preprint:**\
-Read the paper on arXiv: [https://arxiv.org/abs/2608.07650](https://arxiv.org/abs/2608.07650)
+Read the paper on arXiv: <https://arxiv.org/abs/2608.07650>
 
 **Reproducible code:**\
-View the source code on GitHub: [https://github.com/amalirajapaksha/denguedashboard_sriLanka](https://github.com/amalirajapaksha/denguedashboard_sriLanka)
+View the source code on GitHub: <https://github.com/amalirajapaksha/denguedashboard_sriLanka>
 
 **Cite the work as follows:**\
 Rajapaksha, Y. M. A. P. (2026). Sri Lanka Dengue Dashboard: A Web-Based Decision Support Tool for Dengue Surveillance in Sri Lanka. arXiv preprint arXiv:2608.07650.
@@ -41,4 +40,60 @@ Rajapaksha, Y. M. A. P. (2026). Sri Lanka Dengue Dashboard: A Web-Based Decision
   primaryClass = {stat.OT},
   url = {https://arxiv.org/abs/2608.07650}
 }
+```
+
+::: share-buttons
+<a id="share-linkedin"
+     aria-label="Share on LinkedIn"
+     title="Share on LinkedIn"
+     target="_blank"
+     rel="noopener noreferrer"> <i class="fa-brands fa-linkedin"></i> </a>
+
+<a id="share-facebook"
+     aria-label="Share on Facebook"
+     title="Share on Facebook"
+     target="_blank"
+     rel="noopener noreferrer"> <i class="fa-brands fa-facebook"></i> </a>
+
+<a id="share-email"
+     aria-label="Share by Email"
+     title="Share by Email"> <i class="fa-solid fa-envelope"></i> </a>
+
+<a id="share-x"
+     aria-label="Share on X"
+     title="Share on X"
+     target="_blank"
+     rel="noopener noreferrer"> <i class="fa-brands fa-x-twitter"></i> </a>
+
+<a id="share-whatsapp"
+     aria-label="Share on WhatsApp"
+     title="Share on WhatsApp"
+     target="_blank"
+     rel="noopener noreferrer"> <i class="fa-brands fa-whatsapp"></i> </a>
+:::
+
+```{=html}
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  const url = encodeURIComponent(window.location.href);
+  const title = encodeURIComponent(document.title);
+
+  document.getElementById("share-linkedin").href =
+    "https://www.linkedin.com/sharing/share-offsite/?url=" + url;
+
+  document.getElementById("share-facebook").href =
+    "https://www.facebook.com/sharer/sharer.php?u=" + url;
+
+  document.getElementById("share-email").href =
+    "mailto:?subject=" + title + "&body=" + url;
+
+  document.getElementById("share-x").href =
+    "https://twitter.com/intent/tweet?url=" + url + "&text=" + title;
+
+  document.getElementById("share-whatsapp").href =
+    "https://wa.me/?text=" + title + "%20" + url;
+
+});
+</script>
 ```
