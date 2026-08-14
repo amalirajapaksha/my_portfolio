@@ -137,7 +137,7 @@
     "href": "Blog.html",
     "title": "Blog",
     "section": "",
-    "text": "Building Your First Website with Quarto: A Step-by-Step Guide\n\n\nA step-by-step guide to building your first website using Quarto, covering setup, structure, and deployment on GitHub Pages.\n\n\n\n\n\n\nJun 9, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nCreating a User-Defined Python Module: Reusing Code the Right Way\n\n\nA beginner-friendly guide to creating your own Python module and reusing code efficiently in real projects.\n\n\n\n\n\n\nJun 1, 2026\n\n\n\n\n\n\nNo matching items"
+    "text": "Sri Lanka Dengue Dashboard\n\n\nAn interactive overview of the dengue situation in Sri Lanka using the latest available surveillance data.\n\n\n\n\n\n\nAug 14, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nBuilding Your First Website with Quarto: A Step-by-Step Guide\n\n\nA step-by-step guide to building your first website using Quarto, covering setup, structure, and deployment on GitHub Pages.\n\n\n\n\n\n\nJun 9, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nCreating a User-Defined Python Module: Reusing Code the Right Way\n\n\nA beginner-friendly guide to creating your own Python module and reusing code efficiently in real projects.\n\n\n\n\n\n\nJun 1, 2026\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -355,5 +355,19 @@
     "title": "Publications",
     "section": "Dashboards",
     "text": "Dashboards\n\n\n\n\n\nSri Lanka Dengue Dashboard: Interactive overview of the dengue situation in Sri Lanka using the latest available surveillance data.\n\n \n\n\n\n\n\n\nAustralian Demographic & Health Data Dashboard: An interactive R Shiny dashboard visualizing key health and demographic trends across Australia."
+  },
+  {
+    "objectID": "post/2026-08-14-dengue_dashboard.html",
+    "href": "post/2026-08-14-dengue_dashboard.html",
+    "title": "Sri Lanka Dengue Dashboard",
+    "section": "",
+    "text": "🔗 Click here to view the dashboard.\n\nThis dashboard provides an interactive overview of the dengue situation in Sri Lanka using the latest available surveillance data. Built with R using the Quarto Dashboard framework, it presents recent dengue trends, district-level analyses, historical patterns, comparisons with the global dengue situation, and explores the relationship between dengue transmission and key climate variables. The dashboard offers valuable insights for monitoring, understanding, and supporting evidence-based decision-making on dengue dynamics in Sri Lanka.\nRelated preprint:\nRead the paper on arXiv: https://arxiv.org/abs/2608.07650\nReproducible code:\nView the source code on GitHub: https://github.com/amalirajapaksha/denguedashboard_sriLanka\nCite the work as follows:\nRajapaksha, Y. M. A. P. (2026). Sri Lanka Dengue Dashboard: A Web-Based Decision Support Tool for Dengue Surveillance in Sri Lanka. arXiv preprint arXiv:2608.07650.\n@misc{rajapaksha2026srilankadenguedashboard,\n  title = {Sri Lanka Dengue Dashboard: A Web-Based Decision Support Tool for Dengue Surveillance in Sri Lanka},\n  author = {Y. M. Amali P. Rajapaksha},\n  year = {2026},\n  eprint = {2608.07650},\n  archivePrefix = {arXiv},\n  primaryClass = {stat.OT},\n  url = {https://arxiv.org/abs/2608.07650}\n}"
+  },
+  {
+    "objectID": "post/2026-08-14-dengue_dashboard.html#dashboard-overview",
+    "href": "post/2026-08-14-dengue_dashboard.html#dashboard-overview",
+    "title": "Sri Lanka Dengue Dashboard",
+    "section": "Dashboard Overview",
+    "text": "Dashboard Overview\nYour content continues here…"
   }
 ]
